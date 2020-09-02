@@ -1,0 +1,210 @@
+---
+title: "Tester Site"
+author: "Lipp Laboratory, Department of Environmental Health Science, University of Georgia"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+Load all required libraries.
+```{r}
+library(tidyverse)
+library(plotly)
+library(broom)
+```
+
+Read in raw data from RDS.
+```{r}
+raw_data <- readRDS("./n1_n2_cleaned_cases.rds")
+```
+
+Make a few small modifications to names and data for visualizations.
+```{r}
+final_data <- raw_data %>% mutate(log_copy_per_L = log10(mean_copy_num_L)) %>%
+  rename(Facility = wrf) %>%
+  mutate(Facility = recode(Facility, 
+                           "NO" = "WRF A",
+                           "MI" = "WRF B",
+                           "CC" = "WRF C"))
+```
+
+Create the plot:  
+1)Start with a basic bar plot to show Department of Public Health Data  
+2)Layer a line plot to show 7-day moving average  
+3)Layer a scatterplot to show wastewater data  
+4)Layer a horizontal line and annotation to indicate the limit of detection (LOD) for RT-qPCR  
+5)Finish with asthetics (note legend asthetics are split to maintain theme_classic)  
+```{r}
+clean_plot <- final_data %>% ggplot() + 
+  geom_bar(aes(x = date, y = new_cases_clarke), stat = "sum", alpha = 0.35, fill = "#7570B3", show.legend = FALSE)
+  
+clean_plot <- clean_plot + 
+  geom_line(aes(x = date, y = X10_day_ave_clarke), size = 1, color ="#E6AB02") +           
+  geom_point(aes(x = date, y = log_copy_per_L*10, color = target, shape = Facility), size = 2.5) +
+  geom_hline(yintercept = 35.5, linetype = "dashed") +
+  annotate("text", x = as.Date("2020-03-20"), y = 39, label = "LOD")
+
+clean_plot <- clean_plot + 
+  scale_y_continuous(limits = c(0,80), breaks = seq(0, 80, 20), 
+  sec.axis = sec_axis(~. / 10, name = "SARS CoV-2 Log Copies Per L")) +
+  ylab("Clarke County Daily Cases") + xlab("Date") + 
+  theme_classic() + guides(color=guide_legend("SARS CoV-2 Target")) 
+
+clean_plot <- clean_plot + 
+  theme(legend.position = "none") #generating tidy legend as png file
+
+clean_plot <- clean_plot + scale_color_manual(na.translate = FALSE, values = c("#1B9E77", "#D95F02")) + scale_shape_manual(na.translate = FALSE, values = c(1:2))
+
+clean_plot
+```
+
+Save the plot!
+```{r}
+#ggsave(filename = "./athens_covid_wastewater_master_plot.png", plot = clean_plot)
+```
+
+
+```{r}
+only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
+only_n1 <- subset(only_positives, target == "N1")
+only_n2 <- subset(only_positives, target == "N2")
+only_background <<-final_data %>% 
+  select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
+  group_by(date) %>% summarise_if(is.numeric, mean)
+
+
+
+#specify fun colors
+background_color <- "#7570B3"
+ten_day_ave_color <- "#E6AB02"
+marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
+    
+```
+
+```{r}
+#add fits
+fit_n1 <- loess(mean_copy_num_L ~ new_cases_clarke, data = only_n1, span = 0.8)
+fit_n2 <- loess(mean_copy_num_L ~ new_cases_clarke, data = only_n2, span = 0.8)
+
+only_n1 <- only_n1 %>% mutate(pred_n1 = predict(fit_n1))
+only_n2 <- only_n2 %>% mutate(pred_n2 = predict(fit_n2))
+```
+
+```{r}
+trend1 <- only_n1 %>% group_by(date, target) %>%
+  summarize_if(is.numeric, mean) %>% 
+  ungroup()
+trend2 <- only_n2 %>% group_by(date, target) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup()
+```
+
+
+```{r}
+        p1 <- only_background %>%
+              plotly::plot_ly() %>%
+              plotly::add_trace(x = ~date, y = ~new_cases_clarke, 
+                                type = "bar", 
+                                hoverinfo = "text",
+                                text = ~paste('</br> Date: ', date,
+                                                     '</br> Daily Cases: ', new_cases_clarke),
+                                alpha = 0.5,
+                                name = "Daily Reported Cases",
+                                color = background_color,
+                                colors = background_color,
+                                showlegend = FALSE) %>%
+            layout(yaxis = list(title = "Athens Daily Cases", range = c(0,80), showline=TRUE)) %>%
+            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+        
+        #renders the main plot layer two as ten day moving average
+        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
+                             type = "scatter",
+                             mode = "lines",
+                             hoverinfo = "text",
+                            text = ~paste('</br> Date: ', date,
+                                                     '</br> Ten-Day Moving Average: ', X10_day_ave_clarke),
+                             name = "Ten Day Moving Average Athens",
+                             line = list(color = ten_day_ave_color),
+                             showlegend = FALSE)
+        
+        #renders the main plot layer three as positive target hits
+        
+        p2 <- plotly::plot_ly() %>%
+          plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
+                                       type = "scatter",
+                                       mode = "markers",
+                                       hoverinfo = "text",
+                                       text = ~paste('</br> Date: ', date,
+                                                     '</br> Facility: ', Facility,
+                                                     '</br> Target: ', target,
+                                                     '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
+                                       data = only_n1,
+                                       symbol = ~Facility,
+                                       marker = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                                       showlegend = FALSE) %>%
+          plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
+                                       type = "scatter",
+                                       mode = "markers",
+                                       hoverinfo = "text",
+                                       text = ~paste('</br> Date: ', date,
+                                                     '</br> Facility: ', Facility,
+                                                     '</br> Target: ', target,
+                                                     '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
+                                       data = only_n2,
+                                       symbol = ~Facility,
+                                       marker = list(color = '#D95F02', size = 8, opacity = 0.65),
+                                       showlegend = FALSE) %>%
+            layout(yaxis = list(title = "SARS CoV-2 Copies/L", 
+                                 range = c(3, 8), showline = TRUE,
+                                 type = "log",
+                                 automargin = TRUE)) %>%
+            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+        
+        p2 <- p2 %>% plotly::add_segments(x = as.Date("2020-03-14"), 
+                                          xend = ~max(date + 10), 
+                                          y = 3571.429, yend = 3571.429,
+                                          opacity = 0.35,
+                                          line = list(color = "black", dash = "dash")) %>%
+          layout(annotations = list(x = as.Date("2020-03-28"), y = 3.8, xref = "x", yref = "y", 
+                                    text = "Limit of Detection", showarrow = FALSE))
+
+        
+
+        p1
+        p2
+        
+```
+
+```{r}
+p_combined <-
+    plotly::subplot(p2,p1, # plots to combine, top to bottom
+      nrows = 2,
+      heights = c(.6,.4),  # relative heights of the two plots
+      shareX = TRUE,  # plots will share an X axis
+      titleY = TRUE
+    ) %>%
+    # create a vertical "spike line" to compare data across 2 plots
+    plotly::layout(
+      xaxis = list(
+        spikethickness = 1,
+        spikedash = "dot",
+        spikecolor = "black",
+        spikemode = "across+marker",
+        spikesnap = "cursor"
+      ),
+      yaxis = list(spikethickness = 0)
+    )
+p_combined
+```
+
+
+```{r}
+save(p_combined, file = "./plotly_fig.rda")
+```
+
+```{r}
+htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
+```
+
+
