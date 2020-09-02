@@ -298,6 +298,17 @@ fit_n2
 n1_trend <- fit_n1
 n2_trend <- fit_n2
 
+#extract y min and max for each
+bb<- ggplot_build(cc)$data
+bb<- as.data.frame(bb)
+n1_ymin <- bb$ymin
+n1_ymax <- bb$ymax
+
+qq <- ggplot_build(oo)$data
+qq <- as.data.frame(qq)
+n2_ymin <- qq$ymin
+n2_ymax <- qq$ymax
+
 #reassign dataframes (just to be safe)
 work_n1 <- smooth_n1
 work_n2 <- smooth_n2
@@ -309,8 +320,8 @@ work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"
 date_vec_n2 <- work_n2$date
 
 #create a new smooth dataframe to layer
-smooth_frame_n1 <- data.frame(date_vec_n1, n1_trend)
-smooth_frame_n2 <- data.frame(date_vec_n2, n2_trend)
+smooth_frame_n1 <- data.frame(date_vec_n1, n1_trend, n1_ymin, n1_ymax)
+smooth_frame_n2 <- data.frame(date_vec_n2, n2_trend, n2_ymin, n2_ymax)
 
 #plot smooth frames
 p99 <- plotly::plot_ly() %>%
@@ -318,16 +329,38 @@ p99 <- plotly::plot_ly() %>%
                     data = smooth_frame_n1,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n1,
-                                  '</br> Copies/L: ', round(n1_trend, digits = 2)),
+                                  '</br> Copies/L: ', round(n1_trend, digits = 2),
+                                  '</br> Target: N1'),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
 plotly::add_lines(x = ~date_vec_n2, y = ~n2_trend,
                   data = smooth_frame_n2,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n2,
-                                  '</br> Copies/L: ', round(n2_trend, digits = 2)),
+                                  '</br> Copies/L: ', round(n2_trend, digits = 2),
+                                  '</br> Target: N2'),
                     line = list(color = '#D95F02', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
+plotly::add_ribbons(x ~date_vec_n1, ymin = ~n1_ymin, ymax = ~n1_ymax,
+                    showlegend = FALSE,
+                    opacity = 0.25,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_n1, #leaving in case we want to change
+                                  '</br> Max Copies/L: ', round(n1_ymax, digits = 2),
+                                  '</br> Min Copies/L: ', round(n1_ymin, digits = 2),
+                                  '</br> Target: N1'),
+                    name = "",
+                    line = list(color = '#1B9E77')) %>%
+plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
+                    showlegend = FALSE,
+                    opacity = 0.25,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_n2, #leaving in case we want to change
+                                  '</br> Max Copies/L: ', round(n2_ymax, digits = 2),
+                                  '</br> Min Copies/L: ', round(n2_ymin, digits = 2),
+                                  '</br> Target: N2'),
+                    name = "",
+                    line = list(color = '#D95F02')) %>%
                 layout(yaxis = list(title = "Log SARS CoV-2 Copies/L", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
@@ -335,6 +368,8 @@ plotly::add_lines(x = ~date_vec_n2, y = ~n2_trend,
 
 p99
 ```
+
+
 
 ```{r}
 smooth_extract <-
