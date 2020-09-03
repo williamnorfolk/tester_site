@@ -124,6 +124,10 @@ smooth_extract
 ```
 
 
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./trend_legend.png")
+```
+
 
 <div style="margin-bottom:50px;">
 </div>
