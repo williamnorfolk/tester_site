@@ -47,6 +47,7 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
 ```
 
 ```{r}
+x_top <- max(only_background$new_cases_clarke, na.rm = TRUE)
 #creates the two panels of the main figure
         p1 <- only_background %>%
               plotly::plot_ly() %>%
@@ -72,10 +73,10 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
                                                      '</br> Seven-Day Moving Average: ', X7_day_ave_clarke),
                              name = "Seven Day Moving Average Athens",
                              line = list(color = seven_day_ave_color),
-                             showlegend = FALSE)  %>%
-    plotly::add_segments(x = as.Date("2020-06-24"), 
+                             showlegend = FALSE)
+    p1<- p1 %>% plotly::add_segments(x = as.Date("2020-06-24"), 
                                           xend = as.Date("2020-06-24"), 
-                                          y = 0, yend = ~max(new_cases_clarke),
+                                          y = 0, yend = x_top,
                                           opacity = 0.35,
                                           name = "Bars Repoen",
                                           hoverinfo = "text",
@@ -85,7 +86,7 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
                                           line = list(color = "black", dash = "dash")) %>%
     plotly::add_segments(x = as.Date("2020-07-09"), 
                                           xend = as.Date("2020-07-09"), 
-                                          y = 0, yend = ~max(new_cases_clarke),
+                                          y = 0, yend = x_top,
                                           opacity = 0.35,
                                           name = "Mask Mandate",
                                           hoverinfo = "text",
@@ -95,7 +96,7 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
                                           line = list(color = "black", dash = "dash")) %>%
     plotly::add_segments(x = as.Date("2020-08-20"), 
                                           xend = as.Date("2020-08-20"), 
-                                          y = 0, yend = ~max(new_cases_clarke),
+                                          y = 0, yend = x_top,
                                           opacity = 0.35,
                                           name = "Classes Begin",
                                           hoverinfo = "text",
@@ -395,73 +396,3 @@ smooth_extract
 save(smooth_extract, file = "./smooth_extract.rda")
 ```
 
-## Static options
-```{r}
-mindate <- min(raw_data$date)
-maxdate <- max(raw_data$date)
-#static trend plot using loess span 0.8
-trend_plot <- ggplot(smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
-  geom_smooth(color = '#1B9E77', span = 0.8) +
-  geom_point(color = '#1B9E77') +
-  geom_smooth(data = smooth_n2, color = '#D95F02', span = 0.8) +
-  geom_point(data = smooth_n2, color = '#D95F02', span = 0.8)
-
-trend_plot <- trend_plot + theme_classic() + xlab("Date") + ylab("Log Copies/L") + 
-  scale_x_date(limits = c(mindate, maxdate))
-
-trend_plot 
-```
-
-
-```{r}
-#static epi curve for facet wrapping
-epi_curve <- ggplot(only_background, aes(x = date, y = new_cases_clarke)) + 
-  geom_bar(stat = "identity", fill = "#7570B3", alpha = 0.5) +
-  geom_line(aes(x = date, y = X7_day_ave_clarke), color = "#E6AB02") +
-  xlab("Date") + ylab("Athens Daily Cases") +
-  theme_classic()
-
-epi_curve
-
-smooth_stack <- gridExtra::grid.arrange(trend_plot, epi_curve, nrow =2)
-
-smooth_stack
-```
-
-```{r}
-ggsave(smooth_stack, file = "./smooth_stack.png")
-```
-
-
-```{r}
-combogg <- ggplot(both_clean, aes(date, log_sum_copies_L)) + 
-         geom_smooth(method = "loess", span = 0.8, color = '#1B9E77', alpha = 0.5, size = 1) +
-         geom_point(size=1) +
-  scale_x_date(limits = c(mindate, maxdate))
-
-combo_gg_plotly <- ggplotly(combogg)
-combo_gg_plotly
-
-epi_gg_plotly <- ggplotly(epi_curve)
-
-combo_combo <-
-    plotly::subplot(combo_gg_plotly,epi_gg_plotly, # plots to combine, top to bottom
-      nrows = 2,
-      heights = c(.6,.4),  # relative heights of the two plots
-      shareX = TRUE,  # plots will share an X axis
-      titleY = TRUE
-    ) %>%
-    # create a vertical "spike line" to compare data across 2 plots
-    plotly::layout(
-      xaxis = list(
-        spikethickness = 1,
-        spikedash = "dot",
-        spikecolor = "black",
-        spikemode = "across+marker",
-        spikesnap = "cursor"
-      ),
-      yaxis = list(spikethickness = 0)
-    )
-
-combo_combo
-```
