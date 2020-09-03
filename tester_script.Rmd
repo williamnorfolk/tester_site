@@ -301,7 +301,7 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                                   '</br> Target: N2'),
                     name = "",
                     line = list(color = '#D95F02')) %>%
-                layout(yaxis = list(title = "Log SARS CoV-2 Copies", 
+                layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%

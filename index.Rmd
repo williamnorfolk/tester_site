@@ -116,7 +116,7 @@ For more information about our team and other ongoing research please visit the 
 
 ### Data Trends
 
-The figure below shows the combined data trends for the three Athens-Clarke County water reclamation facilities. The solid lines in the upper plot indicate the predicted Log Gene Copies/L per day for the N1 (green) and N2 (orange) gene targets. A 95% confidence interval is displayed as a translucent extension of the predicted line indicated by the corresponding color. Data trends were calculated using locally estimated scatterplot smoothing (LOESS).  
+The figure below shows the combined data trends for the three Athens-Clarke County water reclamation facilities. The solid lines in the upper plot indicate the predicted Log Total Gene Copies per day for the N1 (green) and N2 (orange) gene targets. A 95% confidence interval is displayed as a translucent extension of the predicted line indicated by the corresponding color. Data trends were calculated using locally estimated scatterplot smoothing (LOESS).  
 
 The lower plot displays an epidemic curve of COVID-19 progression in Athens-Clarke County. Daily reported cases are indicated as purple bars with a 10-day moving average shown as a yellow trendline. 
 
