@@ -40,7 +40,7 @@ clean_plot <- final_data %>% ggplot() +
   geom_bar(aes(x = date, y = new_cases_clarke), stat = "sum", alpha = 0.35, fill = "#7570B3", show.legend = FALSE)
   
 clean_plot <- clean_plot + 
-  geom_line(aes(x = date, y = X10_day_ave_clarke), size = 1, color ="#E6AB02") +           
+  geom_line(aes(x = date, y = X7_day_ave_clarke), size = 1, color ="#E6AB02") +           
   geom_point(aes(x = date, y = log_copy_per_L*10, color = target, shape = Facility), size = 2.5) +
   geom_hline(yintercept = 35.5, linetype = "dashed") +
   annotate("text", x = as.Date("2020-03-20"), y = 39, label = "LOD")
@@ -70,14 +70,14 @@ only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
 only_n1 <- subset(only_positives, target == "N1")
 only_n2 <- subset(only_positives, target == "N2")
 only_background <<-final_data %>% 
-  select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
+  select(c(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke)) %>%
   group_by(date) %>% summarise_if(is.numeric, mean)
 
 
 
 #specify fun colors
 background_color <- "#7570B3"
-ten_day_ave_color <- "#E6AB02"
+seven_day_ave_color <- "#E6AB02"
 marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
     
 ```
@@ -117,15 +117,15 @@ trend2 <- only_n2 %>% group_by(date, target) %>%
             layout(yaxis = list(title = "Athens Daily Cases", range = c(0,80), showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
-        #renders the main plot layer two as ten day moving average
-        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
+        #renders the main plot layer two as seven day moving average
+        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X7_day_ave_clarke, 
                              type = "scatter",
                              mode = "lines",
                              hoverinfo = "text",
                             text = ~paste('</br> Date: ', date,
-                                                     '</br> Ten-Day Moving Average: ', X10_day_ave_clarke),
-                             name = "Ten Day Moving Average Athens",
-                             line = list(color = ten_day_ave_color),
+                                                     '</br> Seven-Day Moving Average: ', X7_day_ave_clarke),
+                             name = "Seven Day Moving Average Athens",
+                             line = list(color = seven_day_ave_color),
                              showlegend = FALSE)
         
         #renders the main plot layer three as positive target hits

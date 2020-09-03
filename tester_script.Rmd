@@ -35,14 +35,14 @@ only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
 only_n1 <- subset(only_positives, target == "N1")
 only_n2 <- subset(only_positives, target == "N2")
 only_background <<-final_data %>% 
-  select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
+  select(c(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke)) %>%
   group_by(date) %>% summarise_if(is.numeric, mean)
 
 
 
 #specify fun colors
 background_color <- "#7570B3"
-ten_day_ave_color <- "#E6AB02"
+seven_day_ave_color <- "#E6AB02"
 marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
 ```
 
@@ -63,15 +63,15 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
             layout(yaxis = list(title = "Athens Daily Cases", range = c(0,80), showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
-        #renders the main plot layer two as ten day moving average
-        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
+        #renders the main plot layer two as seven day moving average
+        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X7_day_ave_clarke, 
                              type = "scatter",
                              mode = "lines",
                              hoverinfo = "text",
                             text = ~paste('</br> Date: ', date,
-                                                     '</br> Ten-Day Moving Average: ', X10_day_ave_clarke),
-                             name = "Ten Day Moving Average Athens",
-                             line = list(color = ten_day_ave_color),
+                                                     '</br> Seven-Day Moving Average: ', X7_day_ave_clarke),
+                             name = "Seven Day Moving Average Athens",
+                             line = list(color = seven_day_ave_color),
                              showlegend = FALSE)
         
         #renders the main plot layer three as positive target hits
@@ -126,7 +126,7 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
 #create smoothing data frames 
 #n1
 smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
-  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
   summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
   ungroup() %>%
   mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
@@ -134,7 +134,7 @@ smooth_n1 <- only_n1 %>% select(-c(Facility)) %>%
 
 #n2
 smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
-  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
   summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
   ungroup() %>%
   mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
@@ -314,9 +314,9 @@ work_n1 <- smooth_n1
 work_n2 <- smooth_n2
 
 #fill in missing dates to smooth fits
-work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"))
+work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date) +2, by = "1 day"))
 date_vec_n1 <- work_n1$date
-work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"))
+work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +2, by = "1 day"))
 date_vec_n2 <- work_n2$date
 
 #create a new smooth dataframe to layer
@@ -422,7 +422,7 @@ trend_plot
 #static epi curve for facet wrapping
 epi_curve <- ggplot(only_background, aes(x = date, y = new_cases_clarke)) + 
   geom_bar(stat = "identity", fill = "#7570B3", alpha = 0.5) +
-  geom_line(aes(x = date, y = X10_day_ave_clarke), color = "#E6AB02") +
+  geom_line(aes(x = date, y = X7_day_ave_clarke), color = "#E6AB02") +
   xlab("Date") + ylab("Athens Daily Cases") +
   theme_classic()
 
