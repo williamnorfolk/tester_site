@@ -37,6 +37,13 @@ knitr::include_graphics("./good_legend.png")
 _Updated every Thursday_  
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
+##### Sept 22
+
+[placeholder]
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Sept 15
 
 The September 15 update is experiencing a delay and will be posted by Friday Sept 18. We apologize for any inconvenience 
