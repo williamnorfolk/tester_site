@@ -4,6 +4,9 @@ date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
 
+_Please Note_ This website is a **tester** for page layout and data visualization for the Lipp Lab COVID Wastewater monitoring project. The data on this page are not peer-reviewed or finalized for public release and thus should not be interpreted as such. If you are interesed in viewing the final data from this project please visit [this website](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/). 
+
+
 <div style="margin-bottom:25px;">
 </div>
 
