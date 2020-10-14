@@ -183,8 +183,8 @@ We predict that changes in the concentration of SARS&#8209;CoV&#8209;22 in waste
 
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./smooth_extract.rda")
-smooth_extract
+load(file = "./smooth_extracttest.rda")
+smooth_extracttest
 ```
 
 
@@ -195,6 +195,37 @@ knitr::include_graphics("./trend_legend.png")
 
 <div style="margin-bottom:25px;">
 </div>
+
+### Testing Tab
+
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./plotly_objs/p_wrf_a.rda")
+load(file = "./plotly_objs/date_vec_n1a.rda")
+load(file = "./plotly_objs/date_vec_n2a.rda")
+load(file = "./plotly_objs/n1_ymina.rda")
+load(file = "./plotly_objs/n1_ymaxa.rda")
+load(file = "./plotly_objs/n2_ymina.rda")
+load(file = "./plotly_objs/n2_ymaxa.rda")
+
+p_wrf_a
+```
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./p_wrf_b.rda")
+load(file = "./date_vec_n1b.rda")
+load(file = "./date_vec_n2b.rda")
+
+load(file = "./plotly_objs/n1_yminb.rda")
+load(file = "./plotly_objs/n1_ymaxb.rda")
+load(file = "./plotly_objs/n2_yminb.rda")
+load(file = "./plotly_objs/n2_ymaxb.rda")
+p_wrf_b
+```
+
+```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./trend_legend.png")
+```
 
 ## 
 **How to Cite**  
