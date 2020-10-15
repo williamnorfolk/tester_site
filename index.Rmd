@@ -183,8 +183,8 @@ We predict that changes in the concentration of SARS&#8209;CoV&#8209;22 in waste
 
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./smooth_extracttest.rda")
-smooth_extracttest
+load(file = "./smooth_extract.rda")
+smooth_extract
 ```
 
 
