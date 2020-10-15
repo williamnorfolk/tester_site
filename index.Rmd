@@ -40,6 +40,13 @@ knitr::include_graphics("./good_legend.png")
 _Updated every Thursday_  
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
+##### Oct 13
+
+[placeholder]
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Oct 6
 
 Levels of SARS-CoV-2 continues to decrease in wastewater samples collected from Athens-Clarke County. These results are consistent with the decrease in the number of newly-reported cases over the past two weeks.  
