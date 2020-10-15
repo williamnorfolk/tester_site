@@ -42,7 +42,9 @@ _Please Note: We strive to get results for each week's sample updated by 5:00 pm
 
 ##### Oct 13
 
-[placeholder]
+Detection trends in SARS CoV 2 markers in Athens sewage were split this week. During the collection period (Oct 11 – 12), the concentrations of SARS CoV 2 markers at WRF B declined from last week, to at or below the limit of detection. However, levels at WRF A increased to >500,000 copies per L, after declining to near the limit of detection the prior week. Given that WRF B levels were low, it is too early to know if the increased signal at WRF A is indicative of possible uptick in transmission or due to inherent variability in sample collection. If there is increased transmission, we would expect to see the trend in wastewater continue next week as well as an increase in reported cases.  
+
+Reported cases in Athens Clarke County have remained stable for the last 2 weeks (7-day running average between 21 and 24 new cases per day).  
 
 <div style="margin-bottom:25px;">
 </div>
