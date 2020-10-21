@@ -40,6 +40,10 @@ knitr::include_graphics("./good_legend.png")
 _Updated every Thursday_  
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
+##### Oct 20
+
+[place holder]
+
 ##### Oct 13
 
 Trends in SARS CoV 2 concentrations in Athens wastewater were split this week between the two sampled plants. During the collection period (Oct 11 – 12), viral RNA concentrations at WRF B declined to at or below the limit of detection. However, levels at WRF A increased to >500,000 copies per L, after declining to near the limit of detection the prior week. It is too early to know if the increased SARS CoV 2 signal at WRF A is indicative of possible uptick in transmission or due to inherent variability in sample collection. If there is increased transmission, we would expect to see the trend in wastewater continue next week as well as an increase in reported cases.  
@@ -221,9 +225,9 @@ p_wrf_a
 ```
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./p_wrf_b.rda")
-load(file = "./date_vec_n1b.rda")
-load(file = "./date_vec_n2b.rda")
+load(file = "./plotly_objs/p_wrf_b.rda")
+load(file = "./plotly_objs/date_vec_n1b.rda")
+load(file = "./plotly_objs/date_vec_n2b.rda")
 
 load(file = "./plotly_objs/n1_yminb.rda")
 load(file = "./plotly_objs/n1_ymaxb.rda")
