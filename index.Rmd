@@ -42,7 +42,7 @@ _Please Note: We strive to get results for each week's sample updated by 5:00 pm
 
 ##### Oct 20
 
-SARS&#8209;CoV&#8209;2 concentrations in Athens Clarke County wastewater showed a consistent upward trend this week. WRF A continued its increase from the prior week with concentrations reaching as high as 1 million copies per L. Concentrations at WRF B increased from the below the limit of detection to >300,000 copies per L in samples this week. This suggests that the increase in concentration noted last week at WRF A was likely not due to sample variability and may reflect possible changes in shedding within the community.  
+SARS&#8209;CoV&#8209;2 concentrations in Athens Clarke County wastewater showed a consistent upward trend this week. WRF A continued its increase from the prior week with concentrations reaching as high as 1 million copies per L. Concentrations at WRF B increased from the below the limit of detection to >300,000 copies per L. The continued upward trends may suggest changes in viral shedding within the community.  
 
 Reported cases in Athens Clarke County have been stable over the week, with a 7-day running average of 20-30 cases per day.  
 
