@@ -723,32 +723,7 @@ p_wrf_b
 save(p_wrf_b, file = "./plotly_objs/p_wrf_b.rda")
 ```
 
-```{r}
-save(smooth_frame_n1a, file = "./plotly_objs/smooth_frame_n1a.rda")
-save(smooth_frame_n2a, file = "./plotly_objs/smooth_frame_n2a.rda")
-save(smooth_frame_n1b, file = "./plotly_objs/smooth_frame_n1b.rda")
-save(smooth_frame_n2b, file = "./plotly_objs/smooth_frame_n2b.rda")
-```
 
-```{r}
-save(date_vec_n1a, file = "./plotly_objs/date_vec_n1a.rda")
-save(date_vec_n2a, file = "./plotly_objs/date_vec_n2a.rda")
-save(date_vec_n1b, file = "./plotly_objs/date_vec_n1b.rda")
-save(date_vec_n2b, file = "./plotly_objs/date_vec_n2b.rda")
-```
-
-```{r}
-save(n1_ymina, file = "./plotly_objs/n1_ymina.rda")
-save(n1_ymaxa, file = "./plotly_objs/n1_ymaxa.rda")
-save(n2_ymina, file = "./plotly_objs/n2_ymina.rda")
-save(n2_ymaxa, file = "./plotly_objs/n2_ymaxa.rda")
-
-save(n1_yminb, file = "./plotly_objs/n1_yminb.rda")
-save(n1_ymaxb, file = "./plotly_objs/n1_ymaxb.rda")
-save(n2_yminb, file = "./plotly_objs/n2_yminb.rda")
-save(n2_ymaxb, file = "./plotly_objs/n2_ymaxb.rda")
-
-```
 
 
 #**************************************WRF C PLOT********************************************** Does not work until raw data fixed
@@ -757,13 +732,15 @@ save(n2_ymaxb, file = "./plotly_objs/n2_ymaxb.rda")
 #n1 extract
 # *********************************span 0.6***********************************
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
+
+```{r}
 extract_n1c <- ggplot(wrfc_smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n1c<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 113)
+              span = 0.6, n = 106)
 #n2 extract
 extract_n2c <- ggplot(wrfc_smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n2c<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 113)
+              span = 0.6, n = 106)
 
 #look at the fits to align dates and total observations
 #n1
@@ -802,10 +779,6 @@ date_vec_n2c <- work_n2c$date
 smooth_frame_n1c <- data.frame(date_vec_n1c, n1_trendc, n1_yminc, n1_ymaxc)
 smooth_frame_n2c <- data.frame(date_vec_n2c, n2_trendc, n2_yminc, n2_ymaxc)
 
-
-
-
-
 #WRF C
 #plot smooth frames
 p_wrf_c <- plotly::plot_ly() %>%
@@ -829,7 +802,7 @@ plotly::add_ribbons(x ~date_vec_n1c, ymin = ~n1_yminc, ymax = ~n1_ymaxc,
                     showlegend = FALSE,
                     opacity = 0.25,
                     hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_n1b, #leaving in case we want to change
+                    text = ~paste('</br> Date: ', date_vec_n1c, #leaving in case we want to change
                                   '</br> Max Log Copies: ', round(n1_ymaxc, digits = 2),
                                   '</br> Min Log Copies: ', round(n1_yminc, digits = 2),
                                   '</br> Target: N1'),
@@ -839,7 +812,7 @@ plotly::add_ribbons(x ~date_vec_n2c, ymin = ~n2_yminc, ymax = ~n2_ymaxc,
                     showlegend = FALSE,
                     opacity = 0.25,
                     hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_n2b, #leaving in case we want to change
+                    text = ~paste('</br> Date: ', date_vec_n2c, #leaving in case we want to change
                                   '</br> Max Log Copies: ', round(n2_ymaxc, digits = 2),
                                   '</br> Min Log Copies: ', round(n2_yminc, digits = 2),
                                   '</br> Target: N2'),
@@ -896,3 +869,50 @@ plotly::add_ribbons(x ~date_vec_n2c, ymin = ~n2_yminc, ymax = ~n2_ymaxc,
                        marker = list(color = '#D95F02', size = 6, opacity = 0.65))
 
 p_wrf_c
+
+```
+
+```{r}
+save(p_wrf_c, file = "./plotly_objs/p_wrf_c.rda")
+```
+
+
+```{r}
+save(smooth_frame_n1a, file = "./plotly_objs/smooth_frame_n1a.rda")
+save(smooth_frame_n2a, file = "./plotly_objs/smooth_frame_n2a.rda")
+save(smooth_frame_n1b, file = "./plotly_objs/smooth_frame_n1b.rda")
+save(smooth_frame_n2b, file = "./plotly_objs/smooth_frame_n2b.rda")
+save(smooth_frame_n1c, file = "./plotly_objs/smooth_frame_n1c.rda")
+save(smooth_frame_n2c, file = "./plotly_objs/smooth_frame_n2c.rda")
+
+```
+
+```{r}
+save(date_vec_n1a, file = "./plotly_objs/date_vec_n1a.rda")
+save(date_vec_n2a, file = "./plotly_objs/date_vec_n2a.rda")
+save(date_vec_n1b, file = "./plotly_objs/date_vec_n1b.rda")
+save(date_vec_n2b, file = "./plotly_objs/date_vec_n2b.rda")
+save(date_vec_n1c, file = "./plotly_objs/date_vec_n1c.rda")
+save(date_vec_n2c, file = "./plotly_objs/date_vec_n2c.rda")
+```
+
+```{r}
+save(n1_ymina, file = "./plotly_objs/n1_ymina.rda")
+save(n1_ymaxa, file = "./plotly_objs/n1_ymaxa.rda")
+save(n2_ymina, file = "./plotly_objs/n2_ymina.rda")
+save(n2_ymaxa, file = "./plotly_objs/n2_ymaxa.rda")
+
+save(n1_yminb, file = "./plotly_objs/n1_yminb.rda")
+save(n1_ymaxb, file = "./plotly_objs/n1_ymaxb.rda")
+save(n2_yminb, file = "./plotly_objs/n2_yminb.rda")
+save(n2_ymaxb, file = "./plotly_objs/n2_ymaxb.rda")
+
+save(n1_yminc, file = "./plotly_objs/n1_yminc.rda")
+save(n1_ymaxc, file = "./plotly_objs/n1_ymaxc.rda")
+save(n2_yminc, file = "./plotly_objs/n2_yminc.rda")
+save(n2_ymaxc, file = "./plotly_objs/n2_ymaxc.rda")
+
+```
+
+
+

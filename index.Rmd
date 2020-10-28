@@ -29,8 +29,8 @@ load(file = "./plotly_fig.rda")
 p_combined
 ```
 
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='right', echo=FALSE}
-knitr::include_graphics("./good_legend.png")
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./updated_fig_legend.png")
 ```
 
 <div style="margin-bottom:50px;">
@@ -239,6 +239,18 @@ load(file = "./plotly_objs/n1_ymaxb.rda")
 load(file = "./plotly_objs/n2_yminb.rda")
 load(file = "./plotly_objs/n2_ymaxb.rda")
 p_wrf_b
+```
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./plotly_objs/p_wrf_c.rda")
+load(file = "./plotly_objs/date_vec_n1c.rda")
+load(file = "./plotly_objs/date_vec_n2c.rda")
+
+load(file = "./plotly_objs/n1_yminc.rda")
+load(file = "./plotly_objs/n1_ymaxc.rda")
+load(file = "./plotly_objs/n2_yminc.rda")
+load(file = "./plotly_objs/n2_ymaxc.rda")
+p_wrf_c
 ```
 
 ```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
