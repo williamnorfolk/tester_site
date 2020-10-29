@@ -134,62 +134,6 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 <div style="margin-bottom:25px;">
 </div>
 
-#### Research Overview {.tabset}
-
-##### Purpose
-
-Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to estimate the level of viruses circulating in local population. 
-
-To better understand the outbreak of the novel Coronavirus disease-19 (COVID&#8209;19) on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, GA. Wastewater samples are collected weekly and tested to detect the disease-causing virus, SARS&#8209;CoV&#8209;2. 
-
-Each sample is a composite of the wastewater received by the water reclamation facility in a single day. By examining these samples, we are capturing a snapshot into the health of the entire community that contributes to the sewershed. This wastewater-based research provides a new approach to epidemiology; sewage surveillance may be used to predict the total burden of disease at a community-scale, without extensive clinical sampling.
-
-We are sharing here some of the preliminary results of our wastewater monitoring program. Our objective is to critically examine the use of SARS&#8209;CoV&#8209;2 wastewater-based epidemiology for the detection and surveillance of SARS&#8209;CoV&#8209;2 in our local community. 
-
-We are developing and evaluating our methods in real-time. We will share with you our weekly results and newest developments. This data is intended to complement clinical-based COVID&#8209;19 surveillance data, that will together, inform public health decisions.
-
-To learn more about national surviellence efforts, using wastewater-based epidemiology, please visit the CDC's <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/wastewater-surveillance.html" target="_blank">National Wastewater Surveillance System (NWSS).</a> 
-
-<div style="margin-bottom:50px;">
-</div>
-
-##### Methods
-
-Since May 2020, sewage samples have been collected weekly from the water reclamation facilities (WRFs) that serve Athens-Clarke County. Samples are collected from a 24-hour composite of the influent wastewater received by each WRF. 
-
-Samples are processed by the Lipp Laboratory at the University of Georgia to detect and measure the abundance of SARS&#8209;CoV&#8209;2 virus in wastewater. 
-
-Viral RNA, the genetic material of the SARS&#8209;CoV&#8209;2 virus, is extracted from each sample using the <a href="https://www.qiagen.com/us/products/diagnostics-and-clinical-research/sample-processing/qiaamp-viral-rna-mini-kit/#orderinginformation" target="_blank">QIAmp Viral RNA Mini Kit.</a>
-
-The viral RNA is then measured using Real-Time RT-PCR Assays, following the <a href="https://www.cdc.gov/sars/guidance/f-lab/assays.html" target="_blank">CDC's test protocol </a> for the N1 and N2 SARS&#8209;CoV&#8209;2 nucleocapsid genes. 
-
-The N1 and N2 gene targets are measured and reported as a concentration, by the number of gene copies measured per liter of wastewater.
-
-Reported case data for COVID-19 has been collected from <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">Georgia's Department of Public Health</a> and summarized by Mark Ebell, MD, MS <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS701zSLS_VgpMUVSuGWI89Y05Yev3QCCF-l0nbwtSN1tE-hGlMV1T2Tg0GFVuiVD010szZ1ukr7vnM/pubhtml" target="_blank">here</a>. 
-
-A more detailed explanation of the research methods can be found <a href="https://docs.google.com/document/d/1vvRGrvR5iF3P6d40tKPjUpOZBBKGz_OZAr9Z5xJiCKw/edit?usp=sharing" target="_blank">here</a>. 
-
-<div style="margin-bottom:50px;">
-</div>
-
-##### About
-
-This weekly monitoring is conducted in partnership between Athens-Clarke County Utilities, the Lipp Laboratory, and the College of Public Health at the University of Georgia.
-
-**Team**
-
-Dr. Erin Lipp
-
-Megan Lott, PhD Student
-
-William Norfolk, PhD Student 
-
-Megan Robertson, PhD Student 
-
-For more information about our team and other ongoing research please visit the Lipp Laboratory <a href="https://publichealth.uga.edu/faculty-member/erin-k-lipp/" target="_blank">website</a>.
-
-<div style="margin-bottom:50px;">
-</div>
 
 ### All Data
 
@@ -212,17 +156,12 @@ p_combined
 knitr::include_graphics("./updated_fig_legend.png")
 ```
 
-```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_fig_ave.rda")
-p_combined_ave
-```
-
 <div style="margin-bottom:50px;">
 </div>
 
 ### Individual Plants {.tabset}
 
-```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
 knitr::include_graphics("./map_image.png")
 ```
 
@@ -239,6 +178,9 @@ load(file = "./plotly_objs/n2_ymaxa.rda")
 p_wrf_a
 ```
 
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./indiv_legend.png")
+```
 
 #### WRF B
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
@@ -253,6 +195,9 @@ load(file = "./plotly_objs/n2_ymaxb.rda")
 p_wrf_b
 ```
 
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./indiv_legend.png")
+```
 
 #### WRF C
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
@@ -267,9 +212,67 @@ load(file = "./plotly_objs/n2_ymaxc.rda")
 p_wrf_c
 ```
 
-```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./trend_legend.png")
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./indiv_legend.png")
 ```
+
+### Research Overview 
+
+#### Purpose
+
+Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to estimate the level of viruses circulating in local population. 
+
+To better understand the outbreak of the novel Coronavirus disease-19 (COVID&#8209;19) on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, GA. Wastewater samples are collected weekly and tested to detect the disease-causing virus, SARS&#8209;CoV&#8209;2. 
+
+Each sample is a composite of the wastewater received by the water reclamation facility in a single day. By examining these samples, we are capturing a snapshot into the health of the entire community that contributes to the sewershed. This wastewater-based research provides a new approach to epidemiology; sewage surveillance may be used to predict the total burden of disease at a community-scale, without extensive clinical sampling.
+
+We are sharing here some of the preliminary results of our wastewater monitoring program. Our objective is to critically examine the use of SARS&#8209;CoV&#8209;2 wastewater-based epidemiology for the detection and surveillance of SARS&#8209;CoV&#8209;2 in our local community. 
+
+We are developing and evaluating our methods in real-time. We will share with you our weekly results and newest developments. This data is intended to complement clinical-based COVID&#8209;19 surveillance data, that will together, inform public health decisions.
+
+To learn more about national surviellence efforts, using wastewater-based epidemiology, please visit the CDC's <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/wastewater-surveillance.html" target="_blank">National Wastewater Surveillance System (NWSS).</a> 
+
+<div style="margin-bottom:50px;">
+</div>
+
+#### Methods
+
+Since May 2020, sewage samples have been collected weekly from the water reclamation facilities (WRFs) that serve Athens-Clarke County. Samples are collected from a 24-hour composite of the influent wastewater received by each WRF. 
+
+Samples are processed by the Lipp Laboratory at the University of Georgia to detect and measure the abundance of SARS&#8209;CoV&#8209;2 virus in wastewater. 
+
+Viral RNA, the genetic material of the SARS&#8209;CoV&#8209;2 virus, is extracted from each sample using the <a href="https://www.qiagen.com/us/products/diagnostics-and-clinical-research/sample-processing/qiaamp-viral-rna-mini-kit/#orderinginformation" target="_blank">QIAmp Viral RNA Mini Kit.</a>
+
+The viral RNA is then measured using Real-Time RT-PCR Assays, following the <a href="https://www.cdc.gov/sars/guidance/f-lab/assays.html" target="_blank">CDC's test protocol </a> for the N1 and N2 SARS&#8209;CoV&#8209;2 nucleocapsid genes. 
+
+The N1 and N2 gene targets are measured and reported as a concentration, by the number of gene copies measured per liter of wastewater.
+
+Reported case data for COVID-19 has been collected from <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">Georgia's Department of Public Health</a> and summarized by Mark Ebell, MD, MS <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS701zSLS_VgpMUVSuGWI89Y05Yev3QCCF-l0nbwtSN1tE-hGlMV1T2Tg0GFVuiVD010szZ1ukr7vnM/pubhtml" target="_blank">here</a>. 
+
+A more detailed explanation of the research methods can be found <a href="https://docs.google.com/document/d/1vvRGrvR5iF3P6d40tKPjUpOZBBKGz_OZAr9Z5xJiCKw/edit?usp=sharing" target="_blank">here</a>. 
+
+<div style="margin-bottom:50px;">
+</div>
+
+#### About
+
+This weekly monitoring is conducted in partnership between Athens-Clarke County Utilities, the Lipp Laboratory, and the College of Public Health at the University of Georgia.
+
+**Team**
+
+Dr. Erin Lipp
+
+Megan Lott, PhD Student
+
+William Norfolk, PhD Student 
+
+Megan Robertson, PhD Student 
+
+For more information about our team and other ongoing research please visit the Lipp Laboratory <a href="https://publichealth.uga.edu/faculty-member/erin-k-lipp/" target="_blank">website</a>.
+
+<div style="margin-bottom:50px;">
+</div>
+
 
 ## 
 **How to Cite**  
