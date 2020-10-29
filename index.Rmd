@@ -39,9 +39,6 @@ knitr::include_graphics("./trend_legend.png")
 <div style="margin-bottom:25px;">
 </div>
 
-```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./map_image.png")
-```
 
 #### Weekly Data Update {.tabset}
 _Updated every Thursday_  
@@ -223,9 +220,13 @@ p_combined_ave
 <div style="margin-bottom:50px;">
 </div>
 
-### Individual Plants
+### Individual Plants {.tabset}
 
+```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./map_image.png")
+```
 
+#### WRF A
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_a.rda")
 load(file = "./plotly_objs/date_vec_n1a.rda")
@@ -238,6 +239,8 @@ load(file = "./plotly_objs/n2_ymaxa.rda")
 p_wrf_a
 ```
 
+
+#### WRF B
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_b.rda")
 load(file = "./plotly_objs/date_vec_n1b.rda")
@@ -250,6 +253,8 @@ load(file = "./plotly_objs/n2_ymaxb.rda")
 p_wrf_b
 ```
 
+
+#### WRF C
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_c.rda")
 load(file = "./plotly_objs/date_vec_n1c.rda")
