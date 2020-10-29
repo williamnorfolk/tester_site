@@ -216,7 +216,9 @@ wrfa_smooth_n2 <- make_n2_smooth_frame(wrf_a_only_n2)
 wrfb_smooth_n2 <- make_n2_smooth_frame(wrf_b_only_n2)
 wrfc_smooth_n2 <- make_n2_smooth_frame(wrf_c_only_n2)
 
-
+#get max date
+maxdate <- max(wrfa_smooth_n1$date)
+mindate <- min(wrfa_smooth_n1$date)
 
 ```
 
@@ -490,6 +492,7 @@ p_wrf_a <- plotly::plot_ly() %>%
                                   '</br> Target: N1'),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
+     layout(xaxis = list(range = c(mindate - 7, maxdate + 7))) %>% #buffer here
 plotly::add_lines(x = ~date_vec_n2a, y = ~n2_trenda,
                   data = smooth_frame_n2a,
                     hoverinfo = "text",
@@ -551,6 +554,16 @@ plotly::add_ribbons(x ~date_vec_n2a, ymin = ~n2_ymina, ymax = ~n2_ymaxa,
                                                  "</br> 2020-08-20",
                                           hoverinfo = "text",
                                           text = "Classes Begin",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash")) %>%
+        plotly::add_segments(x = as.Date("2020-10-03"), 
+                                          xend = as.Date("2020-10-03"), 
+                                          y = ~min(n1_ymina), yend = ~max(n1_ymaxa),
+                                          opacity = 0.35,
+                                          name = "</br> First Home Football Game",
+                                                 "</br> 2020-10-03",
+                                          hoverinfo = "text",
+                                          text = "First Home Football Game",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
@@ -638,6 +651,7 @@ p_wrf_b <- plotly::plot_ly() %>%
                                   '</br> Target: N1'),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
+     layout(xaxis = list(range = c(mindate - 7, maxdate + 7))) %>% #buffer here
 plotly::add_lines(x = ~date_vec_n2b, y = ~n2_trendb,
                   data = smooth_frame_n2b,
                     hoverinfo = "text",
@@ -699,6 +713,16 @@ plotly::add_ribbons(x ~date_vec_n2b, ymin = ~n2_yminb, ymax = ~n2_ymaxb,
                                                  "</br> 2020-08-20",
                                           hoverinfo = "text",
                                           text = "Classes Begin",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash")) %>%
+        plotly::add_segments(x = as.Date("2020-10-03"), 
+                                          xend = as.Date("2020-10-03"), 
+                                          y = ~min(n1_yminb), yend = ~max(n1_ymaxb),
+                                          opacity = 0.35,
+                                          name = "</br> First Home Football Game",
+                                                 "</br> 2020-10-03",
+                                          hoverinfo = "text",
+                                          text = "First Home Football Game",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
@@ -779,6 +803,7 @@ date_vec_n2c <- work_n2c$date
 smooth_frame_n1c <- data.frame(date_vec_n1c, n1_trendc, n1_yminc, n1_ymaxc)
 smooth_frame_n2c <- data.frame(date_vec_n2c, n2_trendc, n2_yminc, n2_ymaxc)
 
+
 #WRF C
 #plot smooth frames
 p_wrf_c <- plotly::plot_ly() %>%
@@ -790,6 +815,7 @@ p_wrf_c <- plotly::plot_ly() %>%
                                   '</br> Target: N1'),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
+   layout(xaxis = list(range = c(mindate - 7, maxdate + 7))) %>% #buffer here
 plotly::add_lines(x = ~date_vec_n2c, y = ~n2_trendc,
                   data = smooth_frame_n2c,
                     hoverinfo = "text",
@@ -851,6 +877,16 @@ plotly::add_ribbons(x ~date_vec_n2c, ymin = ~n2_yminc, ymax = ~n2_ymaxc,
                                                  "</br> 2020-08-20",
                                           hoverinfo = "text",
                                           text = "Classes Begin",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash")) %>%
+        plotly::add_segments(x = as.Date("2020-10-03"), 
+                                          xend = as.Date("2020-10-03"), 
+                                          y = ~min(n1_yminc), yend = ~max(n1_ymaxc),
+                                          opacity = 0.35,
+                                          name = "</br> First Home Football Game",
+                                                 "</br> 2020-10-03",
+                                          hoverinfo = "text",
+                                          text = "First Home Football Game",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_sum_copies_L,

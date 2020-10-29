@@ -12,28 +12,31 @@ _Please Note_ This website is a **tester** for page layout and data visualizatio
 
 ## {.tabset}
 
-### All Data
+### Data Trends
 
-Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;2, the virus that causes COVID&#8209;19. 
+The total viral load of SARS&#8209;CoV&#8209;2 in the sewershed was estimated using data from our weekly wastewater monitoring. Sewage samples are collected weekly from two of the three water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;222, the virus that causes COVID&#8209;19.  
 
-We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. The theoretical Limit of Detection (LOD) is noted.
+The total viral load of SARS&#8209;CoV&#8209;2 is estimated by adjusting for the total wastewater volume collected by each water reclamation facility. The estimate is expressed as a sum of the total number of gene targets detected between the two facilities.   
 
-We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
+The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed.  
+
+Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia.  
+
+We predict that changes in the concentration of SARS&#8209;CoV&#8209;22 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID‑19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). 
 
 
-<div style="margin-bottom:50px;">
-</div>
-
-```{r out.height = "200%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_fig.rda")
-p_combined
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./smooth_extract.rda")
+smooth_extract
 ```
 
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./updated_fig_legend.png")
+
+```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./trend_legend.png")
 ```
 
-<div style="margin-bottom:50px;">
+
+<div style="margin-bottom:25px;">
 </div>
 
 #### Weekly Data Update {.tabset}
@@ -187,34 +190,31 @@ For more information about our team and other ongoing research please visit the 
 <div style="margin-bottom:50px;">
 </div>
 
-### Data Trends
+### All Data
 
-The total viral load of SARS&#8209;CoV&#8209;2 in the sewershed was estimated using data from our weekly wastewater monitoring. Sewage samples are collected weekly from two of the three water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;222, the virus that causes COVID&#8209;19.  
+Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;2, the virus that causes COVID&#8209;19. 
 
-The total viral load of SARS&#8209;CoV&#8209;2 is estimated by adjusting for the total wastewater volume collected by each water reclamation facility. The estimate is expressed as a sum of the total number of gene targets detected between the two facilities.   
+We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. The theoretical Limit of Detection (LOD) is noted.
 
-The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed.  
-
-Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia.  
-
-We predict that changes in the concentration of SARS&#8209;CoV&#8209;22 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID‑19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). 
+We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
 
 
-```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./smooth_extract.rda")
-smooth_extract
-```
-
-
-```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./trend_legend.png")
-```
-
-
-<div style="margin-bottom:25px;">
+<div style="margin-bottom:50px;">
 </div>
 
-### Testing Tab
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./plotly_fig.rda")
+p_combined
+```
+
+```{r fig.hold='hold', out.height = "65%", out.width = "65%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./updated_fig_legend.png")
+```
+
+<div style="margin-bottom:50px;">
+</div>
+
+### Individual Plants
 
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
