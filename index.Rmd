@@ -211,6 +211,11 @@ p_combined
 knitr::include_graphics("./updated_fig_legend.png")
 ```
 
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./plotly_fig_ave.rda")
+p_combined_ave
+```
+
 <div style="margin-bottom:50px;">
 </div>
 
