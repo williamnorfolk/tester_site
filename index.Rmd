@@ -20,13 +20,6 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 <div style="margin-bottom:25px;">
 </div>
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
-</style>
-<div class = "blue">
-** _Beginning November 2, 2020, data from all three plants is being reported on this site. Data summaries have been updated to include the third plant (WRF C) back to July 5, 2020. Therefore, charts for ‘data trends’ and ‘all data’ may vary slightly from previously posted reports because of this inclusion; although, in part because WRF C is small compared to the other two plants, trends changed vary little._ 
-</div>
-
 ## {.tabset}
 
 ### Data Trends
@@ -60,7 +53,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 </style>
 <div class = "blue">
 <span style="text-decoration:underline">Updated every Thursday</span>    
-_Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
+_Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
 
 <div style="margin-bottom:25px;">
@@ -175,7 +168,7 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 
 ### Individual Plants {.tabset}
 
-Three plants service the Athens Clarke County region. WRF A serves the largest portion of the community (including all of UGA main campus and downtown Athens), followed by WRF B (including areas west of Milledge Ave.), and WRF C (including Athens Eastside). Total capacity at WRF C is substantially smaller than the other two plants and viral loads have been more variable over time; this plant also receives periodic waste from pumped septic system and ‘port-o-potties’ which may lead to increased variability over time. Load and trends over time are shown for each service area. Trend analyses follow the same procedure as noted in ‘Data Trends’ tab.  
+Three plants service the Athens Clarke County region. WRF A serves the largest portion of the community (including all of UGA main campus and downtown Athens), followed by WRF (including areas west of Milledge Ave.), and WRF C (including Athens Eastside). Total capacity at WRF C is substantially smaller than the other two plants; this plant also receives periodic waste from pumped septic system and ‘port-o-potties’, which may lead to increased variability over time. Load and trends over time are shown for each service area. Trend analyses follow the same procedure as noted in ‘Data Trends’ tab.    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -265,7 +258,7 @@ The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County 
 
 #### Purpose
 
-Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to estimate the level of viruses circulating in local population.  
+Wastewater-based surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to help understand trends in viruses circulating within local population.  
 
 To better understand the outbreak of the novel Coronavirus disease-19 (COVID&#8209;19) on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, GA. Wastewater samples are collected weekly and tested to detect the disease-causing virus, SARS&#8209;CoV&#8209;2.  
 
