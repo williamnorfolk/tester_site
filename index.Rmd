@@ -9,11 +9,16 @@ _Please Note_ This website is a **tester** for page layout and data visualizatio
 <div style="margin-bottom:25px;">
 </div>
 
-This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that causes COVID&#8209;19) levels in wastewater for Athens Clarke County (ACC). Wastewater sampling can detect viruses that may be shed in feces from infected people within an entire community, including those that are presymptomatic and asymptomatic. This offers a method of estimating trends in community-scale circulation of COVID&#8209;19 that does not rely on clinical or surveillance testing of individuals. Although we cannot currently use wastewater-based testing to estimate a specific number of people infected in a community, it can be used to understand trends and to anticipate potential increases in cases.  
+This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that causes COVID&#8209;19) levels in wastewater for Athens-Clarke County (ACC). Wastewater sampling can detect viruses that may be shed in feces from infected people within an entire community, including those that are presymptomatic and asymptomatic. This offers a method of estimating trends in community-scale circulation of COVID&#8209;19 that does not rely on clinical or surveillance testing of individuals. Although we cannot currently use wastewater-based testing to estimate a specific number of people infected in a community, it can be used to understand trends and to anticipate potential increases in cases.  
 
-Sewage samples are collected weekly from the three** water reclamation facilities that serve Athens Clarke County, processed to determine concentration of SARS&#8209;CoV&#8209;2 viral genes (gene copies per liter of wastewater) (shown in **‘All Data’** tab), and a total viral load (over a 24-hour period) is estimated for the combined ACC area based on the amount of wastewater flowing into each plant (**‘Data Trends’**). Load and trends for each plant, and associated service areas, are shown in the **‘Individual Plants’** tab.   
+<span style="text-decoration:underline">Navigating this site:</span>   
+•	**Data Trends**: Total viral load and trend analysis for the combined ACC area   
+•	**Individual Plants**: Viral load and trend analysis for each plant and associated service area   
+•	**All Data**: Concentration of SARS&#8209;CoV&#8209; gene targets by date and treatment plant  
+•	**Research Overview**: Details on methods and approach  
 
-We are developing and evaluating our methods in real-time. We will share with you our weekly results and newest developments. These reports are intended to complement clinical-based COVID&#8209;19 surveillance data, that we hope can help to inform public health decisions. Please see the **‘Research Overview’** tab for details on our methods and approach.
+<div style="margin-bottom:25px;">
+</div>
 
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
@@ -54,9 +59,19 @@ The viral load is estimated for both the N1 (green) and N2 (orange) gene targets
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 </style>
 <div class = "blue">
-_Updated every Thursday_  
+<span style="text-decoration:underline">Updated every Thursday</span>    
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### Nov 3
+
+<span style="text-decoration:underline">Site update announcement:</span>    
+Beginning November 3, 2020, data from all three plants is being reported on this site. Data summaries have been updated to include the third plant (WRF C) back to July 5, 2020. Therefore, charts for ‘data trends’ and ‘all data’ may vary slightly from previously posted reports because of this inclusion; although, in part because WRF C is small compared to the other two plants, trends changed little with this update.  
+
+Going forward, we will begin sampling twice weekly at the three WRFs with support from Athens-Clarke County. We will update this site with any anticipated changes in timing of our data reporting.   
 
 <div style="margin-bottom:25px;">
 </div>
@@ -165,6 +180,13 @@ Three plants service the Athens Clarke County region. WRF A serves the largest p
 <div style="margin-bottom:25px;">
 </div>
 
+#### Sewershed Map
+
+```{r fig.hold='hold', out.height = "90%", out.width = "90%", fig.align='center', echo=FALSE, fig.cap='Sewershed map of Athens-Clarke County'}
+knitr::include_graphics("./map_image.png")
+```
+
+
 #### WRF A
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_a.rda")
@@ -216,22 +238,7 @@ p_wrf_c
 knitr::include_graphics("./indiv_legend.png")
 ```
 
-#### Sewershed Map
-
-```{r fig.hold='hold', out.height = "90%", out.width = "90%", fig.align='center', echo=FALSE, fig.cap='Sewershed map of Athens-Clarke County'}
-knitr::include_graphics("./map_image.png")
-```
-
 ### All Data
-
-This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens Clarke County for each sampling period. Each dot represents the mean concentration for the two viral gene targets and for each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
-
-Samples are collected once weekly as a 24-hour composite sample at each plant. We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater for each plant. The theoretical Limit of Detection (LOD) is noted with a dashed line.    
-
-The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line).   
-
-<div style="margin-bottom:25px;">
-</div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_fig.rda")
@@ -241,6 +248,15 @@ p_combined
 ```{r fig.hold='hold', out.height = "65%", out.width = "65%", fig.align='center', echo=FALSE}
 knitr::include_graphics("./updated_fig_legend.png")
 ```
+
+<div style="margin-bottom:25px;">
+</div>
+
+This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens Clarke County for each sampling period. Each dot represents the mean concentration for the two viral gene targets and for each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
+
+Samples are collected once weekly as a 24-hour composite sample at each plant. We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater for each plant. The theoretical Limit of Detection (LOD) is noted with a dashed line.    
+
+The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line).   
 
 <div style="margin-bottom:50px;">
 </div>
