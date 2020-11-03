@@ -14,7 +14,7 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 <span style="text-decoration:underline">Navigating this site:</span>   
 •	**Data Trends**: Total viral load and trend analysis for the combined ACC area   
 •	**Individual Plants**: Viral load and trend analysis for each plant and associated service area   
-•	**All Data**: Concentration of SARS&#8209;CoV&#8209; gene targets by date and treatment plant  
+•	**All Data**: Concentration of SARS&#8209;CoV&#8209;2 gene targets by date and treatment plant  
 •	**Research Overview**: Details on methods and approach  
 
 <div style="margin-bottom:25px;">
@@ -40,7 +40,7 @@ knitr::include_graphics("./trend_legend.png")
 </div>
 
 **Note about chart and methods**.    
-The viral load is estimated for both the N1 (green) and N2 (orange) gene targets (concentration of gene copies per liter x total flow in liters). Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are providing both to give a better idea of the range of viral numbers. The data trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars; July 9, 2020 Athens-Clarke County implements mask mandate.; August 20, 2020 classes begin at the University of Georgia; October 3, 2020 the university hosted its first home football game for the fall season.  
+The viral load is estimated for both the N1 (green) and N2 (orange) gene targets (concentration of gene copies per liter x total flow in liters). Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are providing both to give a better idea of the range of viral numbers. The data trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars and restaurants; July 9, 2020 Athens-Clarke County implements mask mandate.; August 20, 2020 classes begin at the University of Georgia; October 3, 2020 the university hosted its first home football game for the fall season.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -71,16 +71,16 @@ Going forward, we will begin sampling twice weekly at the three WRFs with suppor
 
 ##### Oct 27
 
-Concentrations of SARS&#8209;CoV&#8209;2 in Athens Clarke County wastewater are comparable to those reported during the previous week (October 20, 2020). Concentrations are also similar between the two plants. These data suggest that there may be persistent viral shedding throughout the community. Reported cases in Athens Clarke County have been stable over the past three weeks, with a 7-day running averages of 20-24 cases per day.  
+Concentrations of SARS&#8209;CoV&#8209;2 in Athens-Clarke County wastewater are comparable to those reported during the previous week (October 20, 2020). Concentrations are also similar between the two plants. These data suggest that there may be persistent viral shedding throughout the community. Reported cases in Athens-Clarke County have been stable over the past three weeks, with a 7-day running averages of 20-24 cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
 
 ##### Oct 20
 
-SARS&#8209;CoV&#8209;2 concentrations in Athens Clarke County wastewater showed a consistent upward trend this week. WRF A continued its increase from the prior week with concentrations reaching as high as 1 million copies per L. Concentrations at WRF B increased from the below the limit of detection to >300,000 copies per L. The continued upward trends may suggest changes in viral shedding within the community.  
+SARS&#8209;CoV&#8209;2 concentrations in Athens-Clarke County wastewater showed a consistent upward trend this week. WRF A continued its increase from the prior week with concentrations reaching as high as 1 million copies per L. Concentrations at WRF B increased from the below the limit of detection to >300,000 copies per L. The continued upward trends may suggest changes in viral shedding within the community.  
 
-Reported cases in Athens Clarke County have been stable over the week, with a 7-day running average of 20-30 cases per day.  
+Reported cases in Athens-Clarke County have been stable over the week, with a 7-day running average of 20-30 cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -89,7 +89,7 @@ Reported cases in Athens Clarke County have been stable over the week, with a 7-
 
 Trends in SARS&#8209;CoV&#8209;2 concentrations in Athens wastewater were split this week between the two sampled plants. During the collection period (Oct 12 – 13), viral RNA concentrations at WRF B declined to at or below the limit of detection. However, levels at WRF A increased to >500,000 copies per L, after declining to near the limit of detection the prior week. It is too early to know if the increased SARS&#8209;CoV&#8209;2 signal at WRF A is indicative of possible uptick in transmission or due to inherent variability in sample collection. If there is increased transmission, we would expect to see the trend in wastewater continue next week as well as an increase in reported cases.  
 
-Reported cases in Athens Clarke County have remained stable for the last 2 weeks (7-day running average between 21 and 24 new cases per day.  
+Reported cases in Athens-Clarke County have remained stable for the last 2 weeks (7-day running average between 21 and 24 new cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -105,7 +105,7 @@ It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have dec
 
 ##### Sept 29
 
-Overall SARS&#8209;CoV&#8209;2 concentrations continued to decline in sewage reaching Athens's WRFs, in line with decreasing reported cases in Athens Clarke County. The decline was especially evident at WRF A, where levels were at or below the limit of detection for our methods. However, concentrations at WRF B were virtually unchanged from last week.  
+Overall SARS&#8209;CoV&#8209;2 concentrations continued to decline in sewage reaching Athens's WRFs, in line with decreasing reported cases in Athens-Clarke County. The decline was especially evident at WRF A, where levels were at or below the limit of detection for our methods. However, concentrations at WRF B were virtually unchanged from last week.  
 
 With our current process, we cannot accurately detect virus concentrations below about 3,000 copies per L. Therefore, we cannot assume that a sample that is 'below the limit of detection' is negative for SARS&#8209;CoV&#8209;2, rather it may be at some level that we cannot accurately determine with our current method. Our lab is evaluating different detection options that may improve detection during times with lower levels of circulating virus.   
 
@@ -134,7 +134,7 @@ An important note about sample collection this week was that it occurred over th
 
 Our trend analysis suggests a continued elevation in total viral load (see data trends tab).  
 
-Daily reported cases in Clarke County continue to rise, now reaching a 7-day moving average of 126.1 new cases per day.  
+Daily reported cases in Athens-Clarke County continue to rise, now reaching a 7-day moving average of 126.1 new cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -168,7 +168,7 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 
 ### Individual Plants {.tabset}
 
-Three plants service the Athens Clarke County region. WRF A serves the largest portion of the community (including all of UGA main campus and downtown Athens), followed by WRF (including areas west of Milledge Ave.), and WRF C (including Athens Eastside). Total capacity at WRF C is substantially smaller than the other two plants; this plant also receives periodic waste from pumped septic system and ‘port-o-potties’, which may lead to increased variability over time. Load and trends over time are shown for each service area. Trend analyses follow the same procedure as noted in ‘Data Trends’ tab.    
+Three plants service the Athens-Clarke County region. WRF A serves the largest portion of the community (including all of UGA main campus and downtown Athens), followed by WRF B (including areas west of Milledge Ave.), and WRF C (including Athens Eastside). Total capacity at WRF C is substantially smaller than the other two plants; this plant also receives periodic waste from pumped septic system and ‘port-o-potties’, which may lead to increased variability over time. Load and trends over time are shown for each service area. Trend analyses follow the same procedure as noted in ‘Data Trends’ tab.    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -245,13 +245,13 @@ knitr::include_graphics("./updated_fig_legend.png")
 <div style="margin-bottom:25px;">
 </div>
 
-This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens Clarke County for each sampling period. Each dot represents the mean concentration for the two viral gene targets and for each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
+This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens-Clarke County for each sampling period. ymbols represent the mean concentration for the two viral gene targets at each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
 
 Samples are collected once weekly as a 24-hour composite sample at each plant. We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater for each plant. The theoretical Limit of Detection (LOD) is noted with a dashed line.    
 
 The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line).   
 
-<div style="margin-bottom:50px;">
+<div style="margin-bottom:25px;">
 </div>
 
 ### Research Overview 
@@ -262,7 +262,7 @@ Wastewater-based surveillance is an emerging tool for monitoring disease outbrea
 
 To better understand the outbreak of the novel Coronavirus disease-19 (COVID&#8209;19) on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, GA. Wastewater samples are collected weekly and tested to detect the disease-causing virus, SARS&#8209;CoV&#8209;2.  
 
-Each sample is a composite of the wastewater received by the water reclamation facility in a single 24 hour period. By examining these samples, we are capturing a snapshot into the health of the entire community that contributes to the sewershed. This wastewater-based research provides a new approach to epidemiology; sewage surveillance may be used to help understand potential burden of disease at a community-scale and trends in viral prevalence (indicating shifts in transmission), without extensive clinical sampling. These data should be considered complementary to on-going clinical testing.  
+Each sample is a composite of the wastewater received by the water reclamation facility in a single 24-hour period. By examining these samples, we are capturing a snapshot into the health of the entire community that contributes to the sewershed. This wastewater-based research provides a new approach to epidemiology; sewage surveillance may be used to help understand potential burden of disease at a community-scale and trends in viral prevalence (indicating shifts in transmission), without extensive clinical sampling. These data should be considered complementary to on-going clinical testing.  
 
 We are sharing here some of the preliminary results of our wastewater monitoring program. Our objective is to critically examine the use of SARS&#8209;CoV&#8209;2 wastewater-based epidemiology for the detection and surveillance of SARS&#8209;CoV&#8209;2 in our local community.  
 
@@ -278,7 +278,7 @@ To learn more about national surviellence efforts, using wastewater-based epidem
 
 Since May 2020, sewage samples have been collected weekly from the three water reclamation facilities (WRFs) that serve Athens-Clarke County. Samples are collected from a 24-hour composite of the influent wastewater received by each WRF.  
 
-Samples are processed by the Lipp Laboratory at the University of Georgia (Dept of Environmental Health Science) to detect and measure the abundance of SARS&#8209;CoV&#8209;2 virus in wastewater.
+Samples are processed by the Lipp Laboratory at the University of Georgia (Department of Environmental Health Science) to detect and measure the abundance of SARS&#8209;CoV&#8209;2 virus in wastewater.
 
 Viral RNA, the genetic material of the SARS&#8209;CoV&#8209;2 virus, is extracted from each sample using the <a href="https://www.qiagen.com/us/products/diagnostics-and-clinical-research/sample-processing/qiaamp-viral-rna-mini-kit/#orderinginformation" target="_blank">QIAmp Viral RNA Mini Kit.</a>
 
