@@ -71,6 +71,8 @@ This week, we are reporting concentrations of SARS‑CoV‑2 in wastewater colle
 
 There was a notable difference in the trends based on the two gene targets, with viral gene copies attributed to the N1 gene increasing slightly or staying steady (especially at WRF B) and viral gene copies attributed to the N2 gene declining (with most samples at or below the limit of our detection). Detection rates of the two genes can vary, especially in wastewater; therefore, it is important to consider results of these targets together. In combination, these results suggest that SARS&#8209;CoV&#8209;2 loads are stable or may be declining.   
 
+The 7-day running average of reported cases (PCR confirmed) in Athens-Clarke County has remained steady at 22 - 24 new cases per day.   
+
 <div style="margin-bottom:25px;">
 </div>
 
