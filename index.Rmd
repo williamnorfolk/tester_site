@@ -59,15 +59,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Nov 3
+##### Nov 2 & 4
 
 <span style="text-decoration:underline">Site update announcement:</span>    
-Beginning November 3, 2020, data from all three plants is being reported on this site. Data summaries have been updated to include the third plant (WRF C) back to July 5, 2020. Therefore, charts for ‘data trends’ and ‘all data’ may vary slightly from previously posted reports because of this inclusion; although, in part because WRF C is small compared to the other two plants, trends changed little with this update.  
+Beginning November 2, 2020, data from all three plants is being reported on this site. Data summaries have been updated to include the third plant (WRF C) back to July 5, 2020. Therefore, charts for ‘data trends’ and ‘all data’ may vary slightly from previously posted reports because of this inclusion; although, in part because WRF C is small compared to the other two plants, trends changed little with this update.  
 
 Going forward, we will begin sampling twice weekly at the three WRFs with support from Athens-Clarke County. We will update this site with any anticipated changes in timing of our data reporting.   
 
-<span style="text-decoration:underline">November 3 data update:</span>
-Due to the shift to increased weekly sampling the data update for this week is experiencing a delay. We anticipate new results will be released by 9am on Friday November 6. We apologize for any inconvenience.    
+<span style="text-decoration:underline">November 2 & 4 data update:</span>
+This week, we are reporting concentrations of SARS&#8209;CoV&#8209;2 in wastewater collected from two sampling events (November 2 and November 4, 2020). The increased in sampling frequency is intended to improve the resolution of our data.  
+
+This week’s results indicate that the concentration of SARS&#8209;CoV&#8209;22 has decreased from the previous week. In some samples, the levels of SARS&#8209;CoV&#8209;22 virus are near or below the limit of detection for our current method. Our theoretical limit of detection is approximately 3,570 copies/L. Below this concentration, viruses may be not be detected or quantified with accuracy.  
 
 <div style="margin-bottom:25px;">
 </div>
