@@ -52,51 +52,11 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
 #only_n1 <- only_n1[!(only_n1$Facility == "WRF C"),]
 #only_n2 <- only_n2[!(only_n2$Facility == "WRF C"),]
 
+only_n1 <- only_n1[!(only_n1$Facility == "WRF A" & only_n1$date == "2020-11-02"), ]
+only_n2 <- only_n2[!(only_n2$Facility == "WRF A" & only_n2$date == "2020-11-02"), ]
+
 ```
 
-
-```{r}
-#average N1 and N2
-average_both <- only_positives %>%
-  group_by(date, Facility) %>% 
-  summarise(mean_copy_num_L = mean(mean_copy_num_L))
-
-        
-        #renders the main plot layer three as positive target hits
-        
-        p77 <- plotly::plot_ly() %>%
-          plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
-                                       type = "scatter",
-                                       mode = "markers",
-                                       hoverinfo = "text",
-                                       text = ~paste('</br> Date: ', date,
-                                                     '</br> Facility: ', Facility,
-                                                     '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
-                                       data = average_both,
-                                       symbol = ~Facility,
-                                       marker = list(color = '#E7298A', size = 8, opacity = 0.65),
-                                       showlegend = FALSE) %>%
-            layout(yaxis = list(title = "SARS CoV-2 Copies/L", 
-                                 showline = TRUE,
-                                 type = "log",
-                                 dtick = 1,
-                                 automargin = TRUE)) %>%
-            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
-        
-        #adds the limit of detection dashed line
-        p77 <- p77 %>% plotly::add_segments(x = as.Date("2020-03-14"), 
-                                          xend = ~max(date + 10), 
-                                          y = 3571.429, yend = 3571.429,
-                                          opacity = 0.35,
-                                          line = list(color = "black", dash = "dash")) %>%
-          layout(annotations = list(x = as.Date("2020-03-28"), y = 3.8, xref = "x", yref = "y", 
-                                    text = "Limit of Detection", showarrow = FALSE))
-
-        
-
-
-        p77
-```
 
 
 Build the main plot
@@ -204,30 +164,7 @@ p_combined <-
 p_combined
 ```
 
-```{r}
-p_combined_ave <-
-    plotly::subplot(p77,p1, # plots to combine, top to bottom
-      nrows = 2,
-      heights = c(.6,.4),  # relative heights of the two plots
-      shareX = TRUE,  # plots will share an X axis
-      titleY = TRUE
-    ) %>%
-    # create a vertical "spike line" to compare data across 2 plots
-    plotly::layout(
-      xaxis = list(
-        spikethickness = 1,
-        spikedash = "dot",
-        spikecolor = "black",
-        spikemode = "across+marker",
-        spikesnap = "cursor"
-      ),
-      yaxis = list(spikethickness = 0)
-    )
-p_combined_ave
-```
-```{r}
-save(p_combined_ave, file = "./plotly_fig_ave.rda")
-```
+
 
 Save the plot to pull into the index
 ```{r}
