@@ -62,10 +62,12 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 ##### Nov 16 & 18
 
 <span style="text-decoration:underline">November 16</span>  
-[insert text here]
+For the Monday sample this week (collected between 6:30 am Sunday 11/15 and 6:30 am Monday 11/16). We observed increased concentrations of SARS&#8209;CoV&#8209;2 at all plants based on the N1 gene; concentrations (copies per L) increased by >80% since the November 11 sample. However, the N2 gene target was below the limit of detection for all plants. We observed a similar divergence on 11/04 and we are continuing to evaluate the performance of both assays. On balance, the data suggest a slight but persistent increasing trend.  
+
+The 7-day running average of daily reported cases in Athens-Clarke County is 31 as of 11/17, similar to that reported last week, after several weeks of reported cases in the low 20s.  
 
 <span style="text-decoration:underline">November 18</span>  
-Data coming soon.
+_Data coming soon._
 
 ##### Nov 9 & 11
 
