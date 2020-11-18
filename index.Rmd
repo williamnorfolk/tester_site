@@ -59,6 +59,10 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Nov 16 & 18
+
+[placeholder]
+
 ##### Nov 9 & 11
 
 This week, 24-hour composite samples were collected on Monday 11/9 and Wednesday 11/11. Total daily load estimates for the week show stable to increasing levels. WRF A loads increased modestly on 11/9 with little change by 11/11. At WRF B, estimated loads declined to the limit of detection on 11/9 but increased to >500,000 copies per liter for both gene targets by 11/11. WRF C loads increased through both sampling dates. Of note, both gene targets were detected this week, with notable increases in the N2 gene (which was largely below the limit of detection last week).  
