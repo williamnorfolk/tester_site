@@ -59,6 +59,37 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Testing 
+
+<style>
+div.red { background-color:#FF6347; border-radius: 5px; padding: 15px;}
+</style>
+<div class = "red">
+This week's viral load score is **red**.   
+
+Viral concentrations have been **increasing** this week.
+</div>
+
+<style>
+div.yellow { background-color:#FFFF66; border-radius: 5px; padding: 15px;}
+</style>
+<div class = "yellow">
+This week's viral load score is **yellow**.   
+
+Viral concentrations have been **steady** this week.
+</div>
+
+<style>
+div.green { background-color:#90EE90; border-radius: 5px; padding: 15px;}
+</style>
+<div class = "green">
+This week's viral load score is **green**.  
+
+Viral concentrations have been **decreasing** this week.
+</div>
+
+[normal text below]
+
 ##### Nov 23 & 25
 
 <span style="text-decoration:underline">November 23</span>   
