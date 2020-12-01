@@ -24,28 +24,35 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 
 ### Weekly SARS CoV-2 Wastewater Score
 
-[QUICK DESCRIPTION]
+#### This week's viral load score is <span style="color:#FF6347">**red**</span>.   
 
-<style>
-div.red { background-color:#FF6347; border-radius: 5px; padding: 15px;}
-</style>
-<div class = "red">
-This week's viral load score is **red**.   
-
-Viral concentrations have **increased** compared to the week prior.
-</div>
+#### Viral concentrations have been <span style="text-decoration:underline">increasing</span> this week.
 
 <div style="margin-bottom:25px;">
 </div>
 
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+```{r fig.hold='hold', out.height = "80%", out.width = "80%", fig.align='center', echo=FALSE}
 knitr::include_graphics("./gauge.png")
 ```
 
 <div style="margin-bottom:25px;">
 </div>
 
-```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./risk_scale.png")
+```
+
+<div style="margin-bottom:25px;">
+</div>
+
+**Wastewater Scores**  
+Wastewater scores are determined as the percentile rank of the average concentration of SARS&#8209;CoV&#8209;2 in all wastewater samples for a given week. A <span style="color:#90EE90">**green**</span> score indicates a viral concentration in the lower 25% of all samples taken. A <span style="color:#FFFF66">**yellow**</span> score indicates a viral concentration in the middle 50% of all samples taken. A <span style="color:#FF6347">**red**</span> score indicates a viral concentration in the upper 25% of all samples taken. 
+<div style="margin-bottom:25px;">
+</div>
+
+#### All Scores to Date
+
+```{r out.height = "75%", out.width = "75%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_rast.rda")
 plotly_rast
 ```
