@@ -22,6 +22,31 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 
 ## {.tabset}
 
+### Weekly SARS CoV-2 Wastewater Score
+
+[QUICK DESCRIPTION]
+
+<style>
+div.red { background-color:#FF6347; border-radius: 5px; padding: 15px;}
+</style>
+<div class = "red">
+This week's viral load score is **red**.   
+
+Viral concentrations have **increased** compared to the week prior.
+</div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./risk_scale.png")
+```
+
+<div style="margin-bottom:25px;">
+</div>
+
+[HEAT MAP HERE]
+
 ### Data Trends
 
 The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the combined sewershed of Athens Clarke County (the service area for all three plants) (top chart) over time. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line) (bottom chart). We are using these data to estimate how changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater may reflect the community trends of circulating COVID&#8209;19 infections.  
