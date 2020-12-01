@@ -22,41 +22,6 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 
 ## {.tabset}
 
-### Weekly SARS CoV-2 Wastewater Score
-
-#### This week's viral load score is <span style="color:#FF6347">**red**</span>.   
-
-#### Viral concentrations have been <span style="text-decoration:underline">increasing</span> this week.
-
-<div style="margin-bottom:25px;">
-</div>
-
-```{r fig.hold='hold', out.height = "80%", out.width = "80%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./gauge.png")
-```
-
-<div style="margin-bottom:25px;">
-</div>
-
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./risk_scale.png")
-```
-
-<div style="margin-bottom:25px;">
-</div>
-
-**Wastewater Scores**  
-Wastewater scores are determined as the percentile rank of the average concentration of SARS&#8209;CoV&#8209;2 in all wastewater samples for a given week. A <span style="color:#90EE90">**green**</span> score indicates a viral concentration in the lower 25% of all samples taken. A <span style="color:#FFFF66">**yellow**</span> score indicates a viral concentration in the middle 50% of all samples taken. A <span style="color:#FF6347">**red**</span> score indicates a viral concentration in the upper 25% of all samples taken. 
-<div style="margin-bottom:25px;">
-</div>
-
-#### All Scores to Date
-
-```{r out.height = "75%", out.width = "75%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_rast.rda")
-plotly_rast
-```
-
 ### Data Trends
 
 The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the combined sewershed of Athens Clarke County (the service area for all three plants) (top chart) over time. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line) (bottom chart). We are using these data to estimate how changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater may reflect the community trends of circulating COVID&#8209;19 infections.  
@@ -295,12 +260,9 @@ knitr::include_graphics("./map_image.png")
 #### WRF A
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_a.rda")
-load(file = "./plotly_objs/date_vec_n1a.rda")
-load(file = "./plotly_objs/date_vec_n2a.rda")
-load(file = "./plotly_objs/n1_ymina.rda")
-load(file = "./plotly_objs/n1_ymaxa.rda")
-load(file = "./plotly_objs/n2_ymina.rda")
-load(file = "./plotly_objs/n2_ymaxa.rda")
+#load(file = "./plotly_objs/date_vec_botha.rda")
+#load(file = "./plotly_objs/both_ymina.rda")
+#load(file = "./plotly_objs/both_ymaxa.rda")
 
 p_wrf_a
 ```
@@ -312,13 +274,9 @@ knitr::include_graphics("./indiv_legend.png")
 #### WRF B
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_b.rda")
-load(file = "./plotly_objs/date_vec_n1b.rda")
-load(file = "./plotly_objs/date_vec_n2b.rda")
-
-load(file = "./plotly_objs/n1_yminb.rda")
-load(file = "./plotly_objs/n1_ymaxb.rda")
-load(file = "./plotly_objs/n2_yminb.rda")
-load(file = "./plotly_objs/n2_ymaxb.rda")
+#load(file = "./plotly_objs/date_vec_bothb.rda")
+#load(file = "./plotly_objs/both_yminb.rda")
+#load(file = "./plotly_objs/both_ymaxb.rda")
 p_wrf_b
 ```
 
@@ -329,13 +287,10 @@ knitr::include_graphics("./indiv_legend.png")
 #### WRF C
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_c.rda")
-load(file = "./plotly_objs/date_vec_n1c.rda")
-load(file = "./plotly_objs/date_vec_n2c.rda")
+#load(file = "./plotly_objs/date_vec_bothc.rda")
+#load(file = "./plotly_objs/both_yminc.rda")
+#load(file = "./plotly_objs/both_ymaxc.rda")
 
-load(file = "./plotly_objs/n1_yminc.rda")
-load(file = "./plotly_objs/n1_ymaxc.rda")
-load(file = "./plotly_objs/n2_yminc.rda")
-load(file = "./plotly_objs/n2_ymaxc.rda")
 p_wrf_c
 ```
 

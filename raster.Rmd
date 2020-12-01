@@ -58,46 +58,35 @@ rejoin <- full_join(smooth_n1, smooth_n2) %>%
 ```
 
 ```{r}
-#make a box plot to find quartile scores
-both_targets <- rejoin %>% ggplot() +
-  geom_boxplot(aes(y = log_sum_copies_L))
-
-ggplot_build(both_targets)$data
-ggplotly(both_targets)
-
-#Q1 = <12.93 GREEN
-#Q2 & Q3 = 12.93 through 13.69 YELLOW
-#Q4 = >13.68 RED
-```
-mutate(name = fct_relevel(name, 
-            "north", "north-east", "east", 
-            "south-east", "south", "south-west", 
-            "west", "north-west")) %>%
-
-```{r}
-raw <- raw %>% mutate(Month = fct_relevel(Month, 
-            "June", "July", "August", "September", "October", "November"))
-
-rast <- raw %>% ggplot() +
-  geom_raster(aes(x = Week, y = Month, fill = Score, text = Date)) +
-  scale_fill_gradientn(colors = c("#90EE90", "#FFFF66", "#FF6347")) +
-  theme_classic()
-
-rast <- rast + theme(legend.position = "none")
-rast
-
-plotly_rast <- ggplotly(rast)
-plotly_rast
+rejoin <- rejoin %>% 
+  mutate(new = 1) %>%
+  mutate(new2 = 2) %>%
+  rename(log_sum_copies_both = log_sum_copies_L)
 ```
 
 ```{r}
-save(plotly_rast, file = "./plotly_rast.rda")
+saveRDS(rejoin, "./rejoin.rds")
 ```
 
 
+```{r}
+lines <- rejoin %>% ggplot() +
+  geom_linerange(aes(x = log_sum_copies_both, ymin = new, ymax = new2)) + 
+  scale_y_continuous(breaks = seq(0.5, 2.5, 1), limits = c(0.5, 2.5)) +
+  annotate("pointrange", x = 13.69124, y = 1.5, ymin = 0.75, ymax = 2.25, color = "red", size =1) +
+  theme_classic() +
+  xlab("Log Viral Load")
 
+lines <- lines +   
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.line.y = element_blank()) +
+  annotate("text", x = 13.69, y = 2.4, label = "THis Week's Viral Load\n 13.69124 Log Copies") +
+  annotate("text", x = 11.25, y = 0.65, label = "Lowest Observed\nViral Load") +
+  annotate("text", x = 14.3, y = 0.65, label = "Highest Observed\nViral Load")
 
-
-
+lines
+```
 
 
