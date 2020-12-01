@@ -32,7 +32,7 @@ smooth_extract
 ```
 
 
-```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
 knitr::include_graphics("./trend_legend.png")
 ```
 
@@ -71,40 +71,6 @@ _The Wednesday data update will be delayed until Monday November 30.  We apologi
 
 <div style="margin-bottom:25px;">
 </div>
-
-##### Testing 
-
-<style>
-div.red { background-color:#FF6347; border-radius: 5px; padding: 15px;}
-</style>
-<div class = "red">
-This week's viral load score is **red**.   
-
-Viral concentrations have been **increasing** this week.
-</div>
-
-<style>
-div.yellow { background-color:#FFFF66; border-radius: 5px; padding: 15px;}
-</style>
-<div class = "yellow">
-This week's viral load score is **yellow**.   
-
-Viral concentrations have been **steady** this week.
-</div>
-
-<style>
-div.green { background-color:#90EE90; border-radius: 5px; padding: 15px;}
-</style>
-<div class = "green">
-This week's viral load score is **green**.  
-
-Viral concentrations have been **decreasing** this week.
-</div>
-
-By quartile-total log SARS CoV-2 Copies  
-green (lower 25%) = less than 10.81 for N1 and 10.68 for N2  
-yellow (mid 50%) = 10.81 to 13.15 for N1 and 10.68 to 13.22 for N2  
-red (upper 25%) = greeater than 13.15 for N1 and 13.22 for N2  
 
 ##### Nov 16 & 18
 
@@ -268,7 +234,7 @@ p_wrf_a
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./indiv_legend.png")
+knitr::include_graphics("./wrfa_legend.png")
 ```
 
 #### WRF B
@@ -281,7 +247,7 @@ p_wrf_b
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./indiv_legend.png")
+knitr::include_graphics("./wrfb_legend.png")
 ```
 
 #### WRF C
@@ -295,7 +261,7 @@ p_wrf_c
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./indiv_legend.png")
+knitr::include_graphics("./wrfc_legend.png")
 ```
 
 #### Video
