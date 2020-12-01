@@ -157,24 +157,26 @@ wrf_c_only_n2 <- subset(only_n2, Facility == "WRF C")
 #rejoin the old data frames then seperate in to averages for each plant. 
 wrfa_both <- full_join(wrf_a_only_n1, wrf_a_only_n2)%>%
   select(c(date, mean_total_copies)) %>%
-  mutate(log_total_copies_both = log10(mean_total_copies))%>%
   group_by(date) %>%
   summarize_if(is.numeric, mean) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(log_total_copies_both = log10(mean_total_copies))
   
 wrfb_both <- full_join(wrf_b_only_n1, wrf_b_only_n2)%>%
   select(c(date, mean_total_copies)) %>%
-  mutate(log_total_copies_both = log10(mean_total_copies))%>%
   group_by(date) %>%
   summarize_if(is.numeric, mean) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(log_total_copies_both = log10(mean_total_copies))
+
 
 wrfc_both <- full_join(wrf_c_only_n1, wrf_c_only_n2)%>%
   select(c(date, mean_total_copies)) %>%
-  mutate(log_total_copies_both = log10(mean_total_copies))%>%
   group_by(date) %>%
   summarize_if(is.numeric, mean) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(log_total_copies_both = log10(mean_total_copies))
+
 
 ```
 
