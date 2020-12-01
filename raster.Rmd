@@ -1,0 +1,103 @@
+---
+title: "raster"
+author: "William Norfolk"
+date: "11/30/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(plotly)
+```
+
+```{r}
+base_data <- readRDS("./n1_n2_cleaned_cases.rds")
+raw <- read_excel("./raster_temp.xlsx")
+```
+
+```{r}
+final_data <- base_data %>% mutate(log_copy_per_L = log10(mean_copy_num_L)) %>%
+  rename(Facility = wrf) %>%
+  mutate(Facility = recode(Facility, 
+                           "NO" = "WRF A",
+                           "MI" = "WRF B",
+                           "CC" = "WRF C"))
+
+only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
+only_n1 <- subset(only_positives, target == "N1")
+only_n2 <- subset(only_positives, target == "N2")
+
+
+only_n1 <- only_n1[!(only_n1$Facility == "WRF A" & only_n1$date == "2020-11-02"), ]
+only_n2 <- only_n2[!(only_n2$Facility == "WRF A" & only_n2$date == "2020-11-02"), ]
+
+#n1
+smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
+  mutate(target = "N1")
+
+#n2
+smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
+  mutate(target = "N2")
+
+#Copy code to recreate smoothing plots then rejoin and average to match methods on website
+rejoin <- full_join(smooth_n1, smooth_n2) %>%
+  select(c(date, sum_copy_num_L, log_sum_copies_L)) %>%
+  group_by(date) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup()
+
+```
+
+```{r}
+#make a box plot to find quartile scores
+both_targets <- rejoin %>% ggplot() +
+  geom_boxplot(aes(y = log_sum_copies_L))
+
+ggplot_build(both_targets)$data
+ggplotly(both_targets)
+
+#Q1 = <12.93 GREEN
+#Q2 & Q3 = 12.93 through 13.69 YELLOW
+#Q4 = >13.68 RED
+```
+mutate(name = fct_relevel(name, 
+            "north", "north-east", "east", 
+            "south-east", "south", "south-west", 
+            "west", "north-west")) %>%
+
+```{r}
+raw <- raw %>% mutate(Month = fct_relevel(Month, 
+            "June", "July", "August", "September", "October", "November"))
+
+rast <- raw %>% ggplot() +
+  geom_raster(aes(x = Week, y = Month, fill = Score, text = Date)) +
+  scale_fill_gradientn(colors = c("#90EE90", "#FFFF66", "#FF6347")) +
+  theme_classic()
+
+rast <- rast + theme(legend.position = "none")
+rast
+
+plotly_rast <- ggplotly(rast)
+plotly_rast
+```
+
+```{r}
+save(plotly_rast, file = "./plotly_rast.rda")
+```
+
+
+
+
+
+
+
+

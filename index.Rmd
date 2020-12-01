@@ -39,13 +39,16 @@ Viral concentrations have **increased** compared to the week prior.
 </div>
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./risk_scale.png")
+knitr::include_graphics("./gauge.png")
 ```
 
 <div style="margin-bottom:25px;">
 </div>
 
-[HEAT MAP HERE]
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./plotly_rast.rda")
+plotly_rast
+```
 
 ### Data Trends
 
