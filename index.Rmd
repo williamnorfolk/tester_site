@@ -61,9 +61,10 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Nov 30 & Dec 2
 
-<span style="text-decoration:underline">November 30</span>   
-[placeholder]
+<span style="text-decoration:underline">November 30</span>    
+Total viral load for Sunday 11/29 through Monday 11/30 was similar to that noted last week, but continues the general upward trend for the past three weeks. Of note, this sample collection period included periods of heavy rain on Sunday, which resulted in infiltration of rainwater into sewer lines. This leads to higher than normal volumes entering the treatment plants and diluting of the sewage. Not surprisingly, we noted a decline in the concentration (number of viral copies per liter) because of this dilution (see ‘All Data’), but our estimation of total viral load (total viral copies present) accounts for this effect by correcting for the higher volume. Therefore, total viral load remains high despite the lower concentration.  
 
+As of Monday 11/30, the 7-day average of new cases in Athens Clarke County remained at 30. However, on Wednesday 12/2 the county reported 78 new cases, which is the largest single day report since 9/16 (80 cases).    
 
 <span style="text-decoration:underline">December 2</span>   
 _Data coming soon._
