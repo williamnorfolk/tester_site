@@ -61,6 +61,8 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Nov 30 & Dec 2
 
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Wastewater viral concentrations continued to increase this week with substantial increases observed in WRF B and WRF C.**        
+
 <span style="text-decoration:underline">Site update announcement</span>   
 Starting this week (Nov 30 & Dec 2 sampling) we will be reporting our SARS&#8209;CoV&#8209;2 wastewater viral load data as a single metric to improve comprehension. Viral load data will be reported as the average of the N1 and N2 gene targets detected using our assay. Concentration values for both targets will still be reported independently in the "All Data" tab. We feel that this is an easier to understand presentation of the data and is supported after considering 30 weeks of data collection.  
 
