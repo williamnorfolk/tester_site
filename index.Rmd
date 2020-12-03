@@ -161,8 +161,9 @@ It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have dec
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 29
+##### September 2020
 
+<span style="text-decoration:underline">Sept 29</span>    
 Overall SARS&#8209;CoV&#8209;2 concentrations continued to decline in sewage reaching Athens's WRFs, in line with decreasing reported cases in Athens-Clarke County. The decline was especially evident at WRF A, where levels were at or below the limit of detection for our methods. However, concentrations at WRF B were virtually unchanged from last week.  
 
 With our current process, we cannot accurately detect virus concentrations below about 3,000 copies per L. Therefore, we cannot assume that a sample that is 'below the limit of detection' is negative for SARS&#8209;CoV&#8209;2, rather it may be at some level that we cannot accurately determine with our current method. Our lab is evaluating different detection options that may improve detection during times with lower levels of circulating virus.   
@@ -170,22 +171,19 @@ With our current process, we cannot accurately detect virus concentrations below
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 22
-
+<span style="text-decoration:underline">Sept 22</span>    
 Concentrations of SARS&#8209;CoV&#8209;2 declined this week in wastewater collected from both WRFs. Average levels remain above 100,000 copies/L. This decline is consistent with declines in reported cases in Athens-Clarke County.
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 15
-
+<span style="text-decoration:underline">Sept 15</span>    
 This week, the level SARS&#8209;CoV&#8209;2 continued to exceed 1 million copies of virus per liter of sewage. While the 7-day running average of new cases has declined in Athens-Clarke County, there were no significant changes in the level of SARS&#8209;CoV&#8209;2 virus in wastewater, compared to those observed on September 9, 2020.
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 8
-
+<span style="text-decoration:underline">Sept 8</span>    
 This week, levels of SARS&#8209;CoV&#8209;2 for both targets at both plants continued to exceed 1 million copies of virus per liter of sewage. Average values were similar to concentrations from the prior week (September 1, 2020) with virtually no change in the average levels at WRF B and a 6% reduction at WRF A.  
 
 An important note about sample collection this week was that it occurred over the Labor Day holiday and may explain the slight reduction in viral concentration at the WRF A plant. Samples were collected between ~6:30 am Monday through 6:30 am Tuesday. The volume of wastewater flowing into WRF A decreased from 5.73 million gallons on September 1, 2020 to 4.96 million gallons on September 8, 2020. The collection area for WRF A includes the UGA main campus and Downtown Athens. We suspect that this week's data point reflects the real-time effect of population movement on viral levels in wastewater. In other words, a closed campus and likely large number of people traveling reduces the input. Samples collected on a particular day reflect the inputs of that day and not necessarily the entire week.  
@@ -197,8 +195,7 @@ Daily reported cases in Athens-Clarke County continue to rise, now reaching a 7-
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 1
-
+<span style="text-decoration:underline">Sept 1</span>    
 This week continues the trend of the past month with SARS&#8209;CoV&#8209;2 concentrations increasing in wastewater. Levels increased to their highest point since the beginning of data collection with average concentrations for both plants and both targets exceeding 3 million copies of virus per liter of sewage, approximately 10-fold higher than the prior week. Daily reported cases in Clarke County also continued to rise reaching a 7-day moving average of >74 cases per day.
 
 <div style="margin-bottom:25px;">
