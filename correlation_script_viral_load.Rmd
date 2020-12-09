@@ -57,32 +57,40 @@ only_n2 <- subset(sum_data, target == "N2")
 
 ```
 
+```{r}
+final_data <- subset(final_data, date > as.Date("2020-06-22") & date < as.Date("2020-11-04"))
+only_n1 <- subset(only_n1, date > as.Date("2020-06-23") & date < as.Date("2020-11-02"))
+only_n2 <- subset(only_n2, date > as.Date("2020-06-23") & date < as.Date("2020-11-02"))
+
+```
+
+
 
 ```{r}
 #make base dataframe of just running data to calculate 7-day cumulative values
 remove_hits <- final_data %>% select(c(date, new_cases_clarke)) %>%
-  group_by(date) %>%
-  summarise_if(is.numeric, mean) %>%
-  add_row(date = as.Date("2020-09-03"), new_cases_clarke = 173) %>% #add in missing days
-  add_row(date = as.Date("2020-09-04"), new_cases_clarke = 88) %>%
-  add_row(date = as.Date("2020-09-05"), new_cases_clarke = 277) %>%
-  add_row(date = as.Date("2020-09-06"), new_cases_clarke = 63) %>%
-  add_row(date = as.Date("2020-09-07"), new_cases_clarke = 38) %>%
-  add_row(date = as.Date("2020-09-08"), new_cases_clarke = 206)
+ group_by(date) %>%
+  summarise_if(is.numeric, mean)# %>%
+ # add_row(date = as.Date("2020-09-03"), new_cases_clarke = 173) %>% #add in missing days
+  #add_row(date = as.Date("2020-09-04"), new_cases_clarke = 88) %>%
+  #add_row(date = as.Date("2020-09-05"), new_cases_clarke = 277) %>%
+  #add_row(date = as.Date("2020-09-06"), new_cases_clarke = 63) %>%
+  #add_row(date = as.Date("2020-09-07"), new_cases_clarke = 38) %>%
+  #add_row(date = as.Date("2020-09-08"), new_cases_clarke = 206)
 
 #create a vector of the 7-day cumulative totals where sampling is the end of the 7 days
-remove_hits_front <- subset(remove_hits, date >= as.Date("2020-06-10"))
+remove_hits_front <- subset(remove_hits, date >= as.Date("2020-06-23"))
 seven_day_cumulative_front <- rollapply(remove_hits_front$new_cases_clarke, 7, FUN = sum, by =7)
 #remove the extra row for this frame
-seven_day_cumulative_front <- seven_day_cumulative_front[!seven_day_cumulative_front %in% 924 ]
+seven_day_cumulative_front <- seven_day_cumulative_front[!seven_day_cumulative_front %in% 169 ]
 seven_day_cumulative_front
 
 #create a vector of the 7-day cumulative totals where sampling is the middle of the 7 days
-remove_hits_mid <- subset(remove_hits, date >= as.Date("2020-06-13"))
+remove_hits_mid <- subset(remove_hits, date >= as.Date("2020-06-27"))
 seven_day_cumulative_mid <- rollapply(remove_hits_mid$new_cases_clarke, 7, FUN = sum, by = 7)
 seven_day_cumulative_mid
 #create a vector of the 7-day cumulative totals where sampling is the beginning of the 7 days
-remove_hits_back <- subset(remove_hits, date >= as.Date("2020-06-16"))
+remove_hits_back <- subset(remove_hits, date >= as.Date("2020-06-30"))
 seven_day_cumulative_back <- rollapply(remove_hits_back$new_cases_clarke, 7, FUN = sum, by = 7)
 seven_day_cumulative_back
 ```
@@ -99,6 +107,15 @@ plot_data_n2 <- only_n2 %>% select(c(date, log_mean_total_copies))
 plot_data_n2$seven_day_front <- seven_day_cumulative_front
 plot_data_n2$seven_day_mid <- seven_day_cumulative_mid
 plot_data_n2$seven_day_back <- seven_day_cumulative_back
+```
+
+```{r}
+saveRDS(plot_data_n1, "./plot_data_n1.rds")
+saveRDS(plot_data_n2, "./plot_data_n2.rds")
+
+write.csv(plot_data_n1, "plot_data_n1.csv")
+write.csv(plot_data_n2, "plot_data_n2.csv")
+
 ```
 
 
