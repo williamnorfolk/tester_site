@@ -1,0 +1,28 @@
+---
+title: "cross corr"
+author: "William Norfolk"
+date: "12/10/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(tseries)
+```
+
+```{r}
+raw_dat <- readRDS("./n1_n2_cleaned_cases.rds")
+
+test <- raw_dat %>% select(c(new_cases_clarke, mean_total_copies, date, target, Facility))
+```
+
+```{r}
+ccf(test$new_cases_clarke, test$mean_total_copies, na.pass = TRUE)
+```
+
+
+
+
+
+
