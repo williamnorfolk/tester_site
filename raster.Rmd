@@ -104,3 +104,7 @@ perc.rank <- function(x, xo)  length(x[x <= xo])/length(x)*100
 perc.rank(rejoin$log_sum_copies_both, 13.98003)
 ```
 
+```{r}
+write.csv(base_data, "./n1_and_n2_cleaned_cases.csv")
+```
+
