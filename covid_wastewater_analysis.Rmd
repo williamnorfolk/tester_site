@@ -294,16 +294,7 @@ plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
                                           text = "Classes Begin",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
-      plotly::add_segments(x = as.Date("2020-10-03"), 
-                                          xend = as.Date("2020-10-03"), 
-                                          y = ~min(both_ymin), yend = ~max(both_ymax),
-                                          opacity = 0.35,
-                                          name = "</br> First Home Football Game",
-                                                 "</br> 2020-10-03",
-                                          hoverinfo = "text",
-                                          text = "First Home Football Game",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
+
   plotly::add_markers(x = ~date, y = ~log_sum_copies_both,
                       data = rejoin,
                        hoverinfo = "text",
