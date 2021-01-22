@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 19 & 20
+<span style="text-decoration:underline">**Key Weekly Update:**</span> [placeholder]
+
+<span style="text-decoration:underline">January 19</span>  
+[placeholder]
+
+<span style="text-decoration:underline">January 20</span>   
+[placeholder]
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 11 & 13
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week was among the highest in our sample collection (exceeding the viral load for >94% of samples to date). This was driven by very high counts in Monday’s (1/11) sample. The 7-day average of newly reported cases ended the week (1/15) at 105. Viral load and transmission remain high in Athens-Clarke County.**
