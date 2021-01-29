@@ -60,7 +60,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Jan 25 & 27
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week decreased from the previous week but was still among the 70.73 percentile of all samples collected to date. Estimates for viral load may be underestimated, due to a significant amount of rainfall during this collection period. The 7-day average of newly reported cases ended the week (1/29) at 82. Viral load and transmission remain high in Athens-Clarke County.**      
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week decreased from the previous week but was still higher than 70% all samples collected to date. Note that estimates for viral load may be underestimated, due to a significant amount of rainfall during this collection period (1/27). The 7-day average of newly reported cases ended the week (1/29) at 82. Viral load and transmission remain high in Athens-Clarke County.**      
 
 <span style="text-decoration:underline">January 25</span>    
 The total viral load for Sunday 1/24 through Monday 1/25 decreased compared to the previous weeks’ observations. SARS&#8209;CoV&#8209;2 was detected from all wastewater samples (positivity rate of 100%).   
