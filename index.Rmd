@@ -52,7 +52,7 @@ The viral load estimated is based on the average concentration of the SARS&#8209
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 </style>
 <div class = "blue">
-<span style="text-decoration:underline">Updated every Thursday</span>    
+<span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
 
