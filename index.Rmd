@@ -61,14 +61,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Mar 8 & 10
 
-<span style="text-decoration:underline">**Key Weekly Update:**</span> [placeholder]   
-
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 in wastewater continues to remain stable. Average total loads for each week have been oscillating around 10^13 total copies, since the week beginning 2/14.**   
 
 <span style="text-decoration:underline">March 8</span>  
-[placeholder]   
+The viral load estimated for WRF A and WRF C on Monday 3/8 was comparable to the estimates from the previous collection, on Wednesday 3/3. The total viral load at WRF B dropped 10-fold between the two collection periods. The total viral load for the county was comparable to the load observed in the previous weeks, dating back to 2/14.   
+
+The 7-day running average of newly-reported cases was 24.     
 
 <span style="text-decoration:underline">March 10</span>  
-[placeholder]   
+Viral estimates for Wednesday 3/10 were highly variable between plants. Compared to Monday’s samples, the viral load increased considerably at WRF B. However, the viral load decreased at WRF A, and remained stable at WRF C. The variability between plants and sample dates is common, as the levels of virus drop close to or below the limit of detection for our method.   
+
+The 7-day running average of newly-reported cases was 15.    
 
 <div style="margin-bottom:25px;">
 </div>
