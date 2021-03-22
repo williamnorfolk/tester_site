@@ -284,7 +284,16 @@ plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
                                                  "</br> 2020-07-09",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-08-20"), 
+    plotly::add_segments(x = ~min(date_vec_both), 
+                                          xend = ~max(date_vec_both), 
+                                          y = 11.5, yend = 11.5,
+                                          opacity = 0.35,
+                                          name = "</br> Below Limit of Detection",
+                                          hoverinfo = "text",
+                                          text = "Below Limit of Detection",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash")) %>%
+      plotly::add_segments(x = as.Date("2020-08-20"), 
                                           xend = as.Date("2020-08-20"), 
                                           y = ~min(both_ymin), yend = ~max(both_ymax),
                                           opacity = 0.35,
@@ -294,6 +303,9 @@ plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
                                           text = "Classes Begin",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
+      plotly::add_annotations(x = as.Date("2021-02-15"),
+                          y = 11.5,
+                          text = "Limit of Detection") %>%
 
   plotly::add_markers(x = ~date, y = ~log_sum_copies_both,
                       data = rejoin,
