@@ -62,7 +62,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 ##### Mar 15 & 17
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the first time in our reporting, SARS&#8209;CoV&#8209;2 levels dropped below our current detection limit at all three plants, for both gene targets, on both 3/15 and 3/17.**    
 
-<span style="text-decoration:underline">What this means 4</span>  
+<span style="text-decoration:underline">What this means</span>  
 SARS&#8209;CoV&#8209;2 shedding has declined substantially across Athens Clarke County, but we cannot assume that the virus is completely absent from wastewater. Our current method of analysis has a high limit of detection, which means that SARS&#8209;CoV&#8209;2 is very likely still present in wastewater (and in the community) but is at a concentration that our current method cannot detect. However, the drop is in line with falling case reports, which reached a 7-day running average of only 8 new cases per day by the end of the week (a level we have not observed since June 2020, before the summer peak).  
 
 We are working on methods to increase our limit of detection as we enter a phase in the pandemic where hopefully cases continue to decline and vaccine coverage increases.  
