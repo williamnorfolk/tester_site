@@ -1,5 +1,5 @@
 ---
-title: "Tester"
+title: "ridges"
 author: "Lipp Laboratory, Department of Environmental Health Science, University of Georgia"
 date: "`r Sys.Date()`"
 output: 
@@ -12,6 +12,7 @@ Load all required libraries.
 library(tidyverse)
 library(plotly)
 library(broom)
+library(ggridges)
 ```
 
 Read in raw data from RDS.
@@ -165,17 +166,6 @@ p_combined
 
 
 
-Save the plot to pull into the index
-```{r}
-save(p_combined, file = "./plotly_fig.rda")
-```
-
-Save an htmlwidget for website embedding
-```{r}
-#htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
-```
-
-
 ```{r}
 rejoin <- readRDS("./rejoin.rds")
 ```
@@ -211,7 +201,7 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract <- ggplot(rejoin, aes(x = date, y = log_sum_copies_both)) + 
   stat_smooth(aes(outfit=fit_both<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 275)
+              span = 0.6, n = 268)
 
 #look at the fits to align dates and total observations
 #both
@@ -314,7 +304,44 @@ smooth_extract <-
 smooth_extract
 ```
 
+
+
 ```{r}
-save(smooth_extract, file = "./smooth_extract.rda")
+combined_targets <- full_join(only_n1, only_n2)
+  
+combined_targets_ave <- combined_targets %>% select(-c(Facility, cases_cum_clarke, new_cases_clarke, cases_per_100000_clarke, collection_num, mean_copy_num_uL_rxn, sd_L, sd_total_copies)) %>%
+  group_by(date, X7_day_ave_clarke, target) %>%
+  summarize_if(is.numeric, sum) %>%
+  ungroup()
+```
+
+```{r}
+ridge_plot <- combined_targets_ave %>% ggplot() +
+  geom_density_ridges(aes(x = mean_total_copies, y = as.factor(X7_day_ave_clarke), fill = as.factor(X7_day_ave_clarke)),scale = 3)
+
+ridge_plot + theme(legend.position = "none")
+```
+
+```{r}
+combined_targets <- combined_targets %>% mutate(log_mean_total_copies = log10(mean_total_copies))
+
+gg <- combined_targets %>% ggplot() +
+  geom_density_ridges(aes(x = log_mean_total_copies, y = Facility, fill = Facility),scale = 3)
+
+gg + theme(legend.position = "none")
+```
+
+
+```{r}
+only_7_day <- combined_targets_ave %>% select(c(date, X7_day_ave_clarke))
+
+add_ave <- full_join(rejoin, only_7_day)
+```
+
+```{r}
+good_ridge_plot <- add_ave %>% ggplot() +
+  geom_density_ridges(aes(x = sum_copies_both, y = as.factor(X7_day_ave_clarke), fill = as.factor(X7_day_ave_clarke)),scale = 3)
+
+good_ridge_plot + theme(legend.position = "none")
 ```
 
