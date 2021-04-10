@@ -60,19 +60,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Apr 5 & 7
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral RNA levels for the week were comparable to those reported last week. While the total viral load remains relatively low (in the lower third of all concentrations reported) for Athens-Clarke County, a general upward trend has been observed over a period of three weeks. This is concerning, as the test positivity has increased to 4.9% (compared to 4% positivity on 4/2). The 7-day running average on 4/9 was reported at 12 cases per day. These trends suggest that there is a continued need for preventative measures as vaccine distribution increases within the county.**   
 
 <span style="text-decoration:underline">April 5</span>  
-[placeholder]   
+Levels of SARS&#8209;CoV&#8209;2 viral RNA were detectable at all three WRFs. The viral load at WRF A increased slightly compared to the previous observation on 3/31. The viral loads at WRF B and WRF were comparable to those observed in the previous week. The running average number of new cases on 4/5 was 9.
 
 <span style="text-decoration:underline">April 7</span>  
-[placeholder]    
+Levels of SARS&#8209;CoV&#8209;2 viral RNA fell below the limit of detection at WRF A. Viral loads were detectable at WRF B and WRF C and were comparable to previous observations on Monday. The running average number of new cases on 4/7 increased to 11.     
 
 <div style="margin-bottom:25px;">
 </div>
 
 ##### Mar 29 & 31
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS‑CoV‑2 viral RNA levels increased for the second week in a row across the Athens-Clarke County wastewater treatment plants. Average levels increased at all three plants, with moderate increases for the week at WRFs A and B and a substantial increase at WRF C. Although total viral load in wastewater across the area remains relatively low (in the bottom third fraction compared to all samples collected to date), the shift toward increasing levels over the last two weeks (after several weeks of stable to declining levels) is concerning. As of April 2, reported cases remained low in Athens-Clarke County, at 8 new cases per day (7-day running average), but the number of tests administered has declined and the percentage of positive tests has increased slightly (from 3% positive on 3/24 to 4% positive on 4/2** <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">7-day running average</a>**)**. **This illustrates the need for continued preventative measures as vaccine distribution increases within the county.**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 viral RNA levels increased for the second week in a row across the Athens-Clarke County wastewater treatment plants. Average levels increased at all three plants, with moderate increases for the week at WRFs A and B and a substantial increase at WRF C. Although total viral load in wastewater across the area remains relatively low (in the bottom third fraction compared to all samples collected to date), the shift toward increasing levels over the last two weeks (after several weeks of stable to declining levels) is concerning. As of April 2, reported cases remained low in Athens-Clarke County, at 8 new cases per day (7-day running average), but the number of tests administered has declined and the percentage of positive tests has increased slightly (from 3% positive on 3/24 to 4% positive on 4/2** <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">7-day running average</a>**)**. **This illustrates the need for continued preventative measures as vaccine distribution increases within the county.**   
 
 <span style="text-decoration:underline">March 29</span>  
 SARS&#8209;CoV&#8209;2 RNA levels declined below the limit of detection at WRF A, but increased at both WRF B and WRF C compared to the prior sample date. The uptick at WRF C is notable because this plant had been below the limit of detection for the two prior weeks and reached a total load that we have not observed since late February.     
