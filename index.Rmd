@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Apr 19 & 21
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+
+<span style="text-decoration:underline">April 19</span>  
+[placeholder]   
+
+<span style="text-decoration:underline">April 21</span>  
+[placeholder]    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 12 & 14
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week and across all plants, viral loads were slightly higher but comparable to the prior week’s average. However, there was considerable variability between sampling days this week, with levels below the limit of detection at two plants (A and C) on Monday before reaching high levels on Wednesday (Monday’s samples were in the 3rd percentile for load while those on Wednesday reached the 77th percentile for load). The 7-day running average of new cases per day ended the week at 10 (4/16). The 7-day running average of positive PCR tests in Athens-Clarke county (reported to DPH) was 4%, a decline from the prior week.**    
 
