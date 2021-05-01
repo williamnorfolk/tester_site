@@ -129,6 +129,8 @@ Build the main plot
                                           xend = ~max(date + 10), 
                                           y = 3571.429, yend = 3571.429,
                                           opacity = 0.35,
+                                          hoverinfo = "text",
+                                          text = "Limit of Detection",
                                           line = list(color = "black", dash = "dash")) %>%
           layout(annotations = list(x = as.Date("2020-03-28"), y = 3.8, xref = "x", yref = "y", 
                                     text = "Limit of Detection", showarrow = FALSE))
