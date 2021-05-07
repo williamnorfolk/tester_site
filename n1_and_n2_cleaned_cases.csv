@@ -1,4 +1,4 @@
-"","date","cases_cum_clarke","new_cases_clarke","X7_day_ave_clarke","wrf","collection_num","target","mean_copy_num_uL_rxn","mean_copy_num_L","sd_L","mean_total_copies","sd_total_copies","day"
+"","date","new_cases_clarke","cases_cum_clarke","X7_day_ave_clarke","wrf","collection_num","target","mean_copy_num_uL_rxn","mean_copy_num_L","sd_L","mean_total_copies","sd_total_copies","day"
 "1",2020-03-14,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "2",2020-03-15,3,3,0,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "3",2020-03-16,1,4,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
