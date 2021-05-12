@@ -83,7 +83,7 @@ lines <- lines +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(),
         axis.line.y = element_blank()) +
-  annotate("text", x = 12.3, y = 0.95, label = "Lowest Observed") +
+  annotate("text", x = 11.3, y = 0.95, label = "Lowest Observed") +
   annotate("text", x = 14.2, y = 0.95, label = "Highest Observed") +
   labs(caption = "This Week's Viral Load 1.86e+12 Copies")
 
