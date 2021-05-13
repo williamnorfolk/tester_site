@@ -60,13 +60,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### May 10 & 12
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across the two samples collected, SARS&#8209;CoV&#8209;2 levels reported this week are comparable to average levels reported for the past two weeks. Stability in viral levels reflect the stability in reported cases over the past two weeks. As of 5/13/2021, reported cases in Athens-Clarke county averaged 7 new cases (7-day running average), with a 7-day positive test rate of 4% (up slightly from last week); 29% of Athens-Clarke county was considered to be fully vaccinated.**    
 
 <span style="text-decoration:underline">May 10</span>  
-[placeholder]   
+The total viral load on Monday (5/10) was slightly elevated compared to the viral load from the previous sample collected Wednesday, 5/5. SARS&#8209;CoV&#8209;2 viral RNA was detectable at WRF A and WRF B but fell below the limit of detection at WRF C.   
 
 <span style="text-decoration:underline">May 12</span>  
-[placeholder]   
+SARS&#8209;CoV&#8209;2 viral RNA was detectable at all three facilities on Wednesday 5/12. Viral concentrations at each plant increased compared to samples collected 5/10, and ranged from ~23,000 copies per liter at WRF B to ~49,000 copies per liter at WRF C.   
 
 <div style="margin-bottom:25px;">
 </div>
