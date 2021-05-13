@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 10 & 12
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+
+<span style="text-decoration:underline">May 10</span>  
+[placeholder]   
+
+<span style="text-decoration:underline">May 12</span>  
+[placeholder]   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 3 & 5
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels for the county declined for the second week in a row. For the week, the decline in daily load was noted at all three WRFs. Reported cases in Athens-Clarke county ended the week at 9 new cases per day (7-day running average) and a 7-day positive test rate of 3.4%, similar to reports for the prior week. As of 5/7/2021, 28% of Athens-Clarke county was considered to be fully vaccinated.**   
 
