@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 17 & 19
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+
+<span style="text-decoration:underline">May 17</span>
+[placeholder]   
+
+<span style="text-decoration:underline">May 19</span>  
+[placeholder]    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 10 & 12
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across the two samples collected, SARS&#8209;CoV&#8209;2 levels reported this week are comparable to average levels reported for the past two weeks. Stability in viral levels reflect the stability in reported cases over the past two weeks. As of 5/13/2021, reported cases in Athens-Clarke county averaged 7 new cases (7-day running average), with a 7-day positive test rate of 4% (up slightly from last week); 29% of Athens-Clarke county was considered to be fully vaccinated.**    
 
