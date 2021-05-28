@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 24 & 26
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+
+<span style="text-decoration:underline">May 24</span>   
+[placeholder]   
+
+<span style="text-decoration:underline">May 26</span>   
+[placeholder]    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 17 & 19
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Average weekly viral loads have remained relatively stable in Athens-Clarke County over the past four weeks. As of 5/21/2021, reported cases in Clarke County averaged 5 new cases per day, based on the 7-day running average. Although testing volume is low, the 7-day positive test rate was 2.7%; 30% of Athens-Clarke county was considered to be fully vaccinated.**   
 
