@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 1 & 2
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+
+<span style="text-decoration:underline">June 1</span>   
+[placeholder]   
+
+<span style="text-decoration:underline">June 2</span>   
+[placeholder]    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 24 & 26
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels in Athens-Clarke County wastewater remain low with average loads for the week stable or slightly declining. This is consistent with declining reported cases in the county (3 new cases per day [7-day running average] as of 5/28, with a test positivity rate of 1.8%).  31% of Athens-Clarke County was considered to be fully vaccinated as of 5/28.**    
 
