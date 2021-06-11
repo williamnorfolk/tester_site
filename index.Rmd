@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 6 & 9
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+
+<span style="text-decoration:underline">June 6</span>   
+[placeholder]  
+
+<span style="text-decoration:underline">June 9</span>   
+[placeholder]   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### June 1 & 2
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **After stable to declining SARS&#8209;CoV&#8209;2 levels in local wastewater for the past month, concentrations fell below the limit of detection at all three plants on both sample dates this week. While we cannot rule out presence of virus at levels below the detection capacity of our tests, these results do show that levels across the county are historically low. This is consistent with declining reported cases in Athens-Clarke County, which reached a 7-day average of 1.7 new cases per day as of Friday 6/4.**   
 
