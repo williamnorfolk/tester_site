@@ -60,13 +60,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### June 6 & 9
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **On average for the week, SARS&#8209;CoV&#8209;2 concentrations remained low but were detected in samples from at least one plant on both sample days. Reported cases for Athens Clarke County were similar to last week and averaged 2.4 new cases per day (7-day average) as of 6/11. 33% of residents of Clarke County are considered to be fully vaccinated.**   
 
 <span style="text-decoration:underline">June 6</span>   
-[placeholder]  
+Viral RNA was detected at WRF B (N1 gene target only) at an average concentration of ~135,000 copies per liter; no virus was detected at WRF A or C.     
 
 <span style="text-decoration:underline">June 9</span>   
-[placeholder]   
+SARS&#8209;CoV&#8209;2 levels continued below the limit of detection for WRF C, marking the second week with no detection at this plant. Levels fell below the limit of detection at WRF B. At WRF A, concentrations increased to >640,000 copies per liter (both N1 and N2 genes).   
 
 <div style="margin-bottom:25px;">
 </div>
