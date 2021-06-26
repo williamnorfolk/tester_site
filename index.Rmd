@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 21 & 23
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+
+<span style="text-decoration:underline">June 21</span>   
+[placeholder]   
+
+<span style="text-decoration:underline">June 23</span>   
+[placeholder]   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### June 14 & 16
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for both sampling days this week and all plants, SARS&#8209;CoV&#8209;2 load was similar to the prior week; however after two weeks of samples below the limit of detection, viral RNA was detected at WRF C (covering Athens east side) on both sampling days. No viral RNA was detected at WRF B and was only detected on Monday at WRF A. Reported cases in Athens declined to a 7-day running average of 1.7 new cases per day (as of 6/18). 37% of residents of Athens-Clarke County are considered to be fully vaccinated.**   
 
