@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 28 & 30
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+
+<span style="text-decoration:underline">June 28</span>  
+[placeholder]    
+
+<span style="text-decoration:underline">June 30</span>   
+[placeholder]    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### June 21 & 23
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads in Athens-Clarke County increased this week, largely attributable to new detections of viral RNA at WRF B (area roughly west of Milledge Ave.) and continued detection at WRF C (east side) on both sampling days (levels at WRF A were below the limit of detection). Concentrations exceeded 500,000 copies per liter at WRF B on both sampling days after being below the limit of detection for 2 of the past 3 weeks (and 5 of the last 6 samples). Reported cases in Athens ended the week at 3 new cases per day (7-day running average), a slight increase compared to the prior week; however, testing rates are very low (~109 PCR tests per day).  **    
 
