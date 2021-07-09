@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### July 7
+
+<span style="text-decoration:underline">**Site Announcement**</span> [placeholder, if needed]   
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]** 
+
+<span style="text-decoration:underline">July 7</span>  
+[placeholder]   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### June 28 & 30
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, levels of SARS&#8209;CoV&#8209;2 decreased below the limit of detection in all but one sample collected. Levels at WRF A were detectable on 6/30/2021, but were below the limit of detection in all samples on 6/28/2021. Reported cases in Athens ended the week at 2 new cases per day, based upon the 7-day running average. Testing rates still remain low, with approximately 109 tests per day and a 1.5% test positively rate.**    
 
