@@ -60,13 +60,10 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### July 7
-
-<span style="text-decoration:underline">**Site Announcement**</span> [placeholder, if needed]   
-
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]** 
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral loads in wastewater have increased, compared to last week’s samples. This increase in viral load corresponds with a marked increase in the number of reported cases this week. The 7-day running average in reported cases as risen to 7 new cases per day (reported on 7/8/2021). Case positivity has increased to 6.7%, while testing still remains low with a 7-day average of 84 tests conducted per day.** 
 
 <span style="text-decoration:underline">July 7</span>  
-[placeholder]   
+Wastewater this week was sampled on Tuesday July 6th, 2021. SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples. Viral concentration was greatest at WRF C (~115,000 copies per L), as was the total viral load (8 x 10^11 copies). Viral concentration and total load were comparable between WRF A and WRF B. Results this week correspond with the observed increase in the number of reported cases in Athens-Clarke County.   
 
 <div style="margin-bottom:25px;">
 </div>
