@@ -59,6 +59,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 2 & 4
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+
+<span style="text-decoration:underline">August 2</span>  
+[placeholder]   
+
+<span style="text-decoration:underline">August 4</span>  
+[placeholder]   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 28 & 28
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral loads have increased steadily in the county’s wastewater over the past four weeks. Viral RNA was readily detectable in all wastewater samples collected on Monday 7/26 and Wednesday 7/28. For the week, viral load reached the 42nd percentile for all samples collected to date, climbing from the 31st percentile last week. These observations indicate increased viral shedding and circulation of SARS&#8209;CoV&#8209;2 in the community. Likewise, case reports have increased to a 7-day running average of 20 new cases per day (as of 7/29). This is the highest running average reported since March 2021. Rates of positive PCR tests were consistently above 10% for the week. Clarke county vaccination rates have remained near 39% for the past several weeks.**     
 
