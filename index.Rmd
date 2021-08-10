@@ -755,6 +755,17 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 
 ### Prior Six Weeks
 
+<style>
+div.red { background-color:#FF9999; border-radius: 5px; padding: 10px;}
+</style>
+<div class = "red">
+
+#### Based on the prior six weeks, the SARS&#8209;CoV&#8209;2 viral load is **increasing**.
+</div>
+
+<div style="margin-bottom:15px;">
+</div>
+
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./smooth_extract_filter.rda")
 smooth_extract_filter
