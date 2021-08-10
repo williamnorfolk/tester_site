@@ -438,28 +438,21 @@ filter_combined
 ```
 ```{r}
 p3_filter <- plotly::plot_ly() %>%
-  plotly::add_lines(x = ~date_vec_both, y = ~both_trend,
-                    data = filter_smooth_frame_both,
-                    hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_both,
-                                  '</br> Median Log Copies: ', round(both_trend, digits = 2)),
-                    line = list(color = '#1B9E77', size = 8, opacity = 0.65),
-                    showlegend = FALSE) %>%
-plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
-                    showlegend = FALSE,
-                    opacity = 0.25,
-                    hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_both, #leaving in case we want to change
-                                  '</br> Max Log Copies: ', round(both_ymax, digits = 2),
-                                  '</br> Min Log Copies: ', round(both_ymin, digits = 2)),
-                    name = "",
-                    fillcolor = '#1B9E77',
-                    line = list(color = '#1B9E77')) %>%
-                layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
+  plotly::add_trace(x = ~date, y = ~log_sum_copies_both,
+                       type = 'scatter',
+                       mode = 'lines+markers',
+                       data = filter_rejoin,
+                       hoverinfo = "text",
+                       showlegend = FALSE,
+                       text = ~paste('</br> Date: ', date, 
+                                     '</br> Actual Log Copies: ', round(log_sum_copies_both, digits = 2)),
+                       line = list(color = '#1B9E77', size = 6, opacity = 0.65),
+                       marker = list(color = '#1B9E77', size = 8, opacity = 0.65)) %>%
+  layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
-                layout(xaxis = list(title = "Date")) %>%
-    plotly::add_segments(x = ~min(date_vec_both), 
+
+    plotly::add_segments(x = ~last_6, 
                                           xend = ~max(date_vec_both), 
                                           y = 11.5, yend = 11.5,
                                           opacity = 0.35,
@@ -470,15 +463,9 @@ plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
                                           line = list(color = "black", dash = "dash")) %>%
       plotly::add_annotations(x = as.Date(last_6 + 7),
                           y = 11.5,
-                          text = "Limit of Detection") %>%
+                          text = "Limit of Detection")
 
-  plotly::add_markers(x = ~date, y = ~log_sum_copies_both,
-                      data = filter_rejoin,
-                       hoverinfo = "text",
-                       showlegend = FALSE,
-                       text = ~paste('</br> Date: ', date, 
-                                     '</br> Actual Log Copies: ', round(log_sum_copies_both, digits = 2)),
-                       marker = list(color = '#1B9E77', size = 6, opacity = 0.65))
+  
 
 
 p3_filter
@@ -487,7 +474,7 @@ p3_filter
 smooth_extract_filter <-
     plotly::subplot(p3_filter,p1_filter, # plots to combine, top to bottom
       nrows = 2,
-      heights = c(.6,.4),  # relative heights of the two plots
+      heights = c(.7,.3),  # relative heights of the two plots
       shareX = TRUE,  # plots will share an X axis
       titleY = TRUE
     ) %>%
