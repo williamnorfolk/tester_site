@@ -60,13 +60,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### August 9 & 11
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Update coming soon!**   
 
-<span style="text-decoration:underline">August 2</span>  
-[placeholder]    
+<span style="text-decoration:underline">August 9</span>  
+SARS&#8209;CoV&#8209;2 viral load remains high in Athens-Clarke County. While levels at WRF A and B were similar to that noted during the last sampling (Aug 4), levels at WRF C (east side) increased substantially to a concentration of >1 million copies per liter. Reported case rates (PCR tests) remain elevated at 37 new cases per day (7-day running average), but similar to the level reported last week (36 per day). Wastewater data suggests continued and possibly growing transmission in some regions of the county and the potential for further increases in case counts in the coming days.   
 
-<span style="text-decoration:underline">August 2</span>  
-[placeholder]   
+<span style="text-decoration:underline">August 11</span>  
+_Data coming soon!_   
 
 <div style="margin-bottom:25px;">
 </div>
