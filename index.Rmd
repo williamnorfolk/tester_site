@@ -772,8 +772,8 @@ smooth_extract_filter
 ```
 
 
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./trend_legend.png")
+```{r fig.hold='hold', out.height = "50%", out.width = "50%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./6_week_legend.png")
 ```
 
 ### Individual Plants {.tabset}
