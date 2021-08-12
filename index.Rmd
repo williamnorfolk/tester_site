@@ -13,6 +13,7 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 
 <span style="text-decoration:underline">Navigating this site:</span>   
 •	**Data Trends**: Total viral load and trend analysis for the combined ACC area   
+•	**Prior Six Weeks**: Total viral load measures for the most recent six weeks of sampling  
 •	**Individual Plants**: Viral load and trend analysis for each plant and associated service area   
 •	**All Data**: Concentration of SARS&#8209;CoV&#8209;2 gene targets by date and treatment plant  
 •	**Research Overview**: Details on methods and approach  
@@ -83,23 +84,22 @@ SARS&#8209;CoV&#8209;2 detection from Wednesday’s samples were similar to thos
 <div style="margin-bottom:25px;">
 </div>
 
-##### July 28 & 28
+##### July 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral loads have increased steadily in the county’s wastewater over the past four weeks. Viral RNA was readily detectable in all wastewater samples collected on Monday 7/26 and Wednesday 7/28. For the week, viral load reached the 42nd percentile for all samples collected to date, climbing from the 31st percentile last week. These observations indicate increased viral shedding and circulation of SARS&#8209;CoV&#8209;2 in the community. Likewise, case reports have increased to a 7-day running average of 20 new cases per day (as of 7/29). This is the highest running average reported since March 2021. Rates of positive PCR tests were consistently above 10% for the week. Clarke county vaccination rates have remained near 39% for the past several weeks.**     
 
-<span style="text-decoration:underline">July 26</span>  
-SARS&#8209;CoV&#8209;2 viral RNA was detectable in all wastewater samples collected on Monday, 7/26. The viral load increased slightly at WRF A and WRF B, but decreased at WRF C compared to collections from July 7/21. Viral concentrations exceeded 100,000 copies per liter at all plants and reached ~200,000 copies per Liter at WRF B.    
-
 <span style="text-decoration:underline">July 28</span>  
-Viral concentrations estimated for Wednesday, July 7/28 were similar to samples collected Monday, 7/26 for WRF A and C (at >100,000 copies per liter). Viral concentrations continued to increase at WRF B and reached ~500,000 copies per Liter).
+Viral concentrations estimated for Wednesday, July 7/28 were similar to samples collected Monday, 7/26 for WRF A and C (at >100,000 copies per liter). Viral concentrations continued to increase at WRF B and reached ~500,000 copies per Liter).   
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### July 19 & 21
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA increased for the third week in a row at all plants Total viral load for Athens-Clarke county is still in the lower one third of all samples collected to date (beginning June 2020) but load has increased from the 5th percentile for samples collected during the last week of June to the 31st percentile for samples collected this week. This indicates a persistent increase in viral load and circulation of SARS&#8209;CoV&#8209;2 in the community, which is consistent with increasing case reports (7-day running average of 10 new cases per day as of Friday 7/23/2021). Rates of positive PCR tests reached 8.1% (7-day running average as of 7/23) but testing numbers continue to be low (~134 tests per day for the week).**   
+<span style="text-decoration:underline">July 26</span>  
+SARS&#8209;CoV&#8209;2 viral RNA was detectable in all wastewater samples collected on Monday, 7/26. The viral load increased slightly at WRF A and WRF B, but decreased at WRF C compared to collections from July 7/21. Viral concentrations exceeded 100,000 copies per liter at all plants and reached ~200,000 copies per Liter at WRF B.    
 
-<span style="text-decoration:underline">July 19</span>  
-SARS&#8209;CoV&#8209;2 RNA was detected at all plants for the Monday collection. Levels at WRF B were similar to last week but virus loads increased substantially at both WRF A (UGA, downtown, and north Athens) and WRF C (eastside). Concentrations at WRF C reached >280,000 viral copies per liter and >125,000 copies per liter at WRF A.   
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA increased for the third week in a row at all plants Total viral load for Athens-Clarke county is still in the lower one third of all samples collected to date (beginning June 2020) but load has increased from the 5th percentile for samples collected during the last week of June to the 31st percentile for samples collected this week. This indicates a persistent increase in viral load and circulation of SARS&#8209;CoV&#8209;2 in the community, which is consistent with increasing case reports (7-day running average of 10 new cases per day as of Friday 7/23/2021). Rates of positive PCR tests reached 8.1% (7-day running average as of 7/23) but testing numbers continue to be low (~134 tests per day for the week).**   
 
 <span style="text-decoration:underline">July 21</span>  
 Viral load was steady for WRF A and C on Wednesday July 21, compared to the Monday sample. However, concentration increased by 4-fold at WRF B (west of Milledge Ave.) from ~50,000 copies per liter on 7/19 to >200,000 copies per liter on 7/21.       
@@ -107,20 +107,26 @@ Viral load was steady for WRF A and C on Wednesday July 21, compared to the Mond
 <div style="margin-bottom:25px;">
 </div>
 
-##### July 12 & 14
-
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, SARS&#8209;CoV&#8209;2 viral RNA was readily detected in all wastewater samples. The average total viral load was comparable to the viral load recorded last week, on July 12, 2021. The 7-day running average has increased to 8 new cases per day (reported on 7/15/2021). Case positivity is 3.4%, while testing has dropped to 65 tests conducted per day (based on a 7-day average).**   
-
-<span style="text-decoration:underline">July 12</span>  
-SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples collected across WRF A, WRF B, and WRF C on Monday, July 12, 2021. Viral concentrations were highest at WRF A, at 165,000 copies per Liter. Concentrations were comparable at WRF B and WRF C, at ~45,000 copies per Liter.
-
-<span style="text-decoration:underline">July 14</span>  
-SARS&#8209;CoV&#8209;2 Viral RNA was detected across all samples, again, on Wednesday July 14, 2021. Viral concentrations were comparable between samples and ranged from 20,000 copies per Liter to 50,000 copies per liter. The total viral load, averaged between all samples, was comparable to the viral load reported last week.      
+<span style="text-decoration:underline">July 19</span>  
+SARS&#8209;CoV&#8209;2 RNA was detected at all plants for the Monday collection. Levels at WRF B were similar to last week but virus loads increased substantially at both WRF A (UGA, downtown, and north Athens) and WRF C (eastside). Concentrations at WRF C reached >280,000 viral copies per liter and >125,000 copies per liter at WRF A.   
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### July 7
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, SARS&#8209;CoV&#8209;2 viral RNA was readily detected in all wastewater samples. The average total viral load was comparable to the viral load recorded last week, on July 12, 2021. The 7-day running average has increased to 8 new cases per day (reported on 7/15/2021). Case positivity is 3.4%, while testing has dropped to 65 tests conducted per day (based on a 7-day average).**   
+
+<span style="text-decoration:underline">July 14</span>  
+SARS&#8209;CoV&#8209;2 Viral RNA was detected across all samples, again, on Wednesday July 14, 2021. Viral concentrations were comparable between samples and ranged from 20,000 copies per Liter to 50,000 copies per liter. The total viral load, averaged between all samples, was comparable to the viral load reported last week.  
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">July 12</span>  
+SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples collected across WRF A, WRF B, and WRF C on Monday, July 12, 2021. Viral concentrations were highest at WRF A, at 165,000 copies per Liter. Concentrations were comparable at WRF B and WRF C, at ~45,000 copies per Liter.
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral loads in wastewater have increased, compared to last week’s samples. This increase in viral load corresponds with a marked increase in the number of reported cases this week. The 7-day running average in reported cases as risen to 7 new cases per day (reported on 7/8/2021). Case positivity has increased to 6.7%, while testing still remains low with a 7-day average of 84 tests conducted per day.** 
 
 <span style="text-decoration:underline">July 7</span>  
@@ -760,7 +766,7 @@ div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
