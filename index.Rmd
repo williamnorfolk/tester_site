@@ -60,6 +60,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 25 & 27
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**  
+
+<span style="text-decoration:underline">August 25</span>  
+[placeholder]   
+
+<span style="text-decoration:underline">August 28</span>  
+[placeholder]  _Data coming soon!_
+<div style="margin-bottom:25px;">
+</div>
+
 ##### August 16 & 18
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 remains high in Athens-Clarke County. The average viral load is comparable to the viral load observed last week (ending on 8/13), but trends in overall viral load have been increasing since late July. The total viral load remains in the top 63% of all observations reported since May 2020. The number of newly reported cases has risen from 37 new cases per day (8/12/21) to 56 new cases per day (8/20/21). Of the reported PCR tests, 13.7% are reported positive.**    
 
