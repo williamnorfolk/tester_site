@@ -445,7 +445,7 @@ p3_filter <- plotly::plot_ly() %>%
                        hoverinfo = "text",
                        showlegend = FALSE,
                        text = ~paste('</br> Date: ', date, 
-                                     '</br> Actual Log Copies: ', round(sum_copies_both, digits = 2)),
+                                     '</br> SARS CoV-2 Copies: ', round(sum_copies_both, digits = 2)),
                        line = list(color = '#1B9E77', size = 6, opacity = 0.65),
                        marker = list(color = '#1B9E77', size = 8, opacity = 0.65)) %>%
   layout(yaxis = list(title = "Total SARS CoV-2 Copies", 
