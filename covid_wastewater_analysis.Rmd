@@ -415,6 +415,7 @@ filter_rejoin <- filter(rejoin, date >= last_6)
         p2_filter
         
 ```
+
 ```{r}
 filter_combined <-
     plotly::subplot(p2_filter,p1_filter, # plots to combine, top to bottom
@@ -473,6 +474,7 @@ p3_filter <- plotly::plot_ly() %>%
 
 p3_filter
 ```
+
 ```{r}
 smooth_extract_filter <-
     plotly::subplot(p3_filter,p1_filter, # plots to combine, top to bottom

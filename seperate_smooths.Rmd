@@ -228,6 +228,7 @@ date_vec_botha <- work_botha$date
 smooth_frame_botha <- data.frame(date_vec_botha, both_trenda, both_ymina, both_ymaxa)
 
 ```
+
 ```{r}
 #WRF A
 #plot smooth frames

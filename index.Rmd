@@ -18,17 +18,19 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 •	**All Data**: Concentration of SARS&#8209;CoV&#8209;2 gene targets by date and treatment plant  
 •	**Research Overview**: Details on methods and approach  
 
-<div style="margin-bottom:25px;">
-</div>
+<span style="text-decoration:underline">Select year:</span>   
+•	**Year 1**: _06/30/2020_ to _06/29/2021_     
+•	**Year 2**: _06/30/2021_ to _present_   
 
-## {.tabset}
+# {.tabset}
 
+## Year Two {.tabset}
 ### Data Trends
 
 The trendline below reflects the estimated total viral load of SARS&#8209;CoV&#8209;2 in the combined sewershed of Athens-Clarke County (the service area for all three plants) (top chart) over time. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line) (bottom chart). We are using these data to estimate how changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater may reflect the community trends of circulating COVID&#8209;19 infections.  
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./smooth_extract.rda")
+load(file = "./make_years/site_objects/data_trends_year2.rda")
 smooth_extract
 ```
 
@@ -167,6 +169,141 @@ SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples collecte
 
 <span style="text-decoration:underline">July 7</span>  
 Wastewater this week was sampled on Tuesday July 6th, 2021. SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples. Viral concentration was greatest at WRF C (~115,000 copies per L), as was the total viral load (8 x 10^11 copies). Viral concentration and total load were comparable between WRF A and WRF B. Results this week correspond with the observed increase in the number of reported cases in Athens-Clarke County.   
+
+<div style="margin-bottom:25px;">
+</div>
+
+### Prior Six Weeks
+
+<style>
+div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
+</style>
+<div class = "red">
+
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
+</div>
+
+<div style="margin-bottom:15px;">
+</div>
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/past6_year2.rda")
+smooth_extract_filter
+```
+
+
+```{r fig.hold='hold', out.height = "50%", out.width = "50%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./6_week_legend.png")
+```
+
+<div style="margin-bottom:25px;">
+</div>
+
+**Please Note**.    
+In effort to better visualize the SARS&#8209;CoV&#8209;2 data trends more clearly, the y-axis of this figure uses a linear scale instead of a logarithmic scale. This differs from the y-axis scale on the _data trends_ tab of this website. 
+
+### Individual Plants {.tabset}
+
+Three plants service the Athens-Clarke County region. WRF A serves the largest portion of the community (including all of UGA main campus and downtown Athens), followed by WRF B (including areas west of Milledge Ave.), and WRF C (including Athens Eastside). Total capacity at WRF C is substantially smaller than the other two plants; this plant also receives periodic waste from pumped septic system and ‘port-o-potties’, which may lead to increased variability over time. Load and trends over time are shown for each service area. Trend analyses follow the same procedure as noted in ‘Data Trends’ tab.    
+
+<div style="margin-bottom:25px;">
+</div>
+
+#### Sewershed Map
+
+```{r fig.hold='hold', out.height = "90%", out.width = "90%", fig.align='center', echo=FALSE, fig.cap='Sewershed map of Athens-Clarke County'}
+knitr::include_graphics("./map_image.png")
+```
+
+
+#### WRF A
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/wrf_a_year2.rda")
+p_wrf_a
+```
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./wrfa_legend.png")
+```
+
+#### WRF B
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/wrf_b_year2.rda")
+p_wrf_b
+```
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./wrfb_legend.png")
+```
+
+#### WRF C
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/wrf_c_year2.rda")
+p_wrf_c
+```
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./wrfc_legend.png")
+```
+
+
+### All Data
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/all_data_year2.rda")
+p_combined
+```
+
+```{r fig.hold='hold', out.height = "65%", out.width = "65%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./updated_fig_legend.png")
+```
+
+<div style="margin-bottom:25px;">
+</div>
+
+This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens-Clarke County for each sampling period. ymbols represent the mean concentration for the two viral gene targets at each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
+
+Samples are collected once weekly as a 24-hour composite sample at each plant. We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater for each plant. The theoretical Limit of Detection (LOD) is noted with a dashed line.    
+
+The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line).   
+
+<div style="margin-bottom:25px;">
+</div>
+
+## Year One {.tabset}
+### Data Trends
+
+The trendline below reflects the estimated total viral load of SARS&#8209;CoV&#8209;2 in the combined sewershed of Athens-Clarke County (the service area for all three plants) (top chart) over time. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line) (bottom chart). We are using these data to estimate how changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater may reflect the community trends of circulating COVID&#8209;19 infections.  
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/data_trends_year1.rda")
+smooth_extract
+```
+
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./trend_legend.png")
+```
+
+<div style="margin-bottom:25px;">
+</div>
+
+**Note about chart and methods**.    
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. 
+
+<div style="margin-bottom:25px;">
+</div>
+
+
+#### Weekly Data Update {.tabset}
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
+</style>
+<div class = "blue">
+<span style="text-decoration:underline">Updated every Friday</span>    
+_Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
+</div>
 
 <div style="margin-bottom:25px;">
 </div>
@@ -795,36 +932,6 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 <div style="margin-bottom:25px;">
 </div>
 
-### Prior Six Weeks
-
-<style>
-div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
-</style>
-<div class = "red">
-
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
-</div>
-
-<div style="margin-bottom:15px;">
-</div>
-
-```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./smooth_extract_filter.rda")
-smooth_extract_filter
-```
-
-
-```{r fig.hold='hold', out.height = "50%", out.width = "50%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./6_week_legend.png")
-```
-
-<div style="margin-bottom:25px;">
-</div>
-
-**Please Note**.    
-In effort to better visualize the SARS&#8209;CoV&#8209;2 data trends more clearly, the y-axis of this figure uses a linear scale instead of a logarithmic scale. This differes from the y-axis scale on the _data trends_ tab of this website.  
-
-
 ### Individual Plants {.tabset}
 
 Three plants service the Athens-Clarke County region. WRF A serves the largest portion of the community (including all of UGA main campus and downtown Athens), followed by WRF B (including areas west of Milledge Ave.), and WRF C (including Athens Eastside). Total capacity at WRF C is substantially smaller than the other two plants; this plant also receives periodic waste from pumped septic system and ‘port-o-potties’, which may lead to increased variability over time. Load and trends over time are shown for each service area. Trend analyses follow the same procedure as noted in ‘Data Trends’ tab.    
@@ -841,11 +948,7 @@ knitr::include_graphics("./map_image.png")
 
 #### WRF A
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_objs/p_wrf_a.rda")
-#load(file = "./plotly_objs/date_vec_botha.rda")
-#load(file = "./plotly_objs/both_ymina.rda")
-#load(file = "./plotly_objs/both_ymaxa.rda")
-
+load(file = "./make_years/site_objects/wrf_a_year1.rda")
 p_wrf_a
 ```
 
@@ -855,10 +958,7 @@ knitr::include_graphics("./wrfa_legend.png")
 
 #### WRF B
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_objs/p_wrf_b.rda")
-#load(file = "./plotly_objs/date_vec_bothb.rda")
-#load(file = "./plotly_objs/both_yminb.rda")
-#load(file = "./plotly_objs/both_ymaxb.rda")
+load(file = "./make_years/site_objects/wrf_b_year1.rda")
 p_wrf_b
 ```
 
@@ -868,11 +968,7 @@ knitr::include_graphics("./wrfb_legend.png")
 
 #### WRF C
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_objs/p_wrf_c.rda")
-#load(file = "./plotly_objs/date_vec_bothc.rda")
-#load(file = "./plotly_objs/both_yminc.rda")
-#load(file = "./plotly_objs/both_ymaxc.rda")
-
+load(file = "./make_years/site_objects/wrf_c_year1.rda")
 p_wrf_c
 ```
 
@@ -880,16 +976,11 @@ p_wrf_c
 knitr::include_graphics("./wrfc_legend.png")
 ```
 
-#### Video
-
-<video width="320" height="240" controls>
-  <source src="map2.mp4" type="video/mp4">
-</video>
 
 ### All Data
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_fig.rda")
+load(file = "./make_years/site_objects/all_data_year1.rda")
 p_combined
 ```
 
@@ -909,7 +1000,7 @@ The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County 
 <div style="margin-bottom:25px;">
 </div>
 
-### Research Overview 
+## Research Overview 
 
 #### Purpose
 
@@ -956,9 +1047,9 @@ Monitoring is conducted through partnership between Athens-Clarke County Utiliti
 
 Dr. Erin Lipp
 
-Megan Lott, PhD Student
+Megan Lott, PhD Candidate
 
-William Norfolk, PhD Student 
+William Norfolk, PhD Candidate 
 
 Megan Robertson, PhD Student 
 
@@ -969,12 +1060,11 @@ For more information about our team and other ongoing research please visit the 
 <div style="margin-bottom:25px;">
 </div>
 
-
-## 
+#
 **How to Cite**  
 Lott M, Norfolk W, Robertson M, Foley A, & Lipp E. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases. <a href="https://www.covid19.uga.edu/wastewater-athens.html" target="_blank">https://www.covid19.uga.edu/wastewater-athens.html</a>.
 
-##
+#
 **Contact**  
 Lipp Laboratory -- lipplab02@gmail.com
 
