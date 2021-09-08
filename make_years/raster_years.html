@@ -191,7 +191,8 @@ library(plotly)</code></pre>
 ## 
 ##     layout</code></pre>
 <pre class="r"><code>base_data_year1 &lt;- readRDS(&quot;./year1.RDS&quot;)
-base_data_year2 &lt;- readRDS(&quot;./year2.RDS&quot;)</code></pre>
+base_data_year2 &lt;- readRDS(&quot;./year2.RDS&quot;)
+base_data_all_years &lt;- readRDS(&quot;./n1_n2_cleaned_cases.RDS&quot;)</code></pre>
 <pre class="r"><code>make_rejoin &lt;- function(df) {
 final_data &lt;- df %&gt;% mutate(log_copy_per_L = log10(mean_copy_num_L)) %&gt;%
   rename(Facility = wrf) %&gt;%
@@ -245,8 +246,13 @@ return(rejoin)
 <pre><code>## `summarise()` has grouped output by &#39;date&#39;, &#39;cases_cum_clarke&#39;, &#39;new_cases_clarke&#39;. You can override using the `.groups` argument.</code></pre>
 <pre><code>## `summarise()` has grouped output by &#39;date&#39;, &#39;cases_cum_clarke&#39;, &#39;new_cases_clarke&#39;. You can override using the `.groups` argument.</code></pre>
 <pre><code>## Joining, by = c(&quot;date&quot;, &quot;cases_cum_clarke&quot;, &quot;new_cases_clarke&quot;, &quot;X7_day_ave_clarke&quot;, &quot;sum_copy_num_L&quot;, &quot;target&quot;)</code></pre>
+<pre class="r"><code>rejoin_both &lt;- make_rejoin(base_data_all_years)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;date&#39;, &#39;cases_cum_clarke&#39;, &#39;new_cases_clarke&#39;. You can override using the `.groups` argument.</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;date&#39;, &#39;cases_cum_clarke&#39;, &#39;new_cases_clarke&#39;. You can override using the `.groups` argument.</code></pre>
+<pre><code>## Joining, by = c(&quot;date&quot;, &quot;cases_cum_clarke&quot;, &quot;new_cases_clarke&quot;, &quot;X7_day_ave_clarke&quot;, &quot;sum_copy_num_L&quot;, &quot;target&quot;)</code></pre>
 <pre class="r"><code>saveRDS(rejoin_year1, &quot;./rejoin_year1.rds&quot;)
-saveRDS(rejoin_year2, &quot;./rejoin_year2.rds&quot;)</code></pre>
+saveRDS(rejoin_year2, &quot;./rejoin_year2.rds&quot;)
+saveRDS(rejoin_both, &quot;./rejoin_both.rds&quot;)</code></pre>
 <hr />
 <p>Remake full data for percentiles</p>
 <pre class="r"><code>rejoin_all &lt;- rbind(rejoin_year1, rejoin_year2)</code></pre>

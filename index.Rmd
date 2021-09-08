@@ -18,11 +18,27 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 •	**All Data**: Concentration of SARS&#8209;CoV&#8209;2 gene targets by date and treatment plant  
 •	**Research Overview**: Details on methods and approach  
 
-<span style="text-decoration:underline">Select year:</span>   
+<span style="text-decoration:underline">Data views:</span>   
+•	**Full Study**: _06/30/2020_ to _present_     
 •	**Year 1**: _06/30/2020_ to _06/29/2021_     
 •	**Year 2**: _06/30/2021_ to _present_   
 
 # {.tabset}
+
+## Full Study
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./make_years/site_objects/data_trends_both_years.rda")
+smooth_extract
+```
+#### Current Weekly Trends
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Wastewater load of SARS&#8209;CoV&#8209;2 this week (averaged over the two sampling days) was steady compared to the prior week. Levels had declined slightly on Monday (8/30) but increased to very high levels on Wednesday (9/1). Some of the variability over the last two weeks may be related to rainfall in the Athens area, which can impact estimates of total load. However, viral loads and reported cases continue to be high. Last Friday (8/27), the 7-day running average cases was 92 new cases per day and reached as high as 101 (8/28 and 8/31). This Friday (9/3), 7-day running average is 96 new cases per day (as reported by DPH on 9/3).  **   
+
+<span style="text-decoration:underline">August 30</span>    
+Total load of SARS&#8209;CoV&#8209;2 RNA fell slightly compared to the prior sample (collected 8/25). Levels declined at both WRF B (west of Milledge Ave) and WRF C (east side) but rose at WRF A (UGA, downtown, and north Athens). Concentrations at all plants exceeded 500,000 copies per liter.     
+
+<span style="text-decoration:underline">September 1</span>     
+Viral loads increased to the second highest level in the last 6 weeks (only falling behind the sample collected for 8/23). Levels at WRF C were unchanged from Monday’s sample, but increased at both WRF A and B. Concentrations at all plants exceeded 700,000 viral copies per liter.  
 
 ## Year Two {.tabset}
 ### Data Trends

@@ -12,7 +12,7 @@ library(plotly)
 ```{r}
 base_data_year1 <- readRDS("./year1.RDS")
 base_data_year2 <- readRDS("./year2.RDS")
-
+base_data_all_years <- readRDS("./n1_n2_cleaned_cases.RDS")
 ```
 
 ```{r}
@@ -65,14 +65,16 @@ return(rejoin)
 ```
 
 ```{r}
-
 rejoin_year1 <- make_rejoin(base_data_year1)
 rejoin_year2 <- make_rejoin(base_data_year2)
+
+rejoin_both <- make_rejoin(base_data_all_years)
 ```
 
 ```{r}
 saveRDS(rejoin_year1, "./rejoin_year1.rds")
 saveRDS(rejoin_year2, "./rejoin_year2.rds")
+saveRDS(rejoin_both, "./rejoin_both.rds")
 
 ```
 
