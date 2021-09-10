@@ -32,13 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Wastewater load of SARS&#8209;CoV&#8209;2 this week (averaged over the two sampling days) was steady compared to the prior week. Levels had declined slightly on Monday (8/30) but increased to very high levels on Wednesday (9/1). Some of the variability over the last two weeks may be related to rainfall in the Athens area, which can impact estimates of total load. However, viral loads and reported cases continue to be high. Last Friday (8/27), the 7-day running average cases was 92 new cases per day and reached as high as 101 (8/28 and 8/31). This Friday (9/3), 7-day running average is 96 new cases per day (as reported by DPH on 9/3).  **   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder] **   
 
-<span style="text-decoration:underline">August 30</span>    
-Total load of SARS&#8209;CoV&#8209;2 RNA fell slightly compared to the prior sample (collected 8/25). Levels declined at both WRF B (west of Milledge Ave) and WRF C (east side) but rose at WRF A (UGA, downtown, and north Athens). Concentrations at all plants exceeded 500,000 copies per liter.     
+<span style="text-decoration:underline">Sept 7</span>    
+[placeholder]         
 
-<span style="text-decoration:underline">September 1</span>     
-Viral loads increased to the second highest level in the last 6 weeks (only falling behind the sample collected for 8/23). Levels at WRF C were unchanged from Monday’s sample, but increased at both WRF A and B. Concentrations at all plants exceeded 700,000 viral copies per liter.  
+<span style="text-decoration:underline">September 8</span>     
+[placeholder]     
 
 ## Year Two {.tabset}
 ### Data Trends
@@ -74,6 +74,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### Sept 7 & 8
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+
+<span style="text-decoration:underline">Sept 7</span>    
+[placeholder]    
+
+<span style="text-decoration:underline">Sept 8</span>    
+[placeholder]    
 
 <div style="margin-bottom:25px;">
 </div>
