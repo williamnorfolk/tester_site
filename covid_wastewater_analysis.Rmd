@@ -502,3 +502,117 @@ save(smooth_extract_filter, file = "./smooth_extract_filter.rda")
 
 ```
 
+
+
+**********************************************************************************************************************************
+
+
+
+```{r}
+#plot smooth frames
+pcdc1 <- plotly::plot_ly() %>%
+  plotly::add_lines(x = ~date_vec_both, y = ~both_trend,
+                    data = smooth_frame_both,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_both,
+                                  '</br> Median Log Copies: ', round(both_trend, digits = 2)),
+                    line = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+              layout(yaxis = list(title = "Total Log10 SARS CoV-2 Copies in Wastewater", 
+                                 showline = TRUE,
+                                 automargin = TRUE,
+                                 color = '#1B9E77')) %>%
+                layout(xaxis = list(title = "Date"))  %>%
+  
+  plotly::add_lines(x = ~date, y = ~X7_day_ave_clarke,
+                    data = only_background,
+                    yaxis = "y2",
+                    color = '#D95F02') %>%
+  layout(yaxis2 = list(title = "7-Day Moving Average Cases", 
+                       overlaying = "y", 
+                       side = "right",
+                       automargin = TRUE,
+                       showline = TRUE,
+                       color = '#D95F02'))
+
+
+pcdc2 <- plotly::plot_ly() %>%
+  plotly::add_lines(x = ~date, y = ~sum_copies_both,
+                    data = rejoin,
+                    hoverinfo = "text",
+                    #text = ~paste('</br> Date: ', date,
+                    #              '</br> Median Log Copies: ', round(both_trend, digits = 2)),
+                    line = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+              layout(yaxis = list(title = "Total SARS CoV-2 Copies in Wastewater", 
+                                 showline = TRUE,
+                                 automargin = TRUE,
+                                 color = '#1B9E77')) %>%
+                layout(xaxis = list(title = "Date"))  %>%
+  
+  plotly::add_lines(x = ~date, y = ~X7_day_ave_clarke,
+                    data = only_background,
+                    yaxis = "y2",
+                    color = '#D95F02') %>%
+  layout(yaxis2 = list(title = "7-Day Moving Average Reported Cases", 
+                       overlaying = "y", 
+                       side = "right",
+                       automargin = TRUE,
+                       showline = TRUE,
+                       color = '#D95F02'))
+
+pcdc3 <- plotly::plot_ly() %>%
+  plotly::add_lines(x = ~date, y = ~log_sum_copies_both,
+                    data = rejoin,
+                    hoverinfo = "text",
+                   # text = ~paste('</br> Date: ', date_vec_both,
+                  #                '</br> Median Log Copies: ', round(both_trend, digits = 2)),
+                    line = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+              layout(yaxis = list(title = "Total Log10 SARS CoV-2 Copies in Wastewater", 
+                                 showline = TRUE,
+                                 automargin = TRUE,
+                                 color = '#1B9E77')) %>%
+                layout(xaxis = list(title = "Date"))  %>%
+  
+  plotly::add_lines(x = ~date, y = ~X7_day_ave_clarke,
+                    data = only_background,
+                    yaxis = "y2",
+                    color = '#D95F02') %>%
+  layout(yaxis2 = list(title = "7-Day Moving Average Cases", 
+                       overlaying = "y", 
+                       side = "right",
+                       automargin = TRUE,
+                       showline = TRUE,
+                       color = '#D95F02'))
+
+#plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
+#                    showlegend = FALSE,
+#                    opacity = 0.25,
+#                    hoverinfo = "text",
+#                    text = ~paste('</br> Date: ', date_vec_both, #leaving in case we want to change
+#                                  '</br> Max Log Copies: ', round(both_ymax, digits = 2),
+#                                  '</br> Min Log Copies: ', round(both_ymin, digits = 2)),
+#                    name = "",
+#                    fillcolor = '#1B9E77',
+#                    line = list(color = '#1B9E77')) %>%
+#                layout(yaxis = list(title = "Total Log10 SARS CoV-2 Copies", 
+#                                 showline = TRUE,
+#                                 automargin = TRUE)) %>%
+#                layout(xaxis = list(title = "Date")) 
+
+#  plotly::add_markers(x = ~date, y = ~log_sum_copies_both,
+#                      data = rejoin,
+#                       hoverinfo = "text",
+#                       showlegend = FALSE,
+#                       text = ~paste('</br> Date: ', date, 
+#                                     '</br> Actual Log Copies: ', round(log_sum_copies_both, digits = 2)),
+#                       marker = list(color = '#1B9E77', size = 6, opacity = 0.65))
+
+
+pcdc1
+pcdc2
+pcdc3
+```
+  add_trace(x = ~MediaDate, y = ~Visits, mode = "lines", yaxis = "y2", name = "Visits") %>%
+  layout(yaxis2 = list(overlaying = "y", side = "right"))
