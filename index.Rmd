@@ -32,13 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral loads in Athens-Clarke County wastewater showed a clear decline this week. Averaged for the week, loads were lower at all WRFs compared to the week prior; however, there was some variability between the sampling dates as noted below. These data are consistent with declining case reports to the GA DPH, which reached a 7-day running average of 55 new cases per day as of 9/16 (compared to 92 on 9/9). While total loads in wastewater are still in the upper 50% of all samples collected to date and concentrations remain >250,000 copies per liter at all plants, these downwards trends are encouraging. Please continue to keep good ventilation and filtration indoors, wear masks, and get vaccinated if you haven’t already.**   
 
 <span style="text-decoration:underline">Sept 13</span>    
-[placeholder]       
+Viral load declined at all three WRFs, especially at WRF A (UGA campus, downtown, and north Athens; concentration ~278,000 copies per liter) and WRF C (east side; ~367,000 copies per liter). Viral load at WRF B (west of Milledge) was nearly steady but declined slightly from the 9/8 sample (reaching ~477,000 copies per liter).          
 
 <span style="text-decoration:underline">Sept 15</span>    
-[placeholder]     
+Viral loads increased relative to the Monday sample at both WRF A and WRF C (to ~378,000 and ~641,000 copies per liter, respectively) but declined at WRF B (to ~372,000 copies per liter).     
 
 <div style="margin-bottom:25px;">
 </div>   
@@ -83,16 +83,16 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Sept 13 & 15
 
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral loads in Athens-Clarke County wastewater showed a clear decline this week. Averaged for the week, loads were lower at all WRFs compared to the week prior; however, there was some variability between the sampling dates as noted below. These data are consistent with declining case reports to the GA DPH, which reached a 7-day running average of 55 new cases per day as of 9/16 (compared to 92 on 9/9). While total loads in wastewater are still in the upper 50% of all samples collected to date and concentrations remain >250,000 copies per liter at all plants, these downwards trends are encouraging. Please continue to keep good ventilation and filtration indoors, wear masks, and get vaccinated if you have not already.**   
 
 <span style="text-decoration:underline">Sept 13</span>    
-[placeholder]       
+Viral load declined at all three WRFs, especially at WRF A (UGA campus, downtown, and north Athens; concentration ~278,000 copies per liter) and WRF C (east side; ~367,000 copies per liter). Viral load at WRF B (west of Milledge) was nearly steady but declined slightly from the 9/8 sample (reaching ~477,000 copies per liter).          
 
 <span style="text-decoration:underline">Sept 15</span>    
-[placeholder]     
+Viral loads increased relative to the Monday sample at both WRF A and WRF C (to ~378,000 and ~641,000 copies per liter, respectively) but declined at WRF B (to ~372,000 copies per liter).     
 
 <div style="margin-bottom:25px;">
-</div>   
+</div>    
 
 ##### Sept 7 & 8
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the second week in a row total SARS&#8209;CoV&#8209;2 viral load was steady in Athens-Clarke County wastewater. Levels were consistent with the prior week average at all plants, with slight increases at WRF C and slight declines at WRFs A and B. As of Thursday (9/9), there were 91 newly reported cases per day based on the 7-day running average, which has also held steady in the mid-90s for the past two weeks. This is encouraging news, but please note that these data do not yet reflect any potential new infections that may emerge following the holiday weekend.**   
