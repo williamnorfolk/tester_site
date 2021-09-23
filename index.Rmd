@@ -88,7 +88,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 Viral load increased at WRF B compared to the last sample collected (9/15) but declined at both WRF A and C. Averaged across all plants, viral load increased slightly relative to the 9/15 sample. Concentration were >250,000 copies per liter at WRF A and C and >800,000 at WRF B.         
 
 <span style="text-decoration:underline">Sept 22</span>    
-Viral load was steady at WRF B compared to Monday’s sample, while increasing slightly at WRF C and continuing to decline at WRF A. Concentrations continued to exceed 800,000 copies per liter at WRF B and reached >300,000 at WRF C. Levels dropped to ~87,000 copies per liter at WRF A (but Wednesdays sample may reflect some dilution due to rainfall earlier in the week).     
+Viral load was steady at WRF B compared to Monday’s sample, while increasing slightly at WRF C and continuing to decline at WRF A. Concentrations continued to exceed 800,000 copies per liter at WRF B and reached >300,000 at WRF C. Levels dropped to ~87,000 copies per liter at WRF A (but Wednesday's sample may reflect some dilution due to rainfall earlier in the week).     
 
 <div style="margin-bottom:25px;">
 </div>   
