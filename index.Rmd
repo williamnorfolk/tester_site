@@ -32,16 +32,16 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads at all plants continued to decline this week, reaching the lower third of levels recorded to date. Reported cases in Athens-Clarke County also continued to decline to a 7-day running average of 21 new cases per day as of 10/7/2021.**    
 
 <span style="text-decoration:underline">Oct 4</span>    
-[placeholder]           
+Viral RNA levels declined at WRF B but load doubled at WRF A (UGA campus, downtown, and north Athens). Levels were relatively stable at WRF C. Over all plants combined, levels showed a slight decline.              
 
 <span style="text-decoration:underline">Oct 6</span>    
-[placeholder]           
+Levels declined at both WRF A and WRF B, and increased slightly at WRF C. Overall, loads were clearly lower compared to the average load from 10/4. It should be noted that heavy rainfall in the prior two days resulted in elevated flow to the treatment plants which indicates inflow of rainwater that could cause some dilution in the samples.           
 
 <div style="margin-bottom:25px;">
-</div>   
+</div>    
 
 ## Year Two {.tabset}
 ### Data Trends
@@ -82,13 +82,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Oct 4 & 6
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**    
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads at all plants continued to decline this week, reaching the lower third of levels recorded to date. Reported cases in Athens-Clarke County also continued to decline to a 7-day running average of 21 new cases per day as of 10/7/2021.**    
 
 <span style="text-decoration:underline">Oct 4</span>    
-[placeholder]           
+Viral RNA levels declined at WRF B but load doubled at WRF A (UGA campus, downtown, and north Athens). Levels were relatively stable at WRF C. Over all plants combined, levels showed a slight decline.              
 
 <span style="text-decoration:underline">Oct 6</span>    
-[placeholder]           
+Levels declined at both WRF A and WRF B, and increased slightly at WRF C. Overall, loads were clearly lower compared to the average load from 10/4. It should be noted that heavy rainfall in the prior two days resulted in elevated flow to the treatment plants which indicates inflow of rainwater that could cause some dilution in the samples.           
 
 <div style="margin-bottom:25px;">
 </div> 
