@@ -257,11 +257,11 @@ Wastewater this week was sampled on Tuesday July 6th, 2021. SARS&#8209;CoV&#8209
 ### Prior Six Weeks
 
 <style>
-div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
+div.yellow { background-color:#FFFFCC; border-radius: 5px; padding: 10px;}
 </style>
-<div class = "red">
+<div class = "yellow">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining but still elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining**.
 </div>
 
 <div style="margin-bottom:15px;">
