@@ -32,7 +32,7 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 loads were steady compared to the prior week; however, there was a large difference in loads between the two sample dates.  The weekly trend is in line reported cases, which have remained at a 7-day running average of 12-14 new cases per day since 10/14/2021.**     
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 loads were steady compared to the prior week; however, there was a large difference in loads between the two sample dates.  The weekly trend is in line with reported cases, which have remained at a 7-day running average of 12-14 new cases per day since 10/14/2021.**     
 
 <span style="text-decoration:underline">Oct 18</span>    
 SARS&#8209;CoV&#8209;2 viral loads for the day increased substantially compared to the prior week. This was largely due to an increase in concentrations at both WRF A (UGA campus, downtown, and northern Athens) and WRF C (east side), which increased by 10-fold at both plants. However, the concentrations at WRF B (west of Milledge) remained stable at >100,000 copies per liter.      
@@ -81,7 +81,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Oct 18 & 20
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 loads were steady compared to the prior week; however, there was a large difference in loads between the two sample dates.  The weekly trend is in line reported cases, which have remained at a 7-day running average of 12-14 new cases per day since 10/14/2021.**     
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 loads were steady compared to the prior week; however, there was a large difference in loads between the two sample dates. The weekly trend is in line with reported cases, which have remained at a 7-day running average of 12-14 new cases per day since 10/14/2021.**     
 
 <span style="text-decoration:underline">Oct 18</span>    
 SARS&#8209;CoV&#8209;2 viral loads for the day increased substantially compared to the prior week. This was largely due to an increase in concentrations at both WRF A (UGA campus, downtown, and northern Athens) and WRF C (east side), which increased by 10-fold at both plants. However, the concentrations at WRF B (west of Milledge) remained stable at >100,000 copies per liter.      
