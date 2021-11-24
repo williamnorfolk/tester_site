@@ -32,13 +32,14 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**       
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Samples were only collected on Monday 11/22 this week (no Wednesday sample), allowing our lab crew to take a much needed Thanksgiving break. Last week we noted that levels had trended up as of the Wednesday 11/17 collection, indicating a possible shift from the stable levels noted for the past several weeks. This week, SARS&#8209;CoV&#8209;2 RNA continued to rise as of 11/22, reaching the 80th percentile of viral load to date (viral load is the concentration across all plants normalized to their flow rate).**     
 
-<span style="text-decoration:underline">Nov 22</span>    
-[placeholder]   
+**This was a sharp upward trend and suggests that reported cases may begin rising in the area. However, this shift was not county wide, rather it was due to increasing concentrations specifically at WRF B (west of Milledge Ave.), where levels have been rising consistently for the last 3 weeks. Levels at WRF A (UGA campus, downtown, and north Athens) and WRF C (east side) remained stable compared to the prior week. The concentrations at WRF B reached >2 million copies per liter and was consistent across both of the gene targets (N1 and N2).**     
+
+**Please continue to encourage ventilation in indoor spaces, use portable HEPA filters, and get vaccinated (or boosted) as we head into the holiday weekend. Although reported cases remain low in Athens-Clarke County (at 7 new cases per day, based on the 7-day running average), viral transmission may be on the rise.**       
 
 <div style="margin-bottom:25px;">
-</div>  
+</div> 
 
 ## Year Two {.tabset}
 ### Data Trends
@@ -78,13 +79,14 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Nov 22
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**       
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Samples were only collected on Monday 11/22 this week (no Wednesday sample), allowing our lab crew to take a much needed Thanksgiving break. Last week we noted that levels had trended up as of the Wednesday 11/17 collection, indicating a possible shift from the stable levels noted for the past several weeks. This week, SARS&#8209;CoV&#8209;2 RNA continued to rise as of 11/22, reaching the 80th percentile of viral load to date (viral load is the concentration across all plants normalized to their flow rate).**     
 
-<span style="text-decoration:underline">Nov 22</span>    
-[placeholder]   
+**This was a sharp upward trend and suggests that reported cases may begin rising in the area. However, this shift was not county wide, rather it was due to increasing concentrations specifically at WRF B (west of Milledge Ave.), where levels have been rising consistently for the last 3 weeks. Levels at WRF A (UGA campus, downtown, and north Athens) and WRF C (east side) remained stable compared to the prior week. The concentrations at WRF B reached >2 million copies per liter and was consistent across both of the gene targets (N1 and N2).**     
+
+**Please continue to encourage ventilation in indoor spaces, use portable HEPA filters, and get vaccinated (or boosted) as we head into the holiday weekend. Although reported cases remain low in Athens-Clarke County (at 7 new cases per day, based on the 7-day running average), viral transmission may be on the rise.**       
 
 <div style="margin-bottom:25px;">
-</div>  
+</div>
 
 ##### Nov 15 & 17
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels in wastewater have been steady for the past several weeks, consistent with reported case trends in Athens-Clarke County. However, this week has mixed results, with levels on Monday continuing their steady trend from the prior week but increasing at all plants by the Wednesday sample. It will not be clear if this is the beginning of a change in trends until we process samples next week, but it is worth noting. Wastewater load precedes changes in reported cases by 3-5 days, based on our analyses in Athens-Clarke County throughout the pandemic.**       
