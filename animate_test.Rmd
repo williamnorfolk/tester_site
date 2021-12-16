@@ -1,0 +1,23 @@
+---
+title: "animate"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(gganimate)
+library(magick)
+```
+
+```{r}
+raw <- readRDS("./make_years/n1_n2_cleaned_cases.RDS") 
+```
+
+```{r}
+p1 <- raw %>% ggplot() +
+  geom_line(aes(x = date, y = new_cases_clarke))+
+  transition_reveal(date, keep_last = FALSE) 
+p1
+```
+
