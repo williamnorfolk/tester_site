@@ -32,13 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**       
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After a short leveling off last week, SARS&#8209;CoV&#8209;2 levels in Athens-Clarke County have increased again. Averaged for the week, loads increased nearly 10-fold compared to last week. This was largely attributable to consistently increasing loads at  WRF C (east side) (both days) and a large spike in load at WRF B (west of Milledge Ave.) in the Wednesday sample. Viral load at WRF A (UGA, downtown and north Athens) has remained stable (although total flow at this plant has declined somewhat as people may be leaving Athens for the holiday break). As of 12/16, reported cases in Athens-Clarke County increased to 14 cases per day (7-day running average) (from 11 new cases per day reported at the end of last week). SARS&#8209;CoV&#8209;2 levels in wastewater have been generally increasing since Thanksgiving, which we are now starting to see in case reports.**       
 
 <span style="text-decoration:underline">Dec 13</span>    
-[placeholder]     
+Loads in the Monday samples were more or less stable compared to the prior collection, with modest increases noted at WRF A and WRF C (increasing to >174,000 and >111,000 copies per liter, respectively). Levels declined slightly at WRF B (to ~51,000 copies per liter).       
 
 <span style="text-decoration:underline">Dec 15</span>    
-[placeholder]        
+Overall, load from the Wednesday sample increased substantially (reaching the 89th %ile for load since the start of monitoring). While levels declined at WRF A (to ~21,000 copies per liter), they increased at WRF C (>281,000 copies per liter) and especially at WRF B (>4 million copies per liter).        
 
 <div style="margin-bottom:25px;">
 </div> 
@@ -81,13 +81,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Dec 13 & 15
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**       
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After a short leveling off last week, SARS&#8209;CoV&#8209;2 levels in Athens-Clarke County have increased again. Averaged for the week, loads increased nearly 10-fold compared to last week. This was largely attributable to consistently increasing loads at  WRF C (east side) (both days) and a large spike in load at WRF B (west of Milledge Ave.) in the Wednesday sample. Viral load at WRF A (UGA, downtown and north Athens) has remained stable (although total flow at this plant has declined somewhat as people may be leaving Athens for the holiday break). As of 12/16, reported cases in Athens-Clarke County increased to 14 cases per day (7-day running average) (from 11 new cases per day reported at the end of last week). SARS&#8209;CoV&#8209;2 levels in wastewater have been generally increasing since Thanksgiving, which we are now starting to see in case reports.**       
 
 <span style="text-decoration:underline">Dec 13</span>    
-[placeholder]     
+Loads in the Monday samples were more or less stable compared to the prior collection, with modest increases noted at WRF A and WRF C (increasing to >174,000 and >111,000 copies per liter, respectively). Levels declined slightly at WRF B (to ~51,000 copies per liter).       
 
 <span style="text-decoration:underline">Dec 15</span>    
-[placeholder]        
+Overall, load from the Wednesday sample increased substantially (reaching the 89th %ile for load since the start of monitoring). While levels declined at WRF A (to ~21,000 copies per liter), they increased at WRF C (>281,000 copies per liter) and especially at WRF B (>4 million copies per liter).        
 
 <div style="margin-bottom:25px;">
 </div> 
