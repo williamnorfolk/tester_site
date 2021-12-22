@@ -33,11 +33,11 @@ smooth_extract
 ```
 #### Current Weekly Trends
 <span style="text-decoration:underline">Note for the week</span>    
-_For this week and next , samples will only be collected on Monday to allow our lab crew to take some time off over the holidays. We will be back to twice weekly collections the first week of January._
+_For this week and next, samples will only be collected on Monday to allow our lab crew to take some time off over the holidays. We will be back to twice weekly collections the first week of January._
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral load declined from the very high level reported last Wednesday (which was largely due to a spike at WRF B) but remains elevated compared to recent weeks. We see this as a continued increasing trend. Loads have continued to increase steadily at WRF C (east side), marking the 5th sampling in a row with rising levels. WRF B (west of Milledge) has been highly variable and after reaching very high levels last week, declined in this week’s sample. After some recent declines, loads at WRF A (UGA campus, downtown, north Athens) increased by >10-fold, reaching levels not observed since mid-October. Cases continue to steadily rise in Athens-Clarke county, with 20 new cases per day (7-day running average) as of 12/21.**  
 
-**While wastewater trends in the county have been variable (ranging from the 25 percentile to 74 percentile) over the past six weeks, it is important to note that the average viral load in the community remains elevated suggesting continued transmission of the virus. As such, we encourage continued caution as we the holiday season.**
+**While wastewater trends in the county have been variable (ranging from the 25 percentile to 74 percentile) over the past six weeks, it is important to note that the average viral load in the community remains elevated suggesting continued transmission of the virus. As such, we encourage continued caution as we enter the holiday season.**
 
 **Happy holidays to all and stay safe!**
 
@@ -84,11 +84,11 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 ##### Dec 20
 
 <span style="text-decoration:underline">Note for the week</span>    
-_For this week and next , samples will only be collected on Monday to allow our lab crew to take some time off over the holidays. We will be back to twice weekly collections the first week of January._
+_For this week and next, samples will only be collected on Monday to allow our lab crew to take some time off over the holidays. We will be back to twice weekly collections the first week of January._
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral load declined from the very high level reported last Wednesday (which was largely due to a spike at WRF B) but remains elevated compared to recent weeks. We see this as a continued increasing trend. Loads have continued to increase steadily at WRF C (east side), marking the 5th sampling in a row with rising levels. WRF B (west of Milledge) has been highly variable and after reaching very high levels last week, declined in this week’s sample. After some recent declines, loads at WRF A (UGA campus, downtown, north Athens) increased by >10-fold, reaching levels not observed since mid-October. Cases continue to steadily rise in Athens-Clarke county, with 20 new cases per day (7-day running average) as of 12/21.**  
 
-**While wastewater trends in the county have been variable (ranging from the 25 percentile to 74 percentile) over the past six weeks, it is important to note that the average viral load in the community remains elevated suggesting continued transmission of the virus. As such, we encourage continued caution as we the holiday season.**
+**While wastewater trends in the county have been variable (ranging from the 25 percentile to 74 percentile) over the past six weeks, it is important to note that the average viral load in the community remains elevated suggesting continued transmission of the virus. As such, we encourage continued caution as we enter the holiday season.**
 
 **Happy holidays to all and stay safe!**
 
