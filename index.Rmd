@@ -32,14 +32,9 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">Note for the week</span>    
-_For this week and next, samples will only be collected on Monday to allow our lab crew to take some time off over the holidays. We will be back to twice weekly collections the first week of January._
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to increase this week. This sample was collected between 6:30 am on Sunday 12/26 and 6:30 am 12/27, when wastewater flows coming into each plant were much lower than average, indicating a lower population density in Athens-Clarke county over the holiday weekend. Despite reduced wastewater flow, total load for all plants doubled compared to last week (sampled on 12/20) and reached a weekly level not observed since the end of August. Load is calculated as the flow into the plant x concentration; therefore, it is important to note that this load reflects an extremely high concentration of viral RNA (all three WRFs had >900,000 copies per liter, and WRF B reached almost 2 million copies per liter). We have not observed concentrations at this level, over all three plants, since last winter/spring.**   
 
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral load declined from the very high level reported last Wednesday (which was largely due to a spike at WRF B) but remains elevated compared to recent weeks. We see this as a continued increasing trend. Loads have continued to increase steadily at WRF C (east side), marking the 5th sampling in a row with rising levels. WRF B (west of Milledge) has been highly variable and after reaching very high levels last week, declined in this week’s sample. After some recent declines, loads at WRF A (UGA campus, downtown, north Athens) increased by >10-fold, reaching levels not observed since mid-October. Cases continue to steadily rise in Athens-Clarke county, with 20 new cases per day (7-day running average) as of 12/21.**  
-
-**While week to week wastewater loads have been variable over the past six weeks, on average, virus levels in wastewater have been increasing since mid-November and continue to be elevated. We encourage continued caution as we enter the holiday season.**
-
-**Happy holidays to all and stay safe!**
+**Reported case rates also continue to climb in Athens-Clarke County, with the 7-day running average 89 new cases per day as of 12/28. We do not yet know how the increased use of at-home rapid tests may affect reliability official case reports (and another reason to watch wastewater trends as we moving into this next surge).**    
 
 <div style="margin-bottom:25px;">
 </div> 
@@ -80,6 +75,14 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 <div style="margin-bottom:25px;">
 </div>
+
+##### Dec 27
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to increase this week. This sample was collected between 6:30 am on Sunday 12/26 and 6:30 am 12/27, when wastewater flows coming into each plant were much lower than average, indicating a lower population density in Athens-Clarke county over the holiday weekend. Despite reduced wastewater flow, total load for all plants doubled compared to last week (sampled on 12/20) and reached a weekly level not observed since the end of August. Load is calculated as the flow into the plant x concentration; therefore, it is important to note that this load reflects an extremely high concentration of viral RNA (all three WRFs had >900,000 copies per liter, and WRF B reached almost 2 million copies per liter). We have not observed concentrations at this level, over all three plants, since last winter/spring.**    
+
+**Reported case rates also continue to climb in Athens-Clarke County, with the 7-day running average 89 new cases per day as of 12/28. We do not yet know how the increased use of at-home rapid tests may affect reliability official case reports (and another reason to watch wastewater trends as we moving into this next surge).**    
+
+<div style="margin-bottom:25px;">
+</div> 
 
 ##### Dec 20
 
