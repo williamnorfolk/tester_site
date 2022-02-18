@@ -32,13 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to decline across all plants this week. The largest decline was observed at WRF C (east side). While levels are trending down, the highest loads were noted for WRF B (west of Milledge Ave.), which has been the case for most of this surge. Reported case counts for Athens-Clarke County also continued to fall, reaching a 7-day running average of 39 new cases per day as of 2/10/2022.**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder**   
 
-<span style="text-decoration:underline">Feb 7</span>    
-SARS&#8209;CoV&#8209;2 levels declined substantially at all plants. The steepest decline was at WRF C (to ~110,000 copies per liter, from >400,000 copies per liter in the prior sample), followed by WRF A (to only ~40,000 copies per liter, from ~88,000 copies per liter), and finally WRF B (~167,000 copies per liter, from ~278,000 copies per liter).          
+<span style="text-decoration:underline">Feb 12</span>    
+[placeholder]         
 
-<span style="text-decoration:underline">Feb 9</span>    
-Viral levels were stable compared to the Monday (2/7) sample, with a very slight decline at WRF C and slight increases at WRF A and B.
+<span style="text-decoration:underline">Feb 14</span>    
+[placeholder]
      
 <div style="margin-bottom:25px;">
 </div>
@@ -77,6 +77,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
 
+<div style="margin-bottom:25px;">
+</div>
+
+##### Feb 12 & 14
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder**   
+
+<span style="text-decoration:underline">Feb 12</span>    
+[placeholder]         
+
+<span style="text-decoration:underline">Feb 14</span>    
+[placeholder]
+     
 <div style="margin-bottom:25px;">
 </div>
 
