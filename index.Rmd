@@ -81,13 +81,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Mar 28 & 30
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 load in wastewater remained similar to last week. However, unlike last week, when load was driven largely by high levels at WRF C (east side), levels at WRF C declined slightly, while those at WRF A (UGA, downtown, and northern parts of Athens) and WRF B (west of Milledge Ave.) increased. Although reported cases remain low, there was a slight increase this week with a 7-day running average of 4 new cases per day as of (3/31) after reaching as low as one new case per day late last week.**
 
 <span style="text-decoration:underline">Mar 28</span>    
-[placeholder]    
+Total load across all three plants combined declined slightly in the Monday sample. Among the plants, levels declined at WRF C (to ~39,000 copies per liter) from >288,000 in the prior sample. Levels increased at WRF A to >10,000 copies per liter (from below the limit of detection in the prior sample) and to >50,000 copies per liter at WRF B.       
 
 <span style="text-decoration:underline">Mar 30</span>    
-[placeholder]  
+Across all plants combined, total load increased compared to the Monday sample. Once again, levels declined at WRF C but increased at WRF A and B. Levels at WRF C were ~31,000 copies per liter, ~63,000 copies per liter at WRF B, and reached a high of ~107,000 copies per liter at WRF A (the highest level at this plant since early February).    
 
 <div style="margin-bottom:25px;">
 </div>
