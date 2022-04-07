@@ -34,10 +34,10 @@ smooth_extract
 #### Current Weekly Trends
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**
 
-<span style="text-decoration:underline">Mar 28</span>    
+<span style="text-decoration:underline">Apr 4</span>    
 [placeholder]    
 
-<span style="text-decoration:underline">Mar 30</span>    
+<span style="text-decoration:underline">Apr 6</span>    
 [placeholder]  
 
 <div style="margin-bottom:25px;">
@@ -76,6 +76,17 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**
+
+<span style="text-decoration:underline">Apr 4</span>    
+[placeholder]    
+
+<span style="text-decoration:underline">Apr 6</span>    
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
