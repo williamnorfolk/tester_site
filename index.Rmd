@@ -32,13 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 loads in wastewater remain stable and low, at the bottom 13th percentile of all samples analyzed to date. Reported cases also remain low. As of 4/7/2022, the 7-day running average was 3 reported cases.**    
 
 <span style="text-decoration:underline">Apr 4</span>    
-[placeholder]    
+The total viral load declined slightly compared to samples collected on 3/31. Viral concentrations declined at each plant. Viral loads at WRF A declined from ~100,000 to ~43,000 copies per liter. Viral concentrations at WRF B declined from ~62,800 copies per liter to ~8,000 copies per liter. At WRF C, concentrations declined from 30,000 to ~7,840 copies per liter. Notably, viral concentrations fell below the limit of detection for one of our targets (N2) across all plants.       
 
 <span style="text-decoration:underline">Apr 6</span>    
-[placeholder]  
+Compared to Monday’s samples, the total load increased slightly. Viral levels declined again at WRF A to ~33,800 copies per Liter. Viral levels at WRF B remained consistent at ~8,400 copies per liter and increased significantly at WRF C to ~86,400 copies per liter. It is important to note that while there is intra-day and intra-sample variability, total viral loads remain low and stable across all plants. The weekly average total viral load for the county is comparable to observations from the previous week.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -80,13 +80,14 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **[placeholder]**
+##### Apr 4 & 6
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 loads in wastewater remain stable and low, at the bottom 13th percentile of all samples analyzed to date. Reported cases also remain low. As of 4/7/2022, the 7-day running average was 3 reported cases.**    
 
 <span style="text-decoration:underline">Apr 4</span>    
-[placeholder]    
+The total viral load declined slightly compared to samples collected on 3/31. Viral concentrations declined at each plant. Viral loads at WRF A declined from ~100,000 to ~43,000 copies per liter. Viral concentrations at WRF B declined from ~62,800 copies per liter to ~8,000 copies per liter. At WRF C, concentrations declined from 30,000 to ~7,840 copies per liter. Notably, viral concentrations fell below the limit of detection for one of our targets (N2) across all plants.       
 
 <span style="text-decoration:underline">Apr 6</span>    
-[placeholder]  
+Compared to Monday’s samples, the total load increased slightly. Viral levels declined again at WRF A to ~33,800 copies per Liter. Viral levels at WRF B remained consistent at ~8,400 copies per liter and increased significantly at WRF C to ~86,400 copies per liter. It is important to note that while there is intra-day and intra-sample variability, total viral loads remain low and stable across all plants. The weekly average total viral load for the county is comparable to observations from the previous week.  
 
 <div style="margin-bottom:25px;">
 </div>
