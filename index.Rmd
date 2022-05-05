@@ -32,13 +32,7 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update:**</span>**[placeholder]**  
-
-<span style="text-decoration:underline">Apr 18</span>    
-[placeholder]    
-
-<span style="text-decoration:underline">Apr 20</span>    
-[placeholder]
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Note this week we are only reporting data for Monday May 2 (data from Wednesday 5/4 did not pass quality control; if we are able to re-run these samples, we will update the dashboard later). Based on the single collection this week, wastewater loads for all plants combined continue their very slow increase. Levels at WRF C (east side) declined from the prior sample (4/27) to ~275,000 copies per liter, which remains at the highest concentration among all three plants. Levels increased at both WRF A (UGA, downtown, and north Athens) and WRF B (west of Milledge Ave.). Concentrations at WRF A reached >111,000 copies per liter (from below the limit of detection on 4/27) and reached ~124,000 copies per liter at WRF B (from ~45,000 copies per liter on 4/27). Daily reported cases (using the 7-day running average) increased slightly from last week to 6 new cases per day as of 5/4/2022.**  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -81,13 +75,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### May 2
-<span style="text-decoration:underline">**Key Weekly Update:**</span>**[placeholder]**  
-
-<span style="text-decoration:underline">Apr 18</span>    
-[placeholder]    
-
-<span style="text-decoration:underline">Apr 20</span>    
-[placeholder]
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Note this week we are only reporting data for Monday May 2 (data from Wednesday 5/4 did not pass quality control; if we are able to re-run these samples, we will update the dashboard later). Based on the single collection this week, wastewater loads for all plants combined continue their very slow increase. Levels at WRF C (east side) declined from the prior sample (4/27) to ~275,000 copies per liter, which remains at the highest concentration among all three plants. Levels increased at both WRF A (UGA, downtown, and north Athens) and WRF B (west of Milledge Ave.). Concentrations at WRF A reached >111,000 copies per liter (from below the limit of detection on 4/27) and reached ~124,000 copies per liter at WRF B (from ~45,000 copies per liter on 4/27). Daily reported cases (using the 7-day running average) increased slightly from last week to 6 new cases per day as of 5/4/2022.**  
 
 <div style="margin-bottom:25px;">
 </div>
