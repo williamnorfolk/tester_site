@@ -32,14 +32,14 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 wastewater levels are continuing to increase. Total load (all plants combined) averaged for the week reached the 50th%-ile of all samples collected to date. The reported 7-day running average of new cases in Athens-Clarke County also increased to 14 new cases per day (as of 5/11), more than double that reported last week.** 
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]** 
 
-<span style="text-decoration:underline">May 9</span>    
-Total SARS&#8209;CoV&#8209;2 viral load increased substantially at WRF B and C (west of Milledge Ave. and eastside Athens). Concentrations reached and over 220,000 copies per liter at WRF B and over 600,000 copies per liter at WRF C. Concentrations at WRF A (UGA, downtown, and north Athens) declined slightly to ~86,000 copies per liter    
+<span style="text-decoration:underline">May 16</span>    
+[placeholder]    
 
-<span style="text-decoration:underline">May 11</span>    
-Levels were variable for the Wednesday collection, with concentrations declining at WRF B and C (to ~207,000 and ~87,000 copies per liter, respectively). Concentrations increased at WRF A to ~147,000 copies per liter   
-
+<span style="text-decoration:underline">May 18</span>    
+[placeholder]
+  
 <div style="margin-bottom:25px;">
 </div>
 
@@ -79,6 +79,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 <div style="margin-bottom:25px;">
 </div>
+
+##### May 16 & 18
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]** 
+
+<span style="text-decoration:underline">May 16</span>    
+[placeholder]    
+
+<span style="text-decoration:underline">May 18</span>    
+[placeholder]
+  
+<div style="margin-bottom:25px;">
+</div>
+
 
 ##### May 9 & 11
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 wastewater levels are continuing to increase. Total load (all plants combined) averaged for the week reached the 50th%-ile of all samples collected to date. The reported 7-day running average of new cases in Athens-Clarke County also increased to 14 new cases per day (as of 5/11), more than double that reported last week.** 
