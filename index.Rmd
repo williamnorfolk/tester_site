@@ -32,13 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]** 
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Levels of SARS&#8209;CoV&#8209;2 RNA continued to increase across Athens-Clarke County this week, exceeding more than 70% of all samples to date. This marks the fifth week in a row where the weekly average has increased, reaching levels similar to those observed during the peak of the Delta wave in August 2021. Reported clinical cases reached 19 new cases per day (7-day running average) as of Thursday June 9.**   
 
 <span style="text-decoration:underline">June 6</span>    
-[placeholder]         
+Viral load declined at both WRF B (west of Milledge Ave.) and C (eastside) compared to the prior sample collection (June 1) but remained high. Concentration at WRF B declined to ~465,000 copies per liter and were the highest among all three plants. Similarly, concentration at WRF C declined to ~455,000 copies per liter. Levels at WRF A (UGA, downtown, and northern Athens) increased to ~398,000 copies per liter.            
 
 <span style="text-decoration:underline">June 8</span>    
-[placeholder]    
+While levels at WRF A declined to ~198,000 copies per liter, concentrations at both WRF B and C increased to over 1 million copies per liter at each plant. We have not observed two plants exceeding 1 million copies per liter on a single day since mid January 2022.       
   
 <div style="margin-bottom:25px;">
 </div>
@@ -81,13 +81,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### June 6 & 8
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]** 
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Levels of SARS&#8209;CoV&#8209;2 RNA continued to increase across Athens-Clarke County this week, exceeding more than 70% of all samples to date. This marks the fifth week in a row where the weekly average has increased, reaching levels similar to those observed during the peak of the Delta wave in August 2021. Reported clinical cases reached 19 new cases per day (7-day running average) as of Thursday June 9.**   
 
 <span style="text-decoration:underline">June 6</span>    
-[placeholder]         
+Viral load declined at both WRF B (west of Milledge Ave.) and C (eastside) compared to the prior sample collection (June 1) but remained high. Concentration at WRF B declined to ~465,000 copies per liter and were the highest among all three plants. Similarly, concentration at WRF C declined to ~455,000 copies per liter. Levels at WRF A (UGA, downtown, and northern Athens) increased to ~398,000 copies per liter.            
 
 <span style="text-decoration:underline">June 8</span>    
-[placeholder]    
+While levels at WRF A declined to ~198,000 copies per liter, concentrations at both WRF B and C increased to over 1 million copies per liter at each plant. We have not observed two plants exceeding 1 million copies per liter on a single day since mid January 2022.       
   
 <div style="margin-bottom:25px;">
 </div>
