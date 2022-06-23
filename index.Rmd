@@ -32,13 +32,16 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral RNA levels remain high (68th percentile) but have leveled off after several weeks of sustained increase. Newly reported cases in Athens-Clarke County increased to 22 case per day (7-day running average) as of Thursday 6/16/2022.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
 
-<span style="text-decoration:underline">June 13</span>    
-Viral load declined at WRF C (east side). While total load at WRF B (west of Milledge Ave) (total viral copies per day at the plan) increased slightly the concentration (copies per liter) declined to ~612,000 (from over 1 million on 6/8). Viral load increased at WRF A (UGA, down town, and northern Athens) and concentrations exceeded 460,000 copies per liter.              
+<span style="text-decoration:underline">June 20</span>    
+[placeholder]                 
 
-<span style="text-decoration:underline">June 15</span>    
-Levels at WRF C increased but declined at both WRF B and A. Concentrations at both WRF B and C continue to exceed 500,000 copies per liter.
+<span style="text-decoration:underline">June 22</span>    
+[placeholder]  
+
+<div style="margin-bottom:25px;">
+</div>
 
 ## Year Two {.tabset}
 ### Data Trends
@@ -73,6 +76,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### June 20 & 22
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">June 20</span>    
+[placeholder]                 
+
+<span style="text-decoration:underline">June 22</span>    
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
