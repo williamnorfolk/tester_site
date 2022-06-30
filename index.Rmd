@@ -32,13 +32,16 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">*Side note from our team:*</span> Today marks two years of wastewater collection and reporting for SARS&#8209;CoV&#8209;2 in Athens! Thank you to all those who have and who continue to support our work. We are honored to be able to provide this service to the community. We also wanted to inform you that our funding for this work is currently winding down. We hope to provide data through the beginning of Fall term at UGA. However, you may be hearing more from us about crowd funding to continue this work longer!
+
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 levels this week are virtually unchanged from last week. Levels remain quite elevated (66th %ile) but continue to be stable. Reported cases reached a recent high of 34 new cases per day (7-day moving average) as of 6/27 but declined slightly to 31 new cases per day as of 6/29.**   
 
 <span style="text-decoration:underline">June 27</span>    
-[placeholder]   
+SARS&#8209;CoV&#8209;2 levels exceeded 350,000 copies per liter at all plants, with the highest levels noted at WRF B (~644,000 copies per liter; areas west of Milledge Ave.)
 
 <span style="text-decoration:underline">June 29</span>    
-[placeholder]       
+Concentrations remained high at all plants, but declined slightly to 290,000 copies per liter at WRF A (UGA campus, downtown, and north Athens) and to 553,000 copies per liter at WRF B. At WRF C (east side) levels reached over 880,000 copies per liter.           
 
 <div style="margin-bottom:25px;">
 </div>
@@ -81,13 +84,15 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### June 27 & 29
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">*Side note from our team:*</span> Today marks two years of wastewater collection and reporting for SARS&#8209;CoV&#8209;2 in Athens! Thank you to all those who have and who continue to support our work. We are honored to be able to provide this service to the community. We also wanted to inform you that our funding for this work is currently winding down. We hope to provide data through the beginning of Fall term at UGA. However, you may be hearing more from us about crowd funding to continue this work longer!
+
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 levels this week are virtually unchanged from last week. Levels remain quite elevated (66th %ile) but continue to be stable. Reported cases reached a recent high of 34 new cases per day (7-day moving average) as of 6/27 but declined slightly to 31 new cases per day as of 6/29.**   
 
 <span style="text-decoration:underline">June 27</span>    
-[placeholder]   
+SARS&#8209;CoV&#8209;2 levels exceeded 350,000 copies per liter at all plants, with the highest levels noted at WRF B (~644,000 copies per liter; areas west of Milledge Ave.)
 
 <span style="text-decoration:underline">June 29</span>    
-[placeholder]       
+Concentrations remained high at all plants, but declined slightly to 290,000 copies per liter at WRF A (UGA campus, downtown, and north Athens) and to 553,000 copies per liter at WRF B. At WRF C (east side) levels reached over 880,000 copies per liter.           
 
 <div style="margin-bottom:25px;">
 </div>
