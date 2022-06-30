@@ -32,12 +32,13 @@ load(file = "./make_years/site_objects/data_trends_both_years.rda")
 smooth_extract
 ```
 #### Current Weekly Trends
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 load for the week continues to be elevated but remains stable compared to levels observed last week. Sample positivity remains quite high (100% of samples were positive for the N1 gene and 85% for the N2 gene), which indicates substantial transmission in the county and likely much higher than current report cases, which were 27 new cases per day (7-day moving average) as of 6/23/2022.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
 
-<span style="text-decoration:underline">June 20</span>    
-Viral load and concentrations increased at all plants compared to the prior sample. Concentration was highest at WRF B (west of Milledge Ave) and reached >1.2 million copies per liter, followed by WRF C (east side) at >560,000 copies per liter, and WRF A (UGA, down town, and northern Athens) at >320,000 copies per liter.                    
-<span style="text-decoration:underline">June 22</span>    
-Viral load and concentrations declined at all plants. The highest values were again recorded at WRF B, followed by WRF C, and WRF C. Concentrations remained >200,000 at WRF C and >450,000 at WRF B and C.    
+<span style="text-decoration:underline">June 27</span>    
+[placeholder]   
+
+<span style="text-decoration:underline">June 29</span>    
+[placeholder]       
 
 <div style="margin-bottom:25px;">
 </div>
@@ -75,6 +76,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### June 27 & 29
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">June 27</span>    
+[placeholder]   
+
+<span style="text-decoration:underline">June 29</span>    
+[placeholder]       
 
 <div style="margin-bottom:25px;">
 </div>
@@ -716,7 +729,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
 </div>
 
 <div style="margin-bottom:15px;">
