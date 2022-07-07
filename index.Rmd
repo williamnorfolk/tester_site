@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Wastewater loads of SARS&#8209;CoV&#8209;2 viral RNA have remained relatively stable for the past 4 weeks but have been persistently high (68th %-ile among all samples; at a similar peak noted for the Delta surge in August 2021). Reported cases, which do not include rapid at-home tests, declined slightly to 26 new cases per day (7-day running average) as of 7/7/2022.**   
 
 <span style="text-decoration:underline">July 4</span>    
-[placeholder]
+Overall viral levels were stable compared to the prior sample collection (June 29), with a small decline in concentrations at WRF C (to ~560,000 copies per liter) and increasing levels at WRF A and B (to ~424,000 and ~760,000 copies per liter, respectively).    
 
 <span style="text-decoration:underline">July 6</span>    
-[placeholder]         
+Over the three plants, SARS&#8209;CoV&#8209;2 levels were nearly unchanged from the Monday sample. Levels increased at WRF B (to >1 million copies per liter), and declined at WRF B and C (to ~325,000 and ~226,000 copies per liter, respectively).            
 
 <div style="margin-bottom:25px;">
 </div>
@@ -82,13 +82,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### July 4 & 6
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Wastewater loads of SARS&#8209;CoV&#8209;2 viral RNA have remained relatively stable for the past 4 weeks but have been persistently high (68th %-ile among all samples; at a similar peak noted for the Delta surge in August 2021). Reported cases, which do not include rapid at-home tests, declined slightly to 26 new cases per day (7-day running average) as of 7/7/2022.**   
 
 <span style="text-decoration:underline">July 4</span>    
-[placeholder]
+Overall viral levels were stable compared to the prior sample collection (June 29), with a small decline in concentrations at WRF C (to ~560,000 copies per liter) and increasing levels at WRF A and B (to ~424,000 and ~760,000 copies per liter, respectively).    
 
 <span style="text-decoration:underline">July 6</span>    
-[placeholder]         
+Over the three plants, SARS&#8209;CoV&#8209;2 levels were nearly unchanged from the Monday sample. Levels increased at WRF B (to >1 million copies per liter), and declined at WRF B and C (to ~325,000 and ~226,000 copies per liter, respectively).            
 
 <div style="margin-bottom:25px;">
 </div>
