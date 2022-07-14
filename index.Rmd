@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After some period of stable loads, SARS&#8209;CoV&#8209;2 RNA in wastewater is again increasing. Total viral load for the week reached the 73rd percentile of all samples collected, to date. Likewise, reported cases (which are an undercount of total cases given the widespread use of at-home tests) increased to 33 cases per day (7 day running average) as of 7/13/2022. We are in the midst of a surge that is not well-reflected in assessments of clinical reporting alone.**   
 
 <span style="text-decoration:underline">July 11</span>    
-[placeholder]    
+For Monday July 11, viral levels increased at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.). Concentrations approached 350,000 copies per liter at WRF A and exceeded 1.1 million copies per liter at WRF B. Concentrations at WRF C (eastside), declined slightly but remained near 200,000 copies per liter.       
 
 <span style="text-decoration:underline">July 13</span>    
-[placeholder]           
+For Wednesday July 13, concentrations increased at WRF A (to ~440,000 copies per liter) and declined at WRF B to ~775,000 copies per liter. Levels increased substantially at WRF C to ~680,000 copies per liter.             
 
 <div style="margin-bottom:25px;">
 </div>
@@ -82,13 +82,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### July 11 & 13
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After some period of stable loads, SARS&#8209;CoV&#8209;2 RNA in wastewater is again increasing. Total viral load for the week reached the 73rd percentile of all samples collected, to date. Likewise, reported cases (which are an undercount of total cases given the widespread use of at-home tests) increased to 33 cases per day (7 day running average) as of 7/13/2022. We are in the midst of a surge that is not well-reflected in assessments of clinical reporting alone.**   
 
 <span style="text-decoration:underline">July 11</span>    
-[placeholder]    
+For Monday July 11, viral levels increased at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.). Concentrations approached 350,000 copies per liter at WRF A and exceeded 1.1 million copies per liter at WRF B. Concentrations at WRF C (eastside), declined slightly but remained near 200,000 copies per liter.       
 
 <span style="text-decoration:underline">July 13</span>    
-[placeholder]           
+For Wednesday July 13, concentrations increased at WRF A (to ~440,000 copies per liter) and declined at WRF B to ~775,000 copies per liter. Levels increased substantially at WRF C to ~680,000 copies per liter.             
 
 <div style="margin-bottom:25px;">
 </div>
