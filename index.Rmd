@@ -33,13 +33,15 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**After some period of stable loads, SARS&#8209;CoV&#8209;2 RNA in wastewater is again increasing. Total viral load for the week reached the 73rd percentile of all samples collected, to date. Likewise, reported cases (which are an undercount of total cases given the widespread use of at-home tests) increased to 33 cases per day (7 day running average) as of 7/13/2022. We are in the midst of a surge that is not well-reflected in assessments of clinical reporting alone.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA viral loads in wastewater continue to increase incrementally, week by week. While variable between Monday and Wednesday, the average viral load for this week’s samples is greater than that of the previous week, reaching the 75th percentile of all samples collected to date. The 7-day moving average of reported cases remains stable, around 30 new cases per day. However, given the widespread use of at-home tests, reported case number likely underestimate the total number of active cases in the county.**    
+
+**The current results of local wastewater surveillance suggest that Athens-Clarke County is in the midst of a COVID-19 surge that is not well reflected by clinical reporting alone.**   
 
 <span style="text-decoration:underline">July 11</span>    
-For Monday July 11, viral levels increased at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.). Concentrations approached 350,000 copies per liter at WRF A and exceeded 1.1 million copies per liter at WRF B. Concentrations at WRF C (eastside), declined slightly but remained near 200,000 copies per liter.       
+The total viral load for Monday, July 21st decreased slightly compared to samples collected in the previous week, due to a slight decline in viral concentrations at WRF A and WRF C to ~300,000 copies per liter. Viral concentrations at WRF B remained constant, at approximately ~780,000 copies per liter.       
 
 <span style="text-decoration:underline">July 13</span>    
-For Wednesday July 13, concentrations increased at WRF A (to ~440,000 copies per liter) and declined at WRF B to ~775,000 copies per liter. Levels increased substantially at WRF C to ~680,000 copies per liter.             
+The total viral load for Wednesday, July 20th increased considerably, compared to the previous samples. While viral concentrations remained constant at WRF A (~300,000 copies per Liter), viral concentrations increased at WRF B up to 1,400,000 copies per liter, and at WRF to 1,000,000 copies per liter.               
 
 <div style="margin-bottom:25px;">
 </div>
@@ -77,6 +79,20 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### July 18 & 20
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA viral loads in wastewater continue to increase incrementally, week by week. While variable between Monday and Wednesday, the average viral load for this week’s samples is greater than that of the previous week, reaching the 75th percentile of all samples collected to date. The 7-day moving average of reported cases remains stable, around 30 new cases per day. However, given the widespread use of at-home tests, reported case number likely underestimate the total number of active cases in the county.**    
+
+**The current results of local wastewater surveillance suggest that Athens-Clarke County is in the midst of a COVID-19 surge that is not well reflected by clinical reporting alone.**   
+
+<span style="text-decoration:underline">July 11</span>    
+The total viral load for Monday, July 21st decreased slightly compared to samples collected in the previous week, due to a slight decline in viral concentrations at WRF A and WRF C to ~300,000 copies per liter. Viral concentrations at WRF B remained constant, at approximately ~780,000 copies per liter.       
+
+<span style="text-decoration:underline">July 13</span>    
+The total viral load for Wednesday, July 20th increased considerably, compared to the previous samples. While viral concentrations remained constant at WRF A (~300,000 copies per Liter), viral concentrations increased at WRF B up to 1,400,000 copies per liter, and at WRF to 1,000,000 copies per liter.               
 
 <div style="margin-bottom:25px;">
 </div>
