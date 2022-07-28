@@ -83,7 +83,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### July 25 and 27
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 vViral loads were stable this week compared to last week; however, levels remain high (once again reaching the 70th percentile of all samples collected to date). Cases reported to the GA DPH also changed very little from last week, with 31 new cases per day (using a 7-day moving average). Wastewater levels confirm the high transmission levels for Athens-Clarke County noted by the CDC.**      
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads were stable this week compared to last week; however, levels remain high (once again reaching the 70th percentile of all samples collected to date). Cases reported to the GA DPH also changed very little from last week, with 31 new cases per day (using a 7-day moving average). Wastewater levels confirm the high transmission levels for Athens-Clarke County noted by the CDC.**      
 
 <span style="text-decoration:underline">July 25</span>    
 SARS&#8209;CoV&#8209;2 RNA levels declined at both WRF B (west of Milledge Ave) and C (eastside) but remained highly elevated at >700,000 copies per liter. Levels at WRF A (UGA, downtown, and north Athens) increased to >400,000 copies per liter.           
