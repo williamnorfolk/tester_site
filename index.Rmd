@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After the exceptionally high viral loads observed last week, especially on Wednesday 8/24, levels moderated for the week. Loads still remain historically high exceeding the 81st percentile for all samples collected to date suggesting high levels of transmission are still occurring within the county. Based on the levels observed over the past two weeks we are calling this an increasing trend, but it should be noted that loads did not continue to spike as they did the week prior. Reported cases as of 9/1 were similar to last week, with 33 new cases per day (7-day moving average) in Athens.**   
 
 <span style="text-decoration:underline">Aug 29</span>    
-[placeholder]
+Compared to the sample collected last Wednesday (8/24), SARS&#8209;CoV&#8209;2 levels declined across all three plants. Concentrations at WRF A (UGA, downtown, and northern Athens) declined to ~780,000 copies per liter, at WRF B (west of Milledge Ave.) to ~1.45 million copies per liter, and at WRF C (eastside) to ~417,000 copies per liter.   
 
 <span style="text-decoration:underline">Aug 31</span>    
-[placeholder]    
+On Wednesday, concentrations remained high but continued to fall at WRF B (reaching ~574,000 copies per liter) and to a lesser extent at WRF A (to ~517,000 copies per liter). However, concentrations rose to ~729,000 copies per liter at WRF C.      
 
 <div style="margin-bottom:25px;">
 </div>
@@ -82,13 +82,14 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### August 29 & 31
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After the exceptionally high viral loads observed last week, especially on Wednesday 8/24, levels moderated for the week. Loads still remain historically high exceeding the 81st percentile for all samples collected to date suggesting high levels of transmission are still occurring within the county. Based on the levels observed over the past two weeks we are calling this an increasing trend, but it should be noted that loads did not continue to spike as they did the week prior. Reported cases as of 9/1 were similar to last week, with 33 new cases per day (7-day moving average) in Athens.**   
 
 <span style="text-decoration:underline">Aug 29</span>    
-[placeholder]
+Compared to the sample collected last Wednesday (8/24), SARS&#8209;CoV&#8209;2 levels declined across all three plants. Concentrations at WRF A (UGA, downtown, and northern Athens) declined to ~780,000 copies per liter, at WRF B (west of Milledge Ave.) to ~1.45 million copies per liter, and at WRF C (eastside) to ~417,000 copies per liter.   
 
 <span style="text-decoration:underline">Aug 31</span>    
-[placeholder]    
+On Wednesday, concentrations remained high but continued to fall at WRF B (reaching ~574,000 copies per liter) and to a lesser extent at WRF A (to ~517,000 copies per liter). However, concentrations rose to ~729,000 copies per liter at WRF C.      
 
 <div style="margin-bottom:25px;">
 </div>
