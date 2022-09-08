@@ -851,7 +851,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
 </div>
 
 <div style="margin-bottom:15px;">
