@@ -33,10 +33,10 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week we are only reporting for Monday 9/5 due to QC issues with the Wednesday 9/7 samples. Based on the single collection day, total viral loads were stable compared to the prior week. Levels remain elevated but the increase in SARS&#8209;CoV&#8209;2 RNA load noted during the week of 8/21 has not persisted. Reported cases in Athens-Clarke County fell to 22 cases per day (7-day moving average) as of 9/7/2022.**   
 
 <span style="text-decoration:underline">Sept 5</span>    
-[placeholder]    
+The Monday sample was collected over the Labor Day holiday weekend (~6:30 am Sunday 9/4 through ~6:30 am Monday 9/5). Levels at both WRF B (west of Milledge Ave.) and C (east side) were similar to those recorded last Wednesday (>500,000 and >600,000 copies per liter, respectively). Levels declined to ~440,000 copies per liter at WRF A (UGA, downtown, and north Athens).      
 
 <div style="margin-bottom:25px;">
 </div>
@@ -80,10 +80,10 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### September 5
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week we are only reporting for Monday 9/5 due to QC issues with the Wednesday 9/7 samples. Based on the single collection day, total viral loads were stable compared to the prior week. Levels remain elevated but the increase in SARS&#8209;CoV&#8209;2 RNA load noted during the week of 8/21 has not persisted. Reported cases in Athens-Clarke County fell to 22 cases per day (7-day moving average) as of 9/7/2022.**   
 
 <span style="text-decoration:underline">Sept 5</span>    
-[placeholder]    
+The Monday sample was collected over the Labor Day holiday weekend (~6:30 am Sunday 9/4 through ~6:30 am Monday 9/5). Levels at both WRF B (west of Milledge Ave.) and C (east side) were similar to those recorded last Wednesday (>500,000 and >600,000 copies per liter, respectively). Levels declined to ~440,000 copies per liter at WRF A (UGA, downtown, and north Athens).     
 
 <div style="margin-bottom:25px;">
 </div>
