@@ -33,10 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week we are only reporting for Monday 9/5 due to QC issues with the Wednesday 9/7 samples. Based on the single collection day, total viral loads were stable compared to the prior week. Levels remain elevated but the increase in SARS&#8209;CoV&#8209;2 RNA load noted during the week of 8/21 has not persisted. Reported cases in Athens-Clarke County fell to 22 cases per day (7-day moving average) as of 9/7/2022.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
 
-<span style="text-decoration:underline">Sept 5</span>    
-The Monday sample was collected over the Labor Day holiday weekend (~6:30 am Sunday 9/4 through ~6:30 am Monday 9/5). Levels at both WRF B (west of Milledge Ave.) and C (east side) were similar to those recorded last Wednesday (>500,000 and >600,000 copies per liter, respectively). Levels declined to ~440,000 copies per liter at WRF A (UGA, downtown, and north Athens).      
+<span style="text-decoration:underline">Sept 13</span>    
+[placeholder]      
+
+<span style="text-decoration:underline">Sept 14</span>    
+[placeholder]    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -74,6 +77,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### September 13 & 14
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">Sept 13</span>    
+[placeholder]      
+
+<span style="text-decoration:underline">Sept 14</span>    
+[placeholder]    
 
 <div style="margin-bottom:25px;">
 </div>
