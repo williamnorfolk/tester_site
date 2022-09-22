@@ -38,7 +38,7 @@ smooth_extract
 <span style="text-decoration:underline">Sept 19</span>    
 Levels declined at all three plants, with a notable decline at WRF A (UGA, downtown, northern Athens) to ~48,000 copies per liter. Levels remained substantially higher at WRF B (west of Milledge Ave.) with ~240,000 copies per liter and at WRF C (eastside) with ~322,000 copies per liter, but both were below levels recorded last week.       
 <span style="text-decoration:underline">Sept 21</span>    
-SARS&#8209;CoV&#8209;2 levels were stable or increasing at all plants for the Wednesday collection. There was virtually no change at WRF C. Levels increased slightly at WRF B to ~340,000 copies per liter, and doubled to ~100,000 copies per liter at WRF A. county wide, the combined loads were still below those observed for samples collected last week.      
+SARS&#8209;CoV&#8209;2 levels were stable or increasing at all plants for the Wednesday collection. There was virtually no change at WRF C. Levels increased slightly at WRF B to ~340,000 copies per liter, and doubled to ~100,000 copies per liter at WRF A. County-wide, the combined loads were still below those observed for samples collected last week.      
 
 <div style="margin-bottom:25px;">
 </div>
@@ -86,7 +86,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <span style="text-decoration:underline">Sept 19</span>    
 Levels declined at all three plants, with a notable decline at WRF A (UGA, downtown, northern Athens) to ~48,000 copies per liter. Levels remained substantially higher at WRF B (west of Milledge Ave.) with ~240,000 copies per liter and at WRF C (eastside) with ~322,000 copies per liter, but both were below levels recorded last week.       
 <span style="text-decoration:underline">Sept 21</span>    
-SARS&#8209;CoV&#8209;2 levels were stable or increasing at all plants for the Wednesday collection. There was virtually no change at WRF C. Levels increased slightly at WRF B to ~340,000 copies per liter, and doubled to ~100,000 copies per liter at WRF A. county wide, the combined loads were still below those observed for samples collected last week.      
+SARS&#8209;CoV&#8209;2 levels were stable or increasing at all plants for the Wednesday collection. There was virtually no change at WRF C. Levels increased slightly at WRF B to ~340,000 copies per liter, and doubled to ~100,000 copies per liter at WRF A. County-wide, the combined loads were still below those observed for samples collected last week.      
 
 <div style="margin-bottom:25px;">
 </div>
