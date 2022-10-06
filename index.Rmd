@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**The SARS&#8209;CoV&#8209;2 RNA load for this week is stable compared to the week prior, leveling off at the 40th percentile among all samples, and at a level very similar to that measured a year ago this week. Despite the steady level of SARS&#8209;CoV&#8209;2 in wastewater, clinical cases reported to the GA DPH are low, with only 5 reported cases per day (7-day moving average) as of 9/28/2022, which likely reflects a decline in clinical PCR testing.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Our downward trend did not last long. After being stable last week, SARS&#8209;CoV&#8209;2 levels rose again. Reports from clinical surveillance in the US suggest that new Omicron subvariants are emerging, which could be contributing to this new shift in wastewater load (although we have not sequenced these samples to make a definitive statement). Reported clinical cases remain stable and low at just 5 new cases per day (7-day running average) in Athens-Clarke County as of 10/5/2022.**   
 
-<span style="text-decoration:underline">Sept 26</span>    
-Levels at WRF A (UGA, downtown, and north Athens) and WRF C (eastside) both increased during the Monday collection, with concentrations of ~128,000 and >715,000 copies per liter, respectively. Concentration at WRF B (west of Milledge Ave) declined to ~99,000 copies per liter.  
+<span style="text-decoration:underline">Oct 3</span>    
+SARS&#8209;CoV&#8209;2 levels were highest at WRF B (west of Milledge Ave; at ~556,000 copies per liter) and WRF C (eastside; 216,000 copies per liter), which both increased from last week. Levels declined at WRF A (UGA, downtown, and north Athens) to ~83,000 copies per liter.    
 
-<span style="text-decoration:underline">Sept 28</span>    
-Levels increased again WRF A (to ~208,000 copies per liter). Levels also increased at WRF B to nearly 200,000 copies per liter but declined at WRF C to ~188,000 copies per liter.
+<span style="text-decoration:underline">Oct 5</span>    
+Concentrations of SARS&#8209;CoV&#8209;2 RNA were consistently high across the Wednesday sample. Levels increased substantially at both WRF A and WRF C to 342,000 and 480,000 copies per liter, respectively. Levels remained nearly stable at WRF B with ~483,000 copies per liter.    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -77,6 +77,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### October 3 & 5
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Our downward trend did not last long. After being stable last week, SARS&#8209;CoV&#8209;2 levels rose again. Reports from clinical surveillance in the US suggest that new Omicron subvariants are emerging, which could be contributing to this new shift in wastewater load (although we have not sequenced these samples to make a definitive statement). Reported clinical cases remain stable and low at just 5 new cases per day (7-day running average) in Athens-Clarke County as of 10/5/2022.**   
+
+<span style="text-decoration:underline">Oct 3</span>    
+SARS&#8209;CoV&#8209;2 levels were highest at WRF B (west of Milledge Ave; at ~556,000 copies per liter) and WRF C (eastside; 216,000 copies per liter), which both increased from last week. Levels declined at WRF A (UGA, downtown, and north Athens) to ~83,000 copies per liter.    
+
+<span style="text-decoration:underline">Oct 5</span>    
+Concentrations of SARS&#8209;CoV&#8209;2 RNA were consistently high across the Wednesday sample. Levels increased substantially at both WRF A and WRF C to 342,000 and 480,000 copies per liter, respectively. Levels remained nearly stable at WRF B with ~483,000 copies per liter.    
 
 <div style="margin-bottom:25px;">
 </div>
