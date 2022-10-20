@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA loads were relatively stable this week compared to last, but still slightly higher than the prior 2 weeks. This suggests no significant changes in transmission in the area, but levels are still relatively high (50th percentile among all samples collected to date). This is despite very low levels of case reporting (with just 4 new cases per day [7-day moving average] as of 10/12).**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder].**   
 
-<span style="text-decoration:underline">Oct 10</span>    
-On Monday, viral levels were essentially stable at WRF B (west of Milledge Ave) compared to the sample from 10/5, whereas levels declined at WRF A (UGA, downtown, north Athens) and increased at WRF C (eastside; to >650,000 copies per liter).      
+<span style="text-decoration:underline">Oct 17</span>    
+[placeholder]      
 
-<span style="text-decoration:underline">Oct 12</span>    
-For Wednesday, concentrations declined at both WRF B and WRF C, but increased at WRF A. Concentrations at all plants remain >200,000 copies per liter.     
+<span style="text-decoration:underline">Oct 19</span>    
+[placeholder]    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -77,6 +77,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### October 17 & 19
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder].**   
+
+<span style="text-decoration:underline">Oct 17</span>    
+[placeholder]      
+
+<span style="text-decoration:underline">Oct 19</span>    
+[placeholder]    
 
 <div style="margin-bottom:25px;">
 </div>
