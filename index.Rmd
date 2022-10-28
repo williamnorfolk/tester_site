@@ -33,13 +33,12 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 loads for the week increased again, reaching the 64th percentile for all samples collected to date (up from the 54th percentile last week). Our loads are 10-fold higher than they were at this point last year. However, reported cases remain very low at only 3 new cases per day (7-day moving average) as of 10/26/ 2022.**   
 
 <span style="text-decoration:underline">Oct 24</span>    
-[placeholder]         
-
+SARS&#8209;CoV&#8209;2 loads for all plants combined were nearly stable compared to the load from the prior samples (Wednesday 10/19); however, there was variability between the plants. Levels at WRF C (east side) reached >1.1 million copies per liter (the highest since August). Levels at WRF B (west of Milledge Ave) were nearly stable, while levels at WRF A (UGA campus, downtown, and north Athens) declined to about 150,000 copies per liter. This pattern at WRF A is fairly typical with declines for the Monday collection (representing a sample collection period from 6:30 am Sunday to 6:30 am Monday), and increases during the Wednesday collection (as noted below).            
 <span style="text-decoration:underline">Oct 26</span>    
-[placeholder]      
+For Wednesday, levels increased substantially at WRF A (to >600,000 copies per liter) and declined at WRF C to ~400,000 copies per liter, with WRF B remaining relatively stable again (>400,000 copies per liter). The load for all plants combined increased relative to the Monday sample.         
 
 <div style="margin-bottom:25px;">
 </div>
@@ -82,13 +81,12 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### October 24 & 26
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 loads for the week increased again, reaching the 64th percentile for all samples collected to date (up from the 54th percentile last week). Our loads are 10-fold higher than they were at this point last year. However, reported cases remain very low at only 3 new cases per day (7-day moving average) as of 10/26/ 2022.**   
 
 <span style="text-decoration:underline">Oct 24</span>    
-[placeholder]         
-
+SARS&#8209;CoV&#8209;2 loads for all plants combined were nearly stable compared to the load from the prior samples (Wednesday 10/19); however, there was variability between the plants. Levels at WRF C (east side) reached >1.1 million copies per liter (the highest since August). Levels at WRF B (west of Milledge Ave) were nearly stable, while levels at WRF A (UGA campus, downtown, and north Athens) declined to about 150,000 copies per liter. This pattern at WRF A is fairly typical with declines for the Monday collection (representing a sample collection period from 6:30 am Sunday to 6:30 am Monday), and increases during the Wednesday collection (as noted below).            
 <span style="text-decoration:underline">Oct 26</span>    
-[placeholder]      
+For Wednesday, levels increased substantially at WRF A (to >600,000 copies per liter) and declined at WRF C to ~400,000 copies per liter, with WRF B remaining relatively stable again (>400,000 copies per liter). The load for all plants combined increased relative to the Monday sample.         
 
 <div style="margin-bottom:25px;">
 </div>
