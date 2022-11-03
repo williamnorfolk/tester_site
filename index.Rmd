@@ -33,14 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads were steady for the week, over all plants and both collection days. Levels dipped on Monday but rose again in the Wednesday sample. Reported cases increased slightly to 5 new cases per day (7-day moving average) as of 11/2/2022 compared to 3 new cases per day last week.**   
 
 <span style="text-decoration:underline">Oct 31</span>    
-[placeholder]
-
+Viral levels declined at both WRF A (to ~85,000 copies per liter) and WRF B (to ~278,000 copies per liter) and remained steady and high at WRF C (~396,000 copies per liter).   
+   
 <span style="text-decoration:underline">Nov 2</span>    
-[placeholder]
-  
+Levels increased substantially at both WRF A and WRF B to 134,000 and 779,000 copies per liter, respectively. Levels were once again steady at WRF C (~397,000 copies per liter).    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -83,13 +82,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### October 31 & November 2
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads were steady for the week, over all plants and both collection days. Levels dipped on Monday but rose again in the Wednesday sample. Reported cases increased slightly to 5 new cases per day (7-day moving average) as of 11/2/2022 compared to 3 new cases per day last week.**   
 
 <span style="text-decoration:underline">Oct 31</span>    
-[placeholder]
-
+Viral levels declined at both WRF A (to ~85,000 copies per liter) and WRF B (to ~278,000 copies per liter) and remained steady and high at WRF C (~396,000 copies per liter).   
+   
 <span style="text-decoration:underline">Nov 2</span>    
-[placeholder]
+Levels increased substantially at both WRF A and WRF B to 134,000 and 779,000 copies per liter, respectively. Levels were once again steady at WRF C (~397,000 copies per liter).    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -949,7 +948,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
