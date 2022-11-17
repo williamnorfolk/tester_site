@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral loads for the week increased relative to last and continues what may be a very slow increase in levels. When looking back through this fall, viral loads have increased in 5 of the last 7 weeks. This week of the 6 samples collected (3 plants x 2 days), 4 had higher levels than the prior sample. Loads at WRF C (eastside) remained steady for the week compared to last week, but at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.) weekly loads increased. In total (all plants and samples for the week combined), loads reached the 60th percentile of all samples collected to date. As of 11/10/2022, there were 3 new cases per day reported to GA DPH (7-day running average); reported cases have been around this level for the past 6 weeks.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
 
-<span style="text-decoration:underline">Nov 7</span>    
-Levels declined at WRF B to ~459,000 copies per liter, which is still elevated but down from the prior level of nearly 780,000 copies per liter in the prior sample. Levels increased at both WRF A and C, to ~215,000 and ~440,000 copies per liter, respectively.      
+<span style="text-decoration:underline">Nov 14</span>    
+[placeholder]     
    
-<span style="text-decoration:underline">Nov 9</span>    
-Viral levels declined slightly at WRF C to 353,000 copies per liter. Concentrations continued to rise at WRF A to 289,000 copies per liter and rebounded to ~900,000 copies per liter at WRF B.    
+<span style="text-decoration:underline">Nov 16</span>    
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -80,6 +80,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 <div style="margin-bottom:25px;">
 </div>
+
+##### November 14 & 16
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">Nov 14</span>    
+[placeholder]     
+   
+<span style="text-decoration:underline">Nov 16</span>    
+[placeholder]  
+
+<div style="margin-bottom:25px;">
+</div>
+
 
 ##### November 7 & 9
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral loads for the week increased relative to last and continues what may be a very slow increase in levels. When looking back through this fall, viral loads have increased in 5 of the last 7 weeks. This week of the 6 samples collected (3 plants x 2 days), 4 had higher levels than the prior sample. Loads at WRF C (eastside) remained steady for the week compared to last week, but at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.) weekly loads increased. In total (all plants and samples for the week combined), loads reached the 60th percentile of all samples collected to date. As of 11/10/2022, there were 3 new cases per day reported to GA DPH (7-day running average); reported cases have been around this level for the past 6 weeks.**   
