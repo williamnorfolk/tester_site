@@ -33,14 +33,10 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral load for this week (all plants combined) fell slightly compared to last week. The marked decline observed in the Monday sample was offset by an increase across all plants in the Wednesday sample. Overall, this week’s load was near the 50th percentile across all samples to date. As of 11/16/2022, there were 5 new cases per day reported to GA DPH (7-day running average), extending a very steady trend in reported cases.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
 
-<span style="text-decoration:underline">Nov 14</span>    
-SARS&#8209;CoV&#8209;2 RNA levels declined at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave). Levels increased at WRF C (eastside) to ~387,000 copies per liter (the highest concentration among the three plants). The concentration at WRF A fell to ~94,000 copies per liter and at WRF B to ~357,000 copies per liter.   
-
-
-<span style="text-decoration:underline">Nov 16</span>    
-Concentrations increased at all three plants in the Wednesday sample. WRF C continued to have the highest level at ~573,000 copies per liter, followed by WRF B at ~379,000 copies per liter and WF A at ~237,000 copies per liter (more than doubling the Monday level).     
+<span style="text-decoration:underline">Nov 21</span>    
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -78,6 +74,15 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### November 21
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">Nov 21</span>    
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
