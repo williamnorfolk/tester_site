@@ -33,10 +33,7 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
-
-<span style="text-decoration:underline">Nov 21</span>    
-[placeholder]  
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week samples were only collected on Monday 11/21 to allow for a Thanksgiving break for the lab. Total viral load for that collection period increased to the 77th percentile among all samples collected to date, a sizeable increase over last week’s load. Concentrations remained nearly steady at WRF C (eastside) but increased at both WRF B (area west of Milledge Ave, to >732,000 copies per liter, more than double the concentration in the prior sample) and at WRF A (UGA, downtown, and areas of north Athens, to >1.1 million copies per liter, more than triple the concentration in the prior sample). In both 2020 and 2021, we saw viral loads increase prior to or near the Thanksgiving holiday. Reported cases remained nearly steady at 5 new cases per day (7-day moving average), as of 11/23.**   
 
 <div style="margin-bottom:25px;">
 </div>
@@ -79,10 +76,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### November 21
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
-
-<span style="text-decoration:underline">Nov 21</span>    
-[placeholder]  
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week samples were only collected on Monday 11/21 to allow for a Thanksgiving break for the lab. Total viral load for that collection period increased to the 77th percentile among all samples collected to date, a sizeable increase over last week’s load. Concentrations remained nearly steady at WRF C (eastside) but increased at both WRF B (area west of Milledge Ave, to >732,000 copies per liter, more than double the concentration in the prior sample) and at WRF A (UGA, downtown, and areas of north Athens, to >1.1 million copies per liter, more than triple the concentration in the prior sample). In both 2020 and 2021, we saw viral loads increase prior to or near the Thanksgiving holiday. Reported cases remained nearly steady at 5 new cases per day (7-day moving average), as of 11/23.**    
 
 <div style="margin-bottom:25px;">
 </div>
