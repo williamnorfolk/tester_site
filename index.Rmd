@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**Post-Thanksgiving collections this week showed a large increase in viral load, reaching the 81st percentile among all samples collected to date. This is consistent with trends in both 2020 and 2021. Weekly viral load has not been this high since late August 2022. Reported cases increased slightly to 7 new cases per day (7-day moving average) as of 11/30/2022, which included an apparent ‘data dump’ of 24 new cases on reported 11/30.**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
 
-<span style="text-decoration:underline">Nov 28</span>  
-Overall viral load among the three plants, combined, was stable compared to the prior sample (11/21), with increased load at WRF C (east side) and stable or slightly lower loads at WRF A (UGA, downtown, north Athens) and WRF B (west of Milledge Ave.). The highest concentration was observed at WRF B (~584,000 copies per liter), followed by WRF A (~554,000 copies per liter) and WRF C (~332,000 copies per liter).  
+<span style="text-decoration:underline">Dec 5</span>  
+[placeholder]  
 
-<span style="text-decoration:underline">Nov 30</span>  
-Total load over all plants combined increased to the 89th percentile of samples collected to date. While WRF C remained relatively stable, levels at both WRF B and C increased substantially to ~685,000 and ~820,000 copies per liter, respectively.  
+<span style="text-decoration:underline">Dec 7</span>  
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -77,6 +77,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### December 5 & 7
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+
+<span style="text-decoration:underline">Dec 5</span>  
+[placeholder]  
+
+<span style="text-decoration:underline">Dec 7</span>  
+[placeholder]  
 
 <div style="margin-bottom:25px;">
 </div>
