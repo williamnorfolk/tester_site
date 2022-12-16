@@ -33,13 +33,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week SARS&#8209;CoV&#8209;2 wastewater loads increased substantially, reaching the 88th percentile of all samples collected to date. The rate of increase between last week and this week was also relatively steep; we have not seen a one week increase of this magnitude since August. Over the past two years, viral levels rose through December and early January; we are on track to repeat that trend. Although clinical cases are likely underreported due to at home tests, reported cases increased again this week to 11 new cases per day (7-day moving average, as of 12/14).**      
 
 <span style="text-decoration:underline">Dec 12</span>  
-[placeholder]    
+Viral RNA levels increased considerably at both WRF A (UGA, downtown, and north Athens) and WRF C (east side). At WRF A, levels were low last Wednesday (likely due to dilution from rainfall) but increased to ~727,000 copies per liter. At WRF C, levels increased to ~521,000 copies per liter. Levels were relatively stable at WRF B (west of Milledge Ave.; ~584,000 copies per liter).      
 
 <span style="text-decoration:underline">Dec 14</span>  
-[placeholder]
+Over all three plants combined, the daily viral load on Wed reached the 92nd percentile among all samples collected to date. This was due to large increases at both WRF B and C. Levels at WRF C exceeded 1 million copies per liter and at WRF B exceeded 2 million copies per liter.   
  
 <div style="margin-bottom:25px;">
 </div>
@@ -82,13 +82,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### December 12 & 14
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week SARS&#8209;CoV&#8209;2 wastewater loads increased substantially, reaching the 88th percentile of all samples collected to date. The rate of increase between last week and this week was also relatively steep; we have not seen a one week increase of this magnitude since August. Over the past two years, viral levels rose through December and early January; we are on track to repeat that trend. Although clinical cases are likely underreported due to at home tests, reported cases increased again this week to 11 new cases per day (7-day moving average, as of 12/14).**      
 
 <span style="text-decoration:underline">Dec 12</span>  
-[placeholder]    
+Viral RNA levels increased considerably at both WRF A (UGA, downtown, and north Athens) and WRF C (east side). At WRF A, levels were low last Wednesday (likely due to dilution from rainfall) but increased to ~727,000 copies per liter. At WRF C, levels increased to ~521,000 copies per liter. Levels were relatively stable at WRF B (west of Milledge Ave.; ~584,000 copies per liter).      
 
 <span style="text-decoration:underline">Dec 14</span>  
-[placeholder]
+Over all three plants combined, the daily viral load on Wed reached the 92nd percentile among all samples collected to date. This was due to large increases at both WRF B and C. Levels at WRF C exceeded 1 million copies per liter and at WRF B exceeded 2 million copies per liter.   
  
 <div style="margin-bottom:25px;">
 </div>
