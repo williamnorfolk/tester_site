@@ -4,10 +4,14 @@ date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
 
-_Please Note_ This website is a **tester** for page layout and data visualization for the Lipp Lab COVID Wastewater monitoring project. The data on this page are not peer-reviewed or finalized for public release and thus should not be interpreted as such. If you are interesed in viewing the final data from this project please visit [this website](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/). 
+_Please Note_ This website is a **tester** for page layout and data visualization for the Lipp Lab COVID Wastewater monitoring project. The data on this page are not peer-reviewed or finalized for public release and thus should not be interpreted as such. If you are interested in viewing the final data from this project please visit [this website](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/). 
 
 <div style="margin-bottom:25px;">
 </div>
+
+Thank you for visiting our page!
+
+As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/covid-19-status-report) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens).
 
 This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that causes COVID&#8209;19) levels in wastewater for Athens-Clarke County (ACC). Wastewater sampling can detect viruses that may be shed in feces from infected people within an entire community, including those that are presymptomatic and asymptomatic. This offers a method of estimating trends in community-scale circulation of COVID&#8209;19 that does not rely on clinical or surveillance testing of individuals. Although we cannot currently use wastewater-based testing to estimate a specific number of people infected in a community, it can be used to understand trends and to anticipate potential increases in cases.  
 
@@ -33,13 +37,13 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week SARS&#8209;CoV&#8209;2 wastewater loads increased substantially, reaching the 88th percentile of all samples collected to date. The rate of increase between last week and this week was also relatively steep; we have not seen a one week increase of this magnitude since August. Over the past two years, viral levels rose through December and early January; we are on track to repeat that trend. Although clinical cases are likely underreported due to at home tests, reported cases increased again this week to 11 new cases per day (7-day moving average, as of 12/14).**      
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**      
 
-<span style="text-decoration:underline">Dec 12</span>  
-Viral RNA levels increased considerably at both WRF A (UGA, downtown, and north Athens) and WRF C (east side). At WRF A, levels were low last Wednesday (likely due to dilution from rainfall) but increased to ~727,000 copies per liter. At WRF C, levels increased to ~521,000 copies per liter. Levels were relatively stable at WRF B (west of Milledge Ave.; ~584,000 copies per liter).      
+<span style="text-decoration:underline">Dec 19</span>  
+[placeholder]    
 
-<span style="text-decoration:underline">Dec 14</span>  
-Over all three plants combined, the daily viral load on Wed reached the 92nd percentile among all samples collected to date. This was due to large increases at both WRF B and C. Levels at WRF C exceeded 1 million copies per liter and at WRF B exceeded 2 million copies per liter.   
+<span style="text-decoration:underline">Dec 21</span>  
+[placeholder]  
  
 <div style="margin-bottom:25px;">
 </div>
@@ -78,6 +82,18 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
 
+<div style="margin-bottom:25px;">
+</div>
+
+##### December 19 & 21
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**      
+
+<span style="text-decoration:underline">Dec 19</span>  
+[placeholder]    
+
+<span style="text-decoration:underline">Dec 21</span>  
+[placeholder]  
+ 
 <div style="margin-bottom:25px;">
 </div>
 
@@ -1016,7 +1032,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
