@@ -15,7 +15,7 @@ div.blue { background-color:#AFE1AF; border-radius: 5px; padding: 15px;}
 <div class = "blue">
 Thank you for visiting our page!
 
-As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens).
+As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens). For further inquiries, our lab can be reached directly via email at lipplab02@gmail.com
 </div>
 
 <div style="margin-bottom:25px;">
@@ -53,6 +53,16 @@ Viral levels on Monday 12/19 declined at all plants compared to the levels repor
 
 <span style="text-decoration:underline">Dec 21</span>  
 Levels increased among all plants combined for Wednesday 12/21. Similar to observations on Monday, levels were highest at WRF B (increasing to >1.1 million copies per liter), followed by WRF C (stable at ~473,000 copies per liter), and WRF A (increasing to ~442,000 copies per liter).     
+
+<span style="text-decoration:underline">Final Note:</span>  
+After 242 collection dates and 1,378 individual samples processed since May of 2020, and posting to this dashboard since August 2020, we are transitioning weekly surveillance of Athens wastewater to the GA DPH Public Health Lab (links to where to find data are posted above). We have been working with DPH to integrate Athens-Clarke County data into the CDC National Wastewater Surveillance System over the last 6 months and now is the time to let this phase of work move into the able hands of our public health agency.   
+
+When we decided back in April of 2020 to ramp up a wastewater surveillance effort for Athens it was borne out of filling a need for information on COVID&#8209;19 levels in the community, especially when results from clinical tests were very slow and sparse. We are forever grateful for start-up support from the College of Public Health and Dean Marsha Davis who trusted us enough to test the idea that we could track COVID&#8209;19 transmission in Athens using sewage. Likewise, the work could not have started without the Athens-Clarke County Public Utilities Department and the amazing wastewater treatment plant operators and their willingness to work alongside us.
+In early August 2020, we made the decision to create this live dashboard to share near-real-time results with the public, which was one of the first live dashboards for SARS&#8209;CoV&#8209;2 wastewater in the US. Posting results in near-real-time was a completely different way of doing science/research for us. We needed to conduct thorough QA/QC and contextualize weekly results in real time even while the conditions in the pandemic are in constant flux.   
+
+This was truly a project built around teamwork, both within my lab (my students have not missed a single week of sampling and updates), across the University (especially the College of Public Health and the CEID), and with the broader community and your feedback to us.    
+
+We are proud to have built a robust wastewater surveillance program in Athens and we are not leaving entirely. With DPH picking up routine testing, our lab can now focus on additional research to improve and expand how we use wastewater for infectious disease surveillance (including many pathogens beyond SARS&#8209;CoV&#8209;2) and for detecting and identifying emerging pathogens. Should the need arise we will be able to jump back into testing and surveillance.
 
 <div style="margin-bottom:25px;">
 </div>
