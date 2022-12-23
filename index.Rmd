@@ -15,7 +15,7 @@ div.blue { background-color:#AFE1AF; border-radius: 5px; padding: 15px;}
 <div class = "blue">
 Thank you for visiting our page!
 
-As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/covid-19-status-report) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens).
+As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens).
 </div>
 
 <div style="margin-bottom:25px;">
@@ -46,14 +46,14 @@ smooth_extract
 ```
 #### Current Weekly Trends
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**[placeholder]**      
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads declined slightly for the week after the very high levels last week but remain elevated suggesting a significant level of transmission in the community. Reported cases also remained at 11 new cases per day (as of 12/21) based on the 7-day moving average.**      
 
 <span style="text-decoration:underline">Dec 19</span>  
-[placeholder]    
+Viral levels on Monday 12/19 declined at all plants compared to the levels reported the prior Wednesday (which were extremely high). Levels at WRF B (west of Milledge Ave.) continued to be the highest among the three plants, at ~734,000 copies per liter, followed by WRF C (eastside) at ~475,000 copies per liter, and WRF A (UGA, downtown, and north Athens) at ~292,000 copies per liter.      
 
 <span style="text-decoration:underline">Dec 21</span>  
-[placeholder]  
- 
+Levels increased among all plants combined for Wednesday 12/21. Similar to observations on Monday, levels were highest at WRF B (increasing to >1.1 million copies per liter), followed by WRF C (stable at ~473,000 copies per liter), and WRF A (increasing to ~442,000 copies per liter).     
+
 <div style="margin-bottom:25px;">
 </div>
 
